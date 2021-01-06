@@ -16,14 +16,6 @@
 * [Faucet](quick-start/faucet.md)
 * [Validators Guide](quick-start/validators-guide.md)
 
-## Clover Smart Contract <a id="dapp-development"></a>
-
-* [Introduction](dapp-development/introduction.md)
-* [Smart Contract Deployment](dapp-development/tutorial.md)
-* [Smart Contract Ownership](dapp-development/smart-contract-ownership.md)
-* [SC Fee Distribution](dapp-development/sc-fee-distribution.md)
-* [Ownership Transfer](dapp-development/ownership-transfer.md)
-
 ## Clover DAPP Development <a id="dapp-development-1"></a>
 
 * [Introduction](dapp-development-1/introduction/README.md)
@@ -35,6 +27,12 @@
   * [The Counter Contract](dapp-development-1/tutorial/the-counter-contract.md)
   * [Deploy Contract](dapp-development-1/tutorial/deploy-contract.md)
   * [Counter Webapp](dapp-development-1/tutorial/counter-webapp.md)
+
+## Clover Eco Incentive System
+
+* [Introduction](clover-eco-incentive-system/introduction.md)
+* [Clover Developer Incentive Program](clover-eco-incentive-system/clover-dapp-developer-incentive-structure.md)
+* [Clover User Incentive Structure](clover-eco-incentive-system/clover-user-incentive-structure.md)
 
 ## Clover Wallet <a id="wallet"></a>
 
