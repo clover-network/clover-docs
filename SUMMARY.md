@@ -28,11 +28,11 @@
   * [Deploy Contract](dapp-development-1/tutorial/deploy-contract.md)
   * [Counter Webapp](dapp-development-1/tutorial/counter-webapp.md)
 
-## Clover Eco Incentive System
+## Clover Eco Incentive Program
 
-* [Introduction](clover-eco-incentive-system/introduction.md)
-* [Clover Developer Incentive Program](clover-eco-incentive-system/clover-dapp-developer-incentive-structure.md)
-* [Clover User Incentive Structure](clover-eco-incentive-system/clover-user-incentive-structure.md)
+* [Introduction](clover-eco-incentive-program/introduction.md)
+* [Clover Developer Incentive Program](clover-eco-incentive-program/clover-dapp-developer-incentive-structure.md)
+* [Clover User Incentive Program](clover-eco-incentive-program/clover-user-incentive-program.md)
 
 ## Clover Wallet <a id="wallet"></a>
 

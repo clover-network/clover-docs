@@ -1,4 +1,4 @@
-# Clover User Incentive Structure
+# Clover User Incentive Program
 
 ## Virtual Ethereum address binding
 
