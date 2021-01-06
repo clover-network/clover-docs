@@ -12,6 +12,7 @@
   * [Web3.js](quick-start/local-node/web3.js/README.md)
     * [Query Balance](quick-start/local-node/web3.js/query-balance.md)
     * [Send Transaction](quick-start/local-node/web3.js/send-transaction.md)
+* [Test Net](quick-start/testnet.md)
 * [Faucet](quick-start/faucet.md)
 * [Validators Guide](quick-start/validators-guide.md)
 
