@@ -1,1 +1,0 @@
-### Browser Wallet Quick Start

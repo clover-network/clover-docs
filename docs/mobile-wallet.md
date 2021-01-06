@@ -1,1 +1,0 @@
-### Mobile Wallet Quick Start
