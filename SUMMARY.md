@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to Clover](README.md)
+* [Follow Us](follow-us.md)
 
 ## Quick Start
 
