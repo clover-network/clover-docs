@@ -14,15 +14,15 @@ External contract registration and reward distribution are done through DIP cont
 
 ### Registration
 
-Third party Clover developers can benefit from the Developer Incentive Program upon regis- tering their compiled contract with DIP contract pre-deployment. An external contract willing to register Developer Incentive Program should include an internal method called transactAnd- InvokeDIP which is used to trigger reward incrementation, and another internal method called claimRewards which is used to trigger reward settlement.
+Third party Clover developers can benefit from the Developer Incentive Program upon registering their compiled contract with DIP contract pre-deployment. An external contract willing to register Developer Incentive Program should include an internal method called transactAndInvokeDIP which is used to trigger reward incrementation, and another internal method called claimRewards which is used to trigger reward settlement.
 
-Right before contract deployment, the respective developer submits contract ABI and con- tract hexadecimal representation to DIP contract via registerExternalContract method. Given parameters registerExternalContract registers submission upon checking whether the contract is well-formatted and transactAndInvokeDIP is well-structured.
+Right before contract deployment, the respective developer submits contract ABI and contract hexadecimal representation to DIP contract via registerExternalContract method. Given parameters registerExternalContract registers submission upon checking whether the contract is well-formatted and transactAndInvokeDIP is well-structured.
 
 ![New Contract Registration Logic](../.gitbook/assets/image%20%2811%29.png)
 
 ### Invocation
 
-transactAndInvokeDIP adds a new standard to contracts on the Clover network which can be called internally within the external contract with the additional data provided. Whenever a clover user interacts with a registered external contract, transactAndInvokeDIP invokes DIP contract’s function listenInvokeDIP and triggers an event incrementRewardNonce\(address\), fol- lowing the convention set in ERC677.
+transactAndInvokeDIP adds a new standard to contracts on the Clover network which can be called internally within the external contract with the additional data provided. Whenever a clover user interacts with a registered external contract, transactAndInvokeDIP invokes DIP contract’s function listenInvokeDIP and triggers an event incrementRewardNonce\(address\), following the convention set in ERC677.
 
 ![Invocation Logic](../.gitbook/assets/image%20%2810%29.png)
 
