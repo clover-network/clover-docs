@@ -6,7 +6,7 @@ The Developer Incentive Program \(DIP\) is made of two respective implementation
 
 Clover users contribute to the program indirectly with transaction fees, this is so that a new fee schedule is not committed to the transaction structure itself. Wallet softwares functions the same as usual without breaking backwards compatibility.
 
-The coinbase transaction which spends the block reward and all transaction fees to an address of the validators choosing follows a subsequent transaction where 49 percent of txFee reward is respectively transferred to DIP contract. The amount of total CLV a successful validator can claim for himself is therefore changed from blockReward + txnFees to blockReward + txnFees_51/100. Whenever a block is propagated, every node will check whether the block adheres to the rules where the sum of all transaction outputs in a block must be equal or smaller than all transaction inputs and the block reward: sum\(blockOutputs\) ¡ sum\(blockInputs\) + \(blockReward + txnFees_51/100\) + txnFees\*49/100
+The coinbase transaction which spends the block reward and all transaction fees to an address of the validators choosing follows a subsequent transaction where 49 percent of txFee reward is respectively transferred to DIP contract. The amount of total CLV a successful validator can claim for himself is therefore changed from blockReward + txnFees to blockReward + txnFees_51/100._ Whenever a block is propagated, every node will check whether the block adheres to the rules where the sum of all transaction outputs in a block must be equal or smaller than all transaction inputs and the block reward: sum\(blockOutputs\) ¡ sum\(blockInputs\) + \(blockReward + txnFees51/100\) + txnFees\*49/100
 
 ## Smart Contract Implementation
 
