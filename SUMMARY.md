@@ -33,7 +33,8 @@
 
 * [Introduction](clover-eco-incentive-program/introduction.md)
 * [Clover Developer Incentive Program](clover-eco-incentive-program/clover-dapp-developer-incentive-structure.md)
-* [Clover User Incentive Program](clover-eco-incentive-program/clover-user-incentive-program.md)
+* [Virtual Ethereum address binding](clover-eco-incentive-program/clover-user-incentive-program.md)
+* [Clover User Incentive Program](clover-eco-incentive-program/clover-user-incentive-program-1.md)
 
 ## Clover Wallet <a id="wallet"></a>
 

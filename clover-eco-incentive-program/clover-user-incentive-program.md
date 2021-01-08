@@ -1,9 +1,5 @@
-# Clover User Incentive Program
+# Virtual Ethereum address binding
 
-## Virtual Ethereum chain address binding
-
-  
-  
 CLV and ETH address Binding is mandatory. Clover will check whether the address is bound every time before a user signs. If the address is unbound, the following process will be triggered.
 
 ![](../.gitbook/assets/image%20%2813%29.png)
@@ -11,7 +7,7 @@ CLV and ETH address Binding is mandatory. Clover will check whether the address 
 After binding, the CLV assets of the two accounts will be mapped and the data is shared.  
 
 
-## Transaction fee user incentive model
+
 
 
 
