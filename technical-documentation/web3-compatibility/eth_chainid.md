@@ -6,3 +6,20 @@ description: >-
 
 # eth\_chainId
 
+
+
+```text
+web3.eth.getChainId([callback])
+```
+
+#### Returns
+
+Returns chain ID.
+
+#### Example
+
+```text
+> web3.eth.getChainId().then(console.log);
+> 1337
+```
+
