@@ -2,5 +2,5 @@
 description: Get transaction by its hash
 ---
 
-# eth\_getTransactionByHash
+# eth\_getTransaction
 
