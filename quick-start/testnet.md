@@ -28,3 +28,11 @@ Make sure your MetaMask is connected to Clover Test Net as described above.  The
 
 ![](../.gitbook/assets/remix.jpg)
 
+## Connect to Clover Test Net
+
+If you want to set up a local node, which can connect to Clover Test Net, please use the following command to start your local node:
+
+```bash
+./target/release/clover --chain rose --port 30333 --ws-port 9944 --rpc-port 9933  --name myNode --rpc-cors=all --rpc-methods=Unsafe --validator --unsafe-ws-external --unsafe-rpc-external
+```
+
