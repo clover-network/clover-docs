@@ -69,7 +69,7 @@
   * [eth\_getBlockUncleCount](technical-documentation/web3-compatibility/eth_getunclecountbyblockhash.md)
   * [eth\_getCode](technical-documentation/web3-compatibility/eth_getcode.md)
   * [eth\_sendTransaction](technical-documentation/web3-compatibility/eth_sendtransaction.md)
-  * [eth\_sendRawTransaction](technical-documentation/web3-compatibility/eth_sendrawtransaction.md)
+  * [eth\_sendSignedTransaction](technical-documentation/web3-compatibility/eth_sendrawtransaction.md)
   * [eth\_call](technical-documentation/web3-compatibility/eth_call.md)
   * [eth\_estimateGas](technical-documentation/web3-compatibility/eth_estimategas.md)
   * [eth\_getTransaction](technical-documentation/web3-compatibility/eth_gettransactionbyhash.md)
