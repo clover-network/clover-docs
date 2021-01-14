@@ -19,6 +19,9 @@
 
 ## Solidity Smart Contracts
 
+* [General](solidity-smart-contracts/general/README.md)
+  * [Create Wallet](solidity-smart-contracts/general/create-wallet.md)
+* [Untitled](solidity-smart-contracts/untitled-1.md)
 * [Untitled](solidity-smart-contracts/untitled.md)
 
 ## Ink! Smart Contracts
