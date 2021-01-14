@@ -17,6 +17,14 @@
 * [Faucet](quick-start/faucet.md)
 * [Validators Guide](quick-start/validators-guide.md)
 
+## Solidity Smart Contracts
+
+* [Untitled](solidity-smart-contracts/untitled.md)
+
+## Ink! Smart Contracts
+
+* [Untitled](ink-smart-contracts/untitled.md)
+
 ## Clover DAPP Development <a id="dapp-development-1"></a>
 
 * [Introduction](dapp-development-1/introduction/README.md)
