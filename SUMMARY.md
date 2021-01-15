@@ -34,7 +34,6 @@
   * [Introduction](solidity-smart-contracts/bep20-tokens/introduction.md)
   * [Issue Token](solidity-smart-contracts/bep20-tokens/issue-token.md)
 * [Oracles](solidity-smart-contracts/oracles/README.md)
-  * [Band Protocol Integration](solidity-smart-contracts/oracles/band-protocol-integration.md)
   * [Chainlink Protocol Integration](solidity-smart-contracts/oracles/chainlink-protocol-integration.md)
 * [Tutorial](solidity-smart-contracts/tutorial/README.md)
   * [Deploy NFT](solidity-smart-contracts/tutorial/deploy-nft.md)

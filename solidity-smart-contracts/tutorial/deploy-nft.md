@@ -306,22 +306,15 @@ My `truffle-config.js` has the following `rinkeby` configuration:
 
 ```text
      testnet: {
-      provider: () => new HDWalletProvider(mnemonic, `https://data-seed-prebsc-1-s1.binance.org:8545`),
+      provider: () => new HDWalletProvider(mnemonic, `https://rpc.clover.finance`),
       network_id: 97,
-      confirmations: 10,
-      timeoutBlocks: 200,
-      skipDryRun: true
-    },
-    bsc: {
-      provider: () => new HDWalletProvider(mnemonic, `https://bsc-dataseed1.binance.org`),
-      network_id: 56,
       confirmations: 10,
       timeoutBlocks: 200,
       skipDryRun: true
     },
 ```
 
-### Deploy to BSC Testnet <a id="deploy-to-bsc-testnet"></a>
+### Deploy to  Testnet <a id="deploy-to-bsc-testnet"></a>
 
 ```text
 $ npx truffle migrate --network testnet
@@ -333,7 +326,7 @@ Compiling your contracts...
 Starting migrations...
 ======================
 > Network name:    'develop'
-> Network id:      5777
+> Network id:      1337
 > Block gas limit: 6721975 (0x6691b7)
 
 
