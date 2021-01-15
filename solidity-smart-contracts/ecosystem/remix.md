@@ -41,26 +41,26 @@ Now, We have to deploy our smart contract on Binance Smart Chain Network. For th
 
 ![img](https://lh5.googleusercontent.com/NqWPIv1MrMJ-W2wDKjxtdxcdFhDwiqhsZ6G6MY6FQnhxPTCCPfPHBJ59vBl1ddxpbfV11ufETWAolV1s9YjCYHPeJCKW1S-sr8gfjcFt3swXM-p3IgafNBqPZ86DvThK-I9gKbrw)
 
-* Add a new network 
+* Add a new network
 
-![img](https://lh6.googleusercontent.com/jrq511YshO6rPPx4i-ePRy2gs-66b465c_JFXEW8Cm5CSNTM7CXgCPuFmIh_Im3JlEhxpAqEDDjmUqfskq2m5rG-FKhwZ4_jIenOTdAVs_rMMTjTvZlM6iOpQeivrz_V1liSvuB5)
+![](../../.gitbook/assets/wechate6b1d6dd3249493dbdc35ce2a399c93a.png)
 
-* Testnet \* [RPC URLs](https://docs.binance.org/smart-chain/developer/rpc.html) \* ChainID: 1137 \* Symbol: CLV \* Block Explorer: [https://rpc.clover.finance](https://rpc.clover.finance)
+* Testnet \* ChainID: 1137 \* Symbol: CLV \* Block Explorer: [https://rpc.clover.finance](https://rpc.clover.finance)
 * Go ahead and click save
 * Copy your address from Metamask
 * Head over to [Faucet](http://faucet.clovernode.com/) and request test CLV
-* Now, let's Deploy the Smart Contract on Clover Chain Testnet
+* Now, let's Deploy the Smart Contract on Clover Chain
 * Select Injected Web3 in the Environment dropdown and your contract
 
-![img](https://lh5.googleusercontent.com/Z4XBNJcsMWk5SzSKB8no5vAzv8ie46p4dbv4sh0_9FxIyMfEFlCj2z_a_ZUWR6l3fH9OIr3B2A0_Puh89FzbxlkLMVsTo9diSbLGdbp2Swml0afc7Unl10hBw9jsAY6Ozgbe6HqE)
+![](../../.gitbook/assets/wechat3992b3176f68921425976a75691e18d9.png)
 
 * Accept the Connection Request!
 
-![img](https://lh3.googleusercontent.com/-SBQ0YKnAs_IR80dcqc3EpWRte8KlVCgTIPgSiFPe6H_TKDZj4O5TBR0rpvts4YZpA1LYN2-5IocYkcZjuMP5yb7rch0NovdTMH-55Pjg4HIorxZGeFO7dkyYGlrY0W5DYfs7t_z)
+![](../../.gitbook/assets/wechatb79a46a51fa05f007a8e5d43650fd6b4.png)
 
 * Once Metamask is connected to Remix, the ‘Deploy’ transaction would generate another metamask popup that requires transaction confirmation.
 
-![img](https://lh4.googleusercontent.com/9awuDudNSuUOZDQAlW5FPZ5SbRkWsKPlJSYWGUL7R4raJ5o2mprRP7jt87hP_wbuYeoJy75ErwDcKVC7_spf8YkumCkwOP4Eak9SfcV6dZvyVhy84JqKfVUvmEeLw5mWEZ3-aCED)
+![](../../.gitbook/assets/wechatfa83faa624300261955ccc46843ef9c6.png)
 
-**Congratulations!** You have successfully deployed a BEP20 Contract. Now you can interact with the Smart Contract. Check the deployment status here:[ ](https://apps.clover.finance/)[https://apps.clover.finance/](https://apps.clover.finance/)
+**Congratulations!** You have successfully deployed a BEP20 Contract. Now you can interact with the Smart Contract. 
 
