@@ -1,7 +1,5 @@
 # EVM Pallet
 
-
-
 FRAME provides an EVM execution module that allows unmodified EVM code to be executed in a Substrate-based blockchain.
 
 ### EVM Engine
@@ -35,7 +33,7 @@ The gas configurations are currently hard-coded to the Istanbul hard fork. It ca
 
 #### Examples
 
-* Follow a [tutorial to add a pallet to your FRAME runtime](https://substrate.dev/docs/en/tutorials/add-a-pallet/).
+* Follow a tutorial to add a pallet to your FRAME runtime.
 
 #### References
 

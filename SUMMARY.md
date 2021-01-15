@@ -66,6 +66,8 @@
 * [EVM Pallet](ink-smart-contracts/evm-pallet.md)
 * [ink! F.A.Q](ink-smart-contracts/ink-f.a.q.md)
 * [Contracts Pallet](ink-smart-contracts/contracts-pallet.md)
+* [SCALE Codec](ink-smart-contracts/scale-codec.md)
+* [Add a Pallet](ink-smart-contracts/add-a-pallet.md)
 * [Example](ink-smart-contracts/example/README.md)
   * [create your first ink! smart contract](ink-smart-contracts/example/create-your-first-ink-smart-contract/README.md)
     * [Getting to Started](ink-smart-contracts/example/create-your-first-ink-smart-contract/getting-to-started/README.md)
@@ -89,7 +91,10 @@
       * [Creating an Event](ink-smart-contracts/example/create-your-first-ink-smart-contract/erc20/creating-an-event.md)
       * [Supporting Approvals and Transfer From](ink-smart-contracts/example/create-your-first-ink-smart-contract/erc20/supporting-approvals-and-transfer-from.md)
       * [Testing Our Contract](ink-smart-contracts/example/create-your-first-ink-smart-contract/erc20/testing-our-contract.md)
-  * [Add a Pallet](ink-smart-contracts/example/add-a-pallet.md)
+* [Add a Pallet to Your Runtime](ink-smart-contracts/add-a-pallet-to-your-runtime/README.md)
+  * [Import the Nicks Pallet](ink-smart-contracts/add-a-pallet-to-your-runtime/import-the-nicks-pallet.md)
+  * [Configure the Nicks Pallet](ink-smart-contracts/add-a-pallet-to-your-runtime/configure-the-nicks-pallet.md)
+  * [Interact with the Nicks Pallet](ink-smart-contracts/add-a-pallet-to-your-runtime/interact-with-the-nicks-pallet.md)
 
 ## Clover DAPP Development <a id="dapp-development-1"></a>
 

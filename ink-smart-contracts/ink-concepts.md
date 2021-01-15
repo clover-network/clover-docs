@@ -55,7 +55,7 @@ Here is a brief comparison of features between ink! and Solidity:
 | Has Metadata? | Yes | Yes |
 | Multi-File Project | Planned | Yes |
 | Storage Entries | Variable | 256 bits |
-| Supported Types | [Docs](https://substrate.dev/docs/en/knowledgebase/advanced/codec) | [Docs](https://solidity.readthedocs.io/en/latest/types.html) |
+| Supported Types | [Docs](scale-codec.md) | [Docs](https://solidity.readthedocs.io/en/latest/types.html) |
 | Has Interfaces? | Planned \(Rust Traits\) | Yes |
 
 ### Next Steps

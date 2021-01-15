@@ -12,7 +12,7 @@ The **FRAME Contracts pallet** \(SEAL\) provides functionality for the runtime t
 
 #### EVM Module
 
-The [FRAME EVM pall et](evm-pallet.md) provides an EVM execution environment that allows unmodified EVM code to be executed in a Substrate-based blockchain. It is designed to most closely emulate the functionality of executing contracts on the Ethereum mainnet within the Substrate runtime.
+The [FRAME EVM pallet](evm-pallet.md) provides an EVM execution environment that allows unmodified EVM code to be executed in a Substrate-based blockchain. It is designed to most closely emulate the functionality of executing contracts on the Ethereum mainnet within the Substrate runtime.
 
 #### Custom 
 
@@ -146,7 +146,7 @@ It is hard to provide direct guidance on every possible scenario, but use the ta
 
 #### Examples
 
-* Follow a [tutorial to add the Contracts pallet to your FRAME runtime.](example/add-a-pallet.md)
+* Follow a [tutorial to add the Contracts pallet to your FRAME runtime.](add-a-pallet.md)
 * Learn how to [start developing with the Contracts pallet and ink!](ink-development.md).
 
 #### References

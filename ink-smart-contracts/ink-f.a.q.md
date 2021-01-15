@@ -25,5 +25,5 @@ Copy
 
 #### How do I add the Contracts module to my custom chain?
 
-You can follow [our guide here](example/add-a-pallet.md) for instructions to add the Contracts pallet and other FRAME pallets to your blockchain runtime.
+You can follow [our guide here](add-a-pallet.md) for instructions to add the Contracts pallet and other FRAME pallets to your blockchain runtime.
 
