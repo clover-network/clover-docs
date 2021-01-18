@@ -165,4 +165,11 @@
 * [Nodes and Dapps](maintain/nodes-and-dapps/README.md)
   * [Set up a Full Node](maintain/nodes-and-dapps/set-up-a-full-node.md)
   * [Networks](maintain/nodes-and-dapps/networks.md)
+  * [Set up Secure WebSocket for Remote Connections](maintain/nodes-and-dapps/set-up-secure-websocket-for-remote-connections.md)
+  * [Errors and How to Resolve Them](maintain/nodes-and-dapps/errors-and-how-to-resolve-them.md)
+
+## Nominator Guides
+
+* [How to Nominate on Clover](nominator-guides/how-to-nominate-on-clover.md)
+* [Unbonding and Rebonding](nominator-guides/unbonding-and-rebonding.md)
 
