@@ -139,6 +139,8 @@
   * [eth\_call](technical-documentation/web3-compatibility/eth_call.md)
   * [eth\_estimateGas](technical-documentation/web3-compatibility/eth_estimategas.md)
   * [eth\_getTransaction](technical-documentation/web3-compatibility/eth_gettransactionbyhash.md)
+  * [eth\_getTransactionByBlockHashAndIndex](technical-documentation/web3-compatibility/eth_gettransactionbyblockhashandindex.md)
+  * [eth\_getTransactionByBlockNumberAndIndex](technical-documentation/web3-compatibility/eth_gettransactionbyblocknumberandindex.md)
   * [eth\_getTransactionReceipt](technical-documentation/web3-compatibility/eth_gettransactionreceipt.md)
   * [eth\_getUncle](technical-documentation/web3-compatibility/eth_getunclebyblocknumberandindex.md)
   * [eth\_getLogs](technical-documentation/web3-compatibility/eth_getlogs.md)

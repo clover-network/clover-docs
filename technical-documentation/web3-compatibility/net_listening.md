@@ -7,7 +7,7 @@ description: >-
 # net\_listening
 
 ```text
-web3.eth.net.isListening([callback])
+web3.eth.net.Listening
 ```
 
 #### Parameters
@@ -16,12 +16,13 @@ none
 
 #### Returns
 
-returns `Boolean`
+returns `Boolean：`that the connected node is listening for network requests.
 
-#### Returns
+#### Example
 
 ```text
-web3.eth.net.isListening().then(console.log);
+const Listening = web3.net.Listening
+console.log(Listening);
 > true
 ```
 
