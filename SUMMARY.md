@@ -37,12 +37,10 @@
   * [Chainlink Protocol Integration](solidity-smart-contracts/oracles/chainlink-protocol-integration.md)
 * [Tutorial](solidity-smart-contracts/tutorial/README.md)
   * [Deploy NFT](solidity-smart-contracts/tutorial/deploy-nft.md)
-  * [Verify Contract on apps.clover.finance](solidity-smart-contracts/tutorial/verify-contract-on-https-apps.clover.finance-accounts.md)
   * [Local CLV Network](solidity-smart-contracts/tutorial/local-clv-network.md)
   * [Proxy Contract](solidity-smart-contracts/tutorial/proxy-contract.md)
 * [Wallet](solidity-smart-contracts/wallet/README.md)
-  * [Developer - Binance Chain Docs](solidity-smart-contracts/wallet/clover-chain-extension-wallet-api.md)
-  * [Math Wallet Cross-chain Transfer Tool](solidity-smart-contracts/wallet/math-wallet-cross-chain-transfer-tool.md)
+  * [Developer](solidity-smart-contracts/wallet/clover-chain-extension-wallet-api.md)
 
 ## Ink! Smart Contracts
 

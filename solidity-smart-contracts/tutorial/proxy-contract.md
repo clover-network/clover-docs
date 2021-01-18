@@ -53,7 +53,7 @@ function initialize(string memory name, string memory symbol, uint8 decimals, ui
     }
 ```
 
- BEP20 contract initializes the token’s name, symbol, and decimals in its constructor. You should not use these contracts in your BEP20 Upgrades contract. , make sure to use the `upgradableBEP20implementation` that has been modified to use initializers instead of constructors. https://github.com/binance-chain/bsc-genesis-contract/blob/42922472b43397fbca9d0c84c7f72fbfaf39efc3/contracts/bep20\_template/BEP20Token.template\#L351
+ BEP20 contract initializes the token’s name, symbol, and decimals in its constructor. You should not use these contracts in your BEP20 Upgrades contract. , make sure to use the `upgradableBEP20implementation` that has been modified to use initializers instead of constructors. https://github.com/clover-chain/clv-genesis-contract/blob/42922472b43397fbca9d0c84c7f72fbfaf39efc3/contracts/bep20\_template/BEP20Token.template\#L351
 
 ```text
 constructor() public {
@@ -151,9 +151,7 @@ $ npx truffle console --network ganache
 truffle(ganache)> BEP20TokenFactoryInstance = await BEP20TokenFactory.deployed();undefinedtruffle(ganache)> await BEP20TokenFactoryInstance.createBEP20Token("ABC Token", "ABC", 18, web3.utils.toBN(1e18), true, {address1}, {address2});
 ```
 
-> Note: any secrets such as mnemonics or bscscan keys should not be committed to version control.
-
-Run `truffle migrate` with the BSC testnet to deploy. We can see our implementation contract 'BEP20TokenImplementation' and the 'BEP20TokenFactory' being deployed.
+Run `truffle migrate` with the CLv testnet to deploy. We can see our implementation contract 'BEP20TokenImplementation' and the 'BEP20TokenFactory' being deployed.
 
 ```text
 Deploying 'BEP20TokenImplementation'

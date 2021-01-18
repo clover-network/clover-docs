@@ -2,7 +2,7 @@
 
 See also : [https://github.com/ethereum/go-ethereum/wiki/Private-network](https://github.com/ethereum/go-ethereum/wiki/Private-network)
 
-## Setting up your BSC Node\(s\) <a id="setting-up-your-bsc-nodes"></a>
+## Setting up your CLV Node\(s\) <a id="setting-up-your-bsc-nodes"></a>
 
 ### 1. Prereq : Install Geth <a id="1-prereq-install-geth"></a>
 
@@ -32,7 +32,7 @@ With the following contents :
 ```text
 {
      "config": {
-       "chainId": 1000,
+       "chainId": 1337,
        "homesteadBlock": 0,
        "eip155Block": 0,
        "eip158Block": 0
@@ -59,7 +59,7 @@ $ geth --datadir /projects/local_ethereum_blockchain/node1 init /projects/local_
 ### 6. Start that Ethereum node <a id="6-start-that-ethereum-node"></a>
 
 ```text
-$ geth --datadir /projects/local_ethereum_blockchain/node1 --networkid 1000 console
+$ geth --datadir /projects/local_ethereum_blockchain/node1 --networkid 1337 console
 ```
 
 ### 7. Initialise another Ethereum node <a id="7-initialise-another-ethereum-node"></a>
