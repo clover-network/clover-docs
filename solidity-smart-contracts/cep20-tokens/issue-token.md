@@ -33,7 +33,7 @@ a. Step1: Click button to switch to compile button.
 
 b. Step2: Select “Injected Web3”
 
-c. Step3: Select “BEP20Token”
+c. Step3: Select “CBEP20Token”
 
 d. Step4: Client “Deploy” button and Metamask will pop up
 
