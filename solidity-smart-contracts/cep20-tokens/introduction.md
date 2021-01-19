@@ -1,8 +1,8 @@
 # Introduction
 
-## BEP20 Token <a id="bep20-token"></a>
+## CEP20 Token <a id="bep20-token"></a>
 
-A BEP20 token must implement the interface `IBEP20` in [IBEP20.sol](https://docs.binance.org/smart-chain/developer/IBEP20.sol). This is a template contract [BEP20Token.template](https://docs.binance.org/smart-chain/developer/BEP20Token.template). Users just need to fill in `_name`, `_symbol`, `_decimals` and `_totalSupply` according to their own requirements:
+A CEP20 token must implement the interface `ICEP20` in ICEP20.sol. This is a template contract BEP20Token.template. Users just need to fill in `_name`, `_symbol`, `_decimals` and `_totalSupply` according to their own requirements:
 
 ```text
   constructor() public {
@@ -16,7 +16,7 @@ A BEP20 token must implement the interface `IBEP20` in [IBEP20.sol](https://docs
   }
 ```
 
-Then users can use [Remix IDE](https://remix.ethereum.org/) and [Metamask](https://docs.binance.org/smart-chain/wallet/metamask.html) to compile and deploy the BEP20 contract to CLV.
+Then users can use [Remix IDE](https://remix.ethereum.org/) and Metamask to compile and deploy the CEP20 contract to CLV.
 
 ### Interact with Contract with [Web3](https://www.npmjs.com/package/web3) and NodeJS. <a id="interact-with-contract-with-web3-and-nodejs"></a>
 
