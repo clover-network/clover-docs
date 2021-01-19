@@ -1,6 +1,6 @@
 # Issue Token
 
-**Compile and Deploy BEP20 Contract**
+**Compile and Deploy CEP20 Contract**
 
 1. Open Remix IDE: [https://remix.ethereum.org](https://remix.ethereum.org/)
 
@@ -10,16 +10,16 @@
 
 ![img](https://lh3.googleusercontent.com/aLlINgoy2Luj45ZKVxPTExUS4I2QoX3WHzmLbO7_CJHQiL3plGvx0iCaI2YTGE8QmnhytN-HDOPvhGixQ7utrA_o9UJJVaujmQ5yj7ET8ju12Jh0luVtZHgpLGmOx9LUoFnzu2Eg)
 
-1. Create new contract BEP20Token.sol and copy contract code from the bep20 token template [here](https://docs.binance.org/smart-chain/developer/BEP20Token.template)
+1. Create new contract CEP20Token.sol and copy contract code from the cep20 token template [here](https://docs.binance.org/smart-chain/developer/BEP20Token.template)
 2. Modify “name”, “symbol”, “decimals” and “totalSupply” according to your requirements.
 
 ![img](https://lh4.googleusercontent.com/hgxDh_hXCFKwwlkAYG6h9qfxvzyeeD3k-t3tNBD-VSvwTtM4AnaFylZ6SjSmfTKCuIqhs66Z9vi7mRplIfN5ER7n1yMz0EKpO_RDOcTQTrsh5R1DC0doVC7FT05Hu2bboM2o57Qg)
 
-1. Compile the BEP20 token contract
+1. Compile the CEP20 token contract
 
 a. Step1: Click button to switch to compile page
 
-b. Step2: Select “BEP20Token” contract
+b. Step2: Select “CEP20Token” contract
 
 c. Step3: Enable “Auto compile” and “optimization”
 
