@@ -1,8 +1,8 @@
 # Introduction
 
-## CEP20 Token <a id="bep20-token"></a>
+## CIP20 Token <a id="bep20-token"></a>
 
-A CEP20 token must implement the interface `ICEP20` in ICEP20.sol. This is a template contract CEP20Token.template. Users just need to fill in `_name`, `_symbol`, `_decimals` and `_totalSupply` according to their own requirements:
+A CIP20 token must implement the interface `ICIP20` in ICIP20.sol. This is a template contract CIP20Token.template. Users just need to fill in `_name`, `_symbol`, `_decimals` and `_totalSupply` according to their own requirements:
 
 ```text
   constructor() public {
@@ -16,7 +16,7 @@ A CEP20 token must implement the interface `ICEP20` in ICEP20.sol. This is a tem
   }
 ```
 
-Then users can use [Remix IDE](https://remix.ethereum.org/) and Metamask to compile and deploy the CEP20 contract to CLV.
+Then users can use [Remix IDE](https://remix.ethereum.org/) and Metamask to compile and deploy the CIP20 contract to CLV.
 
 ### Interact with Contract with [Web3](https://www.npmjs.com/package/web3) and NodeJS. <a id="interact-with-contract-with-web3-and-nodejs"></a>
 

@@ -64,7 +64,7 @@ module.exports = function(deployer) {
 
 We will use [`truffle develop`](https://www.trufflesuite.com/docs/truffle/reference/truffle-commands#develop) to open a Truffle console with a development blockchain
 
-* Head over to [Faucet](https://testnet.binance.org/faucet-smart) and request test BNB
+* Head over to [Faucet](https://testnet.binance.org/faucet-smart) and request test CLV
 
 ```text
 $ npx truffle develop
@@ -402,7 +402,7 @@ truffle(rinkeby)> accounts
 [ '0x133d144f52705ceb3f5801b63b9ebccf4102f5ed',
 ```
 
-We will mint 1 NFT with token ID 1. Specify the address that you want to be the token holder \(`0xc7e4bBc4269fdC62F879834E363173aeE7895F45` is one of my test accounts\)
+We will mint 1 NFT with token ID 1. Specify the address that you want to be the token holder \(0x063eBCD1dB02320814Acc0721e65f14b8755Ff41 is one of my test accounts\)
 
 ```text
 truffle(rinkeby)> await nft.mint("0x133d144f52705ceb3f5801b63b9ebccf4102f5ed")
@@ -413,7 +413,7 @@ truffle(rinkeby)> await nft.mint("0x133d144f52705ceb3f5801b63b9ebccf4102f5ed")
      blockNumber: 3333746,
      contractAddress: null,
      cumulativeGasUsed: 164785,
-     from: '0x77737a65c296012c67f8c7f656d1df81827c9541',
+     from: '0x063eBCD1dB02320814Acc0721e65f14b8755Ff41',
      gasUsed: 164785,
 ...
 ```

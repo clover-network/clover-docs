@@ -12,7 +12,7 @@ The API this extension wallet provides includes API specified by [EIP-1193](http
 
 Currently \(version 1.112.8\) as Clover Chain Wallet natively supports Clover Chain, we are planning to open a series of APIs for dApp developers to interact with Clover Chain. At the end of the day, most [APIs available in Clover Chain javascript sdk](https://github.com/clover-network/clover-sdk) would be available.
 
-Currently, only the following is supported: \* [`transfer`](https://github.com/binance-chain/javascript-sdk/tree/master/docs#transfer-tokens)
+Currently, only the following is supported:  `transfer`
 
 Warning
 
@@ -142,8 +142,8 @@ The code snippet below is as same as [MetaMask's example](https://docs.metamask.
 ```text
 params: [
   {
-    from: '0xb60e8dd61c5d32be8058bb8eb970870f07233155',
-    to: '0xd46e8dd67c5d32be8058bb8eb970870f07244567',
+    from: '0x063eBCD1dB02320814Acc0721e65f14b8755Ff41',
+    to: '0x883591a195537e90FE878a62363758C74fFd9E95',
     gas: '0x76c0', // 30400
     gasPrice: '0x9184e72a000', // 10000000000000
     value: '0x9184e72a', // 2441406250
@@ -169,8 +169,6 @@ CloverChain
 ### CloverChain.clvSign\(address: string, message: string\): Promise&lt;{publicKey: string, signature: string}&gt; <a id="binancechainbnbsignaddress-string-message-string-promisepublickey-string-signature-string"></a>
 
 Like `eth_sign` enable dapp to verify a user has control over an ethereum address by signing an arbitrary message. We provide this method for dapp developers to request the signature of arbitrary messages for Clover Chain \(CLV\).
-
-If `address` parameter is a Clover chain address \(start with `bnb` or `tbnb`\), we will simply **calculate sha256 hash of the message** and let user sign the hash with his clover chain address' private key. Note: Clover Chain uses the same elliptic curve \(`secp256k1`\) as Ethereum.
 
 If `address` parameter is a clover chain address \(start with `0x`\), the message would be hashed in the same way with [`eth_sign`](https://eth.wiki/json-rpc/API#eth_sign).
 
@@ -217,12 +215,8 @@ For example:
         "icon":"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9InNjLXBraElSIGhnRUNmUyI+PHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iOCIgZmlsbD0iI2ZjNmU3NSI+PC9yZWN0Pjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzFlMjAyNiIgc3R5bGU9ImZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtc2l6ZToxNHB4O2ZvbnQtZmFtaWx5OkJpbmFuY2VQbGV4LCAtYXBwbGUtc3lzdGVtLCAmI3gyNzsuU0ZOU1RleHQtUmVndWxhciYjeDI3OywgJiN4Mjc7U2FuIEZyYW5jaXNjbyYjeDI3OywKQmxpbmtNYWNTeXN0ZW1Gb250LCAmI3gyNzsuUGluZ0ZhbmctU0MtUmVndWxhciYjeDI3OywgJiN4Mjc7TWljcm9zb2Z0IFlhSGVpJiN4Mjc7LCAmI3gyNztTZWdvZSBVSSYjeDI3OywgJiN4Mjc7SGVsdmV0aWNhIE5ldWUmI3gyNzssCkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiPkE8L3RleHQ+PC9zdmc+",
         "addresses":[
             {
-                "type":"clv-testnet",
-                "address":"tbnb1akt8vgstdaz8pax5zgykzee5u9kamjdkkcf2dw"
-            },
-            {
                 "type":"eth",
-                "address":"0x43364696e478E344E95831CE8427623202e5CBFb"
+                "address":"0x883591a195537e90FE878a62363758C74fFd9E95"
             }
         ]
     }
@@ -231,16 +225,16 @@ For example:
 
 ### CloverChain.transfer\({fromAddress:string, toAddress:string, asset:string, amount:number, memo?: string, sequence?: number, accountId:string, networkId:string}\)&gt; <a id="binancechaintransferfromaddressstring-toaddressstring-assetstring-amountnumber-memo-string-sequence-number-accountidstring-networkidstring"></a>
 
-Transfer certain `amount` of `asset` \(BNB or BEP2\) on CloverChain.
+Transfer certain `amount` of `asset` \(CEP20\) on CloverChain.
 
 `accountId` could be retrieved from the `CloverChain.requestAccounts` API \(`id` field of each account\)
 
-`networkId` could be `bbc-mainnet` or `bbc-testnet`
+`networkId` could be clv`-testnet`
 
 For example:
 
-1. This will ask the user's approval for transferring 1 BNB to himself. `CloverChain.transfer({fromAddress:"tbnb1sndxdzsg42jg8lc0hehx8dzzpyfxrvq937mt0w", toAddress:"tbnb1sndxdzsg42jg8lc0hehx8dzzpyfxrvq937mt0w", asset:"BNB", amount:1, accountId:"fba0b0ce46c7f79cd7cd91cdd732b6c699440acf8c539d7e7d753d38c9deea544230e51899d5d9841b8698b74a3c77b79e70d686c76cb35dca9cac0e615628ed", networkId:"bbc-testnet"})`
-2. This will ask the user's approval for transferring 1 BUSD to himself. `CloverChain.transfer({fromAddress:"tbnb1sndxdzsg42jg8lc0hehx8dzzpyfxrvq937mt0w", toAddress:"tbnb1sndxdzsg42jg8lc0hehx8dzzpyfxrvq937mt0w", asset:"BUSD-BAF", amount:1, accountId:"fba0b0ce46c7f79cd7cd91cdd732b6c699440acf8c539d7e7d753d38c9deea544230e51899d5d9841b8698b74a3c77b79e70d686c76cb35dca9cac0e615628ed", networkId:"bbc-testnet"})`
+1. This will ask the user's approval for transferring 1 CLV to himself. `CloverChain.transfer({fromAddress:"0x063eBCD1dB02320814Acc0721e65f14b8755F41", toAddress:"0x883591a195537e90FE878a62363758C74fFd9E95", asset:"CLV", amount:1, accountId:"fba0b0ce46c7f79cd7cd91cdd732b6c699440acf8c539d7e7d753d38c9deea544230e51899d5d9841b8698b74a3c77b79e70d686c76cb35dca9cac0e615628ed", networkId:"clv-testnet"})`
+2. This will ask the user's approval for transferring 1 CUSD to himself. `CloverChain.transfer({fromAddress:"0x063eBCD1dB02320814Acc0721e65f14b8755F41", toAddress:"0x883591a195537e90FE878a62363758C74fFd9E95", asset:"CUSD-BAF", amount:1, accountId:"fba0b0ce46c7f79cd7cd91cdd732b6c699440acf8c539d7e7d753d38c9deea544230e51899d5d9841b8698b74a3c77b79e70d686c76cb35dca9cac0e615628ed", networkId:"clv-testnet"})`
 
 ## Events <a id="events"></a>
 
@@ -500,7 +494,7 @@ CloverChain.on('close', handler: (error: Error) => void);
 Please refer to [MetaMask Doc](https://docs.metamask.io/guide/ethereum-provider.html#chainidchanged-deprecated), the only difference is we injected a different object.
 
 ```text
-ColverChain.on('chainChanged', handler: (chainId: string) => void);
+CloverChain.on('chainChanged', handler: (chainId: string) => void);
 ```
 
 ### networkChanged \(DEPRECATED\) <a id="networkchanged-deprecated"></a>

@@ -19,7 +19,7 @@ By using this approach, data will be read from a designated data contract direct
 
 `delegatecall` opcode was implemented in [EIP-7](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7.md). It is possible to delegate execution to other contract, but execution context stays the same. As with delegatecall, the msg.sender will remain that of the caller of the proxy contract. One of the main disadvantages of this approach is that contract code of the proxy will not reflect the state that it stores.
 
-## Writing Upgradeable CEP20 Contracts <a id="writing-upgradeable-bep20-contracts"></a>
+## Writing Upgradeable CIP20 Contracts <a id="writing-upgradeable-bep20-contracts"></a>
 
 It’s worth mentioning that these restrictions have their roots in how the Ethereum VM works, and apply to all projects that work with upgradeable contracts, not just OpenZeppelin Upgrades.
 
@@ -32,12 +32,12 @@ This means that, when using a contract with the OpenZeppelin Upgrades, you need 
 ```text
 pragma solidity ^0.6.0;
   import "@openzeppelin/contracts/proxy/TransparentUpgradeableProxy.sol";
-  contract CEP20UpgradeableProxy is TransparentUpgradeableProxy {
+  contract CIP20UpgradeableProxy is TransparentUpgradeableProxy {
     constructor(address logic, address admin, bytes memory data) TransparentUpgradeableProxy(logic, admin, data) public {
     }}
 ```
 
- OpenZeppelin Upgrades provides an Initializable base contract that has an initializer modifier to prevent a contract from being _initialized_ multiple times: https://github.com/clover-network/canonical-upgradeable-cep20/blob/47ed7a710e6e86bdc85f2118bf63fc892e3b7716/contracts/BEP20TokenImplementation.sol\#L37
+ OpenZeppelin Upgrades provides an Initializable base contract that has an initializer modifier to prevent a contract from being _initialized_ multiple times: https://github.com/clover-network/canonical-upgradeable-cip20/blob/47ed7a710e6e86bdc85f2118bf63fc892e3b7716/contracts/CIP20TokenImplementation.sol\#L37
 
 ```text
  /**
@@ -53,7 +53,7 @@ function initialize(string memory name, string memory symbol, uint8 decimals, ui
     }
 ```
 
- CEP20 contract initializes the token’s name, symbol, and decimals in its constructor. You should not use these contracts in your BEP20 Upgrades contract. , make sure to use the `upgradableCEP20implementation` that has been modified to use initializers instead of constructors. https://github.com/clover-chain/clv-genesis-contract/blob/42922472b43397fbca9d0c84c7f72fbfaf39efc3/contracts/bep20\_template/BEP20Token.template\#L351
+ CIP20 contract initializes the token’s name, symbol, and decimals in its constructor. You should not use these contracts in your CIP20 Upgrades contract. , make sure to use the `upgradableCIP20implementation` that has been modified to use initializers instead of constructors. https://github.com/clover-network/clv-genesis-contract/blob/42922472b43397fbca9d0c84c7f72fbfaf39efc3/contracts/cip20\_template/CIP20Token.template\#L351
 
 ```text
 constructor() public {
@@ -94,13 +94,13 @@ When running Truffle select the option to “Create a truffle-config.js”
 
 This example token has a fixed supply that is minted to the deployer of the contract.
 
-https://github.com/binance-chain/canonical-upgradeable-bep20/blob/master/contracts/BEP20TokenImplementation.sol
+https://github.com/clover-network/canonical-upgradeable-cip20/blob/master/contracts/CIP20TokenImplementation.sol
 
 ```text
-const BEP20TokenImplementation = artifacts.require("BEP20TokenImplementation");const BEP20TokenFactory = artifacts.require("BEP20TokenFactory");
+const CIP20TokenImplementation = artifacts.require("CIP20TokenImplementation");const CIP20TokenFactory = artifacts.require("CIP20TokenFactory");
 const Web3 = require('web3');const web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
 const fs = require('fs');
-module.exports = function(deployer, network, accounts) { deployer.then(async () => {  await deployer.deploy(BEP20TokenImplementation);  await deployer.deploy(BEP20TokenFactory, BEP20TokenImplementation.address); });};
+module.exports = function(deployer, network, accounts) { deployer.then(async () => {  await deployer.deploy(CIP20TokenImplementation);  await deployer.deploy(CIP20TokenFactory, CIP20TokenImplementation.address); });};
 ```
 
 ### Test the contract locally <a id="test-the-contract-locally"></a>
@@ -108,8 +108,8 @@ module.exports = function(deployer, network, accounts) { deployer.then(async () 
 To test upgradeable contracts we should create unit tests for the implementation contract, along with creating higher level tests for testing interaction via the proxy.
 
 ```text
-contract('Upgradeable BEP20 token', (accounts) => {  it('Create Token', async () => {    const BEP20TokenFactoryInstance = await BEP20TokenFactory.deployed();    bep20FactoryOwner = accounts[0];    bep20Owner = accounts[1];    proxyAdmin = accounts[0];
-    const tx = await BEP20TokenFactoryInstance.createBEP20Token("ABC Token", "ABC", 18, web3.utils.toBN(1e18), true, bep20Owner, proxyAdmin, {from: bep20FactoryOwner});    truffleAssert.eventEmitted(tx, "TokenCreated",(ev) => {      bep20TokenAddress = ev.token;      return true;    });
+contract('Upgradeable CIP20 token', (accounts) => {  it('Create Token', async () => {    const CIP20TokenFactoryInstance = await CIP20TokenFactory.deployed();    cip20FactoryOwner = accounts[0];    cip20Owner = accounts[1];    proxyAdmin = accounts[0];
+    const tx = await CIP20TokenFactoryInstance.createP20Token("CLV Token", "CLV", 18, web3.utils.toBN(1e18), true, cip20Owner, proxyAdmin, {from: cip20FactoryOwner});    truffleAssert.eventEmitted(tx, "TokenCreated",(ev) => {      cip20TokenAddress = ev.token;      return true;    });
   });
 ```
 
@@ -118,25 +118,25 @@ contract('Upgradeable BEP20 token', (accounts) => {  it('Create Token', async ()
 You cann change the proxy owner to another address.
 
 ```text
-let event = await bep20proxy.methods.changeAdmin(newAdmin).send({from: proxyAdmin});
-bep20proxy.getPastEvents("AdminChanged", {fromBlock: 0, toBlock: "latest"}).then(console.log)
+let event = await cip20proxy.methods.changeAdmin(newAdmin).send({from: proxyAdmin});
+cip20proxy.getPastEvents("AdminChanged", {fromBlock: 0, toBlock: "latest"}).then(console.log)
 ```
 
 ### Transfer Owner <a id="transfer-owner"></a>
 
-You cann change the BEP20 token owner to another address.
+You cann change the CIP20 token owner to another address.
 
 ```text
-    await bep20.methods.transferOwnership(accounts[5]).send({from: accounts[1]});
-    const owner = await bep20.methods.getOwner().call({from: accounts[5]});
+    await cip20.methods.transferOwnership(accounts[5]).send({from: accounts[1]});
+    const owner = await cip20.methods.getOwner().call({from: accounts[5]});
 ```
 
 ### Deploy on Testnet <a id="deploy-on-testnet"></a>
 
-Create the following `2_bep20.js` script in the migrations directory.
+Create the following `2_cip20.js` script in the migrations directory.
 
 ```text
-module.exports = function(deployer, network, accounts) { deployer.then(async () => {  await deployer.deploy(BEP20TokenImplementation);  await deployer.deploy(BEP20TokenFactory, BEP20TokenImplementation.address); });};
+module.exports = function(deployer, network, accounts) { deployer.then(async () => {  await deployer.deploy(CIP20TokenImplementation);  await deployer.deploy(CIP20TokenFactory, CIP20TokenImplementation.address); });};
 ```
 
  You can first deploy our contract to a local test \(such as ganache-cli\) and manually interact with it, then deploy your contract to a public test network.
@@ -148,13 +148,13 @@ $ npx truffle console --network ganache
  We can interact with our contract using the Truffle console.
 
 ```text
-truffle(ganache)> BEP20TokenFactoryInstance = await BEP20TokenFactory.deployed();undefinedtruffle(ganache)> await BEP20TokenFactoryInstance.createBEP20Token("ABC Token", "ABC", 18, web3.utils.toBN(1e18), true, {address1}, {address2});
+truffle(ganache)> CIP20TokenFactoryInstance = await CIP20TokenFactory.deployed();undefinedtruffle(ganache)> await CIP20TokenFactoryInstance.createCIP20Token("CLV Token", "CLV", 18, web3.utils.toBN(1e18), true, {address1}, {address2});
 ```
 
-Run `truffle migrate` with the CLv testnet to deploy. We can see our implementation contract 'BEP20TokenImplementation' and the 'BEP20TokenFactory' being deployed.
+Run `truffle migrate` with the CLV testnet to deploy. We can see our implementation contract 'CIP20TokenImplementation' and the 'CIP20TokenFactory' being deployed.
 
 ```text
-Deploying 'BEP20TokenImplementation'
+Deploying 'CIP20TokenImplementation'
    ------------------------------------
    > transaction hash:    0xdcd37a388bf9b2f822eff5b816bd4c9db80bc4f6046e3f922cedca12162d46d9
    > Blocks: 3            Seconds: 8
@@ -174,7 +174,7 @@ Deploying 'BEP20TokenImplementation'
    > confirmation number: 3 (block: 5174295)
    > confirmation number: 5 (block: 5174297)
 
-   Deploying 'BEP20TokenFactory'
+   Deploying 'CIP20TokenFactory'
    -----------------------------
    > transaction hash:    0x821c8355aaecc36a9f7fe50d2b3722c840047883a6bf500343393554d8ce3696
    > Blocks: 3            Seconds: 8
@@ -193,7 +193,7 @@ Deploying 'BEP20TokenImplementation'
 
 After a period of time, we decide that we want to add functionality to our contract. In this guide we will add an `whitelist` function.
 
-Create the new implementation, `BEP2_V2.sol` in your contracts directory with the following Solidity code.
+Create the new implementation, `CIP2_V2.sol` in your contracts directory with the following Solidity code.
 
 ```text
 /**   * @dev sets multiple whitelist address   */
@@ -227,7 +227,7 @@ We will create unit tests for the new implementation contract. We can add to the
 Create uograde.test.js in your test directory with the following JavaScript.
 
 ```text
-let tx = await bep20proxy.methods.upgradeTo(newInstance.address).send({from: proxyAdmin});
- bep20proxy.getPastEvents("Upgraded", {fromBlock: 0, toBlock: "latest"}).then(console.log)
+let tx = await cip20proxy.methods.upgradeTo(newInstance.address).send({from: proxyAdmin});
+ cip20proxy.getPastEvents("Upgraded", {fromBlock: 0, toBlock: "latest"}).then(console.log)
 ```
 

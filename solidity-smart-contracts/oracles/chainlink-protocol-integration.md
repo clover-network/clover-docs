@@ -8,7 +8,7 @@ Often, smart contracts need to act upon prices of assets in real-time. This is e
 
 ## Get the Latest Price <a id="get-the-latest-price"></a>
 
-This section explains how to get the latest price of BNB inside smart contracts using Chainlink Price Feeds, on the Binance Smart Chain.
+This section explains how to get the latest price of CLV inside smart contracts using Chainlink Price Feeds, on the Binance Smart Chain.
 
 **Solidity Contract**
 
@@ -24,12 +24,12 @@ contract PriceConsumerV3 {
     AggregatorV3Interface internal priceFeed;
 
     /**
-     * Network: Binance Smart Chain
-     * Aggregator: BNB/USD
-     * Address: 0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE
+     * Network: Clover Chain
+     * Aggregator: CLV/USD
+     * Address: 0x063eBCD1dB02320814Acc0721e65f14b8755Ff41
      */
     constructor() public {
-        priceFeed = AggregatorV3Interface(0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE);
+        priceFeed = AggregatorV3Interface(0x063eBCD1dB02320814Acc0721e65f14b8755Ff41);
     }
 
     /**
@@ -54,7 +54,7 @@ contract PriceConsumerV3 {
 const Web3 = require("web3");
 const web3 = new Web3("https://rpc.clover.finance");
 const aggregatorV3InterfaceABI = [{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"description","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint80","name":"_roundId","type":"uint80"}],"name":"getRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"latestRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"version","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}];
-const addr = "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE";
+const addr = "0x063eBCD1dB02320814Acc0721e65f14b8755Ff41";
 const priceFeed = new web3.eth.Contract(aggregatorV3InterfaceABI, addr);
 priceFeed.methods.latestRoundData().call()
     .then((roundData) => {
@@ -69,7 +69,7 @@ priceFeed.methods.latestRoundData().call()
 from web3 import Web3
 web3 = Web3(Web3.HTTPProvider('https://rpc.clover.finance'))
 abi = '[{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"description","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint80","name":"_roundId","type":"uint80"}],"name":"getRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"latestRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"version","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}]'
-addr = '0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE'
+addr = '0x063eBCD1dB02320814Acc0721e65f14b8755Ff41'
 contract = web3.eth.contract(address=addr, abi=abi)
 latestData = contract.functions.latestRoundData().call()
 print(latestData)
@@ -91,12 +91,12 @@ contract HistoricalPriceConsumerV3 {
     AggregatorV3Interface internal priceFeed;
 
     /**
-     * Network: Binance Smart Chain
-     * Aggregator: BNB/USD
-     * Address: 0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE
+     * Network: Clover Chain
+     * Aggregator: CLV/USD
+     * Address: 0x063eBCD1dB02320814Acc0721e65f14b8755Ff41
      */
     constructor() public {
-        priceFeed = AggregatorV3Interface(0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE);
+        priceFeed = AggregatorV3Interface(0x063eBCD1dB02320814Acc0721e65f14b8755Ff41);
     }
 
     /**
@@ -126,7 +126,7 @@ const Web3 = require("web3");
 
 const web3 = new Web3("https://rpc.clover.finance");
 const aggregatorV3InterfaceABI = [{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"description","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint80","name":"_roundId","type":"uint80"}],"name":"getRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"latestRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"version","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}];
-const addr = "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE";
+const addr = "0x063eBCD1dB02320814Acc0721e65f14b8755Ff41";
 const priceFeed = new web3.eth.Contract(aggregatorV3InterfaceABI, addr);
 
 // Valid roundId must be known. They are NOT incremental.
@@ -146,7 +146,7 @@ from web3 import Web3
 
 web3 = Web3(Web3.HTTPProvider('https://rpc.clover.finance'))
 abi = '[{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"description","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint80","name":"_roundId","type":"uint80"}],"name":"getRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"latestRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"version","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}]'
-addr = '0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE'
+addr = '0x063eBCD1dB02320814Acc0721e65f14b8755Ff41'
 contract = web3.eth.contract(address=addr, abi=abi)
 
 #  Valid roundId must be known. They are NOT incremental.

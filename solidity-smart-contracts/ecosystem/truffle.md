@@ -26,7 +26,7 @@ Once this operation is completed, you'll now have a project structure with the f
 
 #### Create Contract <a id="create-contract"></a>
 
-You can write your own smart contract or download the CEP20 token smart contract template.
+You can write your own smart contract or download the CIP20 token smart contract template.
 
 #### Compile Contract <a id="compile-contract"></a>
 
@@ -126,7 +126,7 @@ Summary
 
 > Remember your address, transaction\_hash and other details provided would differ, Above is just to provide an idea of structure.
 
-**Congratulations!** You have successfully deployed CEP20 Smart Contract. Now you can interact with the Smart Contract.
+**Congratulations!** You have successfully deployed CIP20 Smart Contract. Now you can interact with the Smart Contract.
 
 You can check the deployment status here:[https://apps.clover.finance/\#/explorer](https://apps.clover.finance/#/explorer)
 

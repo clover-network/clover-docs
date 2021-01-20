@@ -1,2 +1,2 @@
-# CEP20 Tokens
+# CIP20 Tokens
 
