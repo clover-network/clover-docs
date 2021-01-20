@@ -22,17 +22,16 @@ Welcome to the network maintainers section of the Clover wiki. Here you will fin
 
 * Learn about Validators - High level overview of validator and related links.
 * [Validator Payouts](https://app.gitbook.com/@clover-network/s/portal/~/drafts/-MRTY_VoDtkqKoz1BxW3/maintain/validator-guides/validator-payout-overview/@drafts) - Overview on how validator rewards are calculated and paid.
-* [Validation Guide \(Clover\)](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-validate-polkadot) - Walkthrough on how to validate on the Clover network.
-* Validation Guide \(Kusama\) - Walkthrough on how to validate on the Kusama canary network.
-* [Using systemmd for the Validator Node](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-systemd) - Configuring systemmd with the Validator node.
-* [Secure Validator](https://wiki.polkadot.network/docs/en/maintain-guides-secure-validator) - Best tips and practices for validating.
-* [How to use CLover Secure Validator](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-use-polkadot-secure-validator) - Walkthrough on how to set up a validator securely.
-* [How to upgrade a Validator Node](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-upgrade) - Guide on upgrading your validator node.
-* [How to Chill](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-chill) - Walkthrough on how to chill as a validator.
+* [Validation Guide \(Clover\)](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/run-a-validator-clover/@drafts) - Walkthrough on how to validate on the Clover network.
+* [Using systemmd for the Validator Node](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/using-systemd-for-the-validator-node/@drafts) - Configuring systemmd with the Validator node.
+* [Secure Validator](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/secure-validator/@drafts) - Best tips and practices for validating.
+* [How to use CLover Secure Validator](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/how-to-use-clover-secure-validator-setup/@drafts) - Walkthrough on how to set up a validator securely.
+* [How to upgrade a Validator Node](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/how-to-upgrade-your-validator/@drafts) - Guide on upgrading your validator node.
+* [How to Chill](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/how-to-chill/@drafts) - Walkthrough on how to chill as a validator.
 
 ## Governance
 
-* [How to pariticipate in Governance](https://wiki.polkadot.network/docs/en/maintain-guides-democracy) - Walkthrough on how to participate in governance.
-* [How to join the Council](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-join-council) - Step by step guide for running for the Council.
-* [How to vote for a Councillor](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-vote-councillor) - Step by step guide for voting for your favorite councillors.
+* [How to pariticipate in Governance](https://app.gitbook.com/@clover-network/s/portal/maintain/governance-guides/participate-in-democracy/@drafts) - Walkthrough on how to participate in governance.
+* [How to join the Council](https://app.gitbook.com/@clover-network/s/portal/maintain/governance-guides/join-the-council/@drafts) - Step by step guide for running for the Council.
+* [How to vote for a Councillor](https://app.gitbook.com/@clover-network/s/portal/maintain/governance-guides/voting-for-councillors/@drafts) - Step by step guide for voting for your favorite councillors.
 

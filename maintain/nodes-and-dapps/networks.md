@@ -50,7 +50,7 @@ and you will connect and start syncing Flaming Fir.
 
 ## Telemetry Dashboard
 
-If you connect to the public networks, the default configuration for your node will connect it to the public [Telemetry](https://telemetry.polkadot.io/) service.
+If you connect to the public networks, the default configuration for your node will connect it to the public Telemetry service.
 
 You can verify that your node is connected by navigating to the correct network on the dashboard and finding the name of your node.
 

@@ -8,7 +8,7 @@ In this guide we'll be using Ubuntu 18.04 hosted on a $10 DigitalOcean droplet. 
 
 ## Set up a node
 
-Whether it's a generic Substrate node, a Kusama node, or your own private blockchain, they all default to the same websocket connection: port 9944 on localhost. For this example, we'll set up a Kusama sync node \(non-validator\).
+Whether it's a generic Substrate node, a Clover node, or your own private blockchain, they all default to the same websocket connection: port 9944 on localhost. For this example, we'll set up a Clover sync node \(non-validator\).
 
 Create a new server on your provider of choice or locally at home \(preferred\). We'll assume you're using Ubuntu 18.04. Then install Substrate and build the node.
 
@@ -21,7 +21,7 @@ cargo build --release
 ./target/release/clover --name "DigitalOcean 10 USD droplet ftw" --rpc-cors all
 ```
 
-This will start the syncing process with Kusama's mainnet.
+This will start the syncing process with Clover's mainnet.
 
 _Note: the `--rpc-cors` mode needs to be set to all so that all external connections are allowed._
 

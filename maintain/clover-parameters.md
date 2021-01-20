@@ -1,10 +1,10 @@
 # Clover Parameters
 
-Many of these parameter values can be updated via on-chain governance. If you require absolute certainty as to their values, it is recommended you directly check the constants by looking at the [chain state](https://polkadot.js.org/apps/#/chainstate/constants) and/or [storage](https://polkadot.js.org/apps/#/chainstate).
+Many of these parameter values can be updated via on-chain governance. If you require absolute certainty as to their values, it is recommended you directly check the constants by looking at the [chain state](https://apps.clover.finance/#/explorer) and/or [storage](https://apps.clover.finance/#/explorer).
 
 ## Periods of common actions and attributes
 
-_NOTE: Kusama runs 4x as fast as Clover, except Clover also has 6 second blocktimes. See_ [_Kusama Parameters_](https://guide.kusama.network/docs/en/kusama-parameters) _for more details on how Kusama's parameters differ from Clover's._
+_NOTE: Clover runs 4x as fast as Clover, except Clover also has 6 second blocktimes. See Clover Parameters for more details on how Clover's parameters differ from Clover's._
 
 * Slot: 6 seconds \*\(generally one block per slot, although see note below\)
 * Epoch: 4 hours \(2,400 slots x 6 seconds\)
@@ -18,7 +18,7 @@ _NOTE: Kusama runs 4x as fast as Clover, except Clover also has 6 second blockti
 | Session | 4 hours | 2,400 |
 | Era | 24 hours | 14,400 |
 
-\*_A maximum of one block per slot can be in a canonical chain. However, occasionally a slot will be without a block in the chain. Thus, the times given are estimates. See_ [_Consensus_](https://wiki.polkadot.network/docs/en/learn-consensus) _for more details._
+\*_A maximum of one block per slot can be in a canonical chain. However, occasionally a slot will be without a block in the chain. Thus, the times given are estimates. See Consensus for more details._
 
 ## Governance
 
@@ -42,7 +42,7 @@ The Clover Council consists of up to 13 members and up to 20 runners up.
 
 ## Staking, Validating, and Nominating
 
-| Kusama | Time | Slots | Description |
+| Clover | Time | Slots | Description |
 | :--- | :--- | :--- | :--- |
 | Term duration | 1 Day | 14,400 | The time for which a validator is in the set after being elected. Note, this duration can be shortened in the case that a validator misbehaves. |
 | Nomination period | 1 Day | 14,400 | How often a new validator set is elected according to Phragmén's method. |

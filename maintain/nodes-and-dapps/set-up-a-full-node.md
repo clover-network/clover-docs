@@ -1,6 +1,6 @@
 # Set up a Full Node
 
-If you're building dapps or products on a Substrate-based chain like Clover, Kusama or a custom Substrate implementation, you probably want the ability to run a node-as-a-back-end. After all, it's always better to rely on your own infrastructure than on a third-party-hosted one in this brave new decentralized world.
+If you're building dapps or products on a Substrate-based chain like Clover or a custom Substrate implementation, you probably want the ability to run a node-as-a-back-end. After all, it's always better to rely on your own infrastructure than on a third-party-hosted one in this brave new decentralized world.
 
 This guide will show you how to connect to Clover network, but the same process applies to any other [Substrate](https://substrate.dev/docs/en/)-based chain. First, let's clarify the term _full node_.
 
@@ -10,23 +10,23 @@ A blockchain's growth comes from a _genesis block_, _extrinsics_, and _events_.
 
 When a validator seals block 1, it takes the blockchain's state at block 0. It then applies all pending changes on top of it, and emits the events that are the result of these changes. Later, the state of the chain at block 1 is used in the same way to build the state of the chain at block 2, and so on. Once two thirds of the validators agree on a specific block being valid, it is finalized.
 
-An **archive node** keeps all the past blocks. An archive node makes it convenient to query the past state of the chain at any point in time. Finding out what an account's balance at a certain block was, or which extrinsics resulted in a certain state change are fast operations when using an archive node. However, an archive node takes up a lot of disk space - around Kusama's 1.6 millionth block this was around 15 to 20GB. When running a validator, this requirement doubles as [the sentry node](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-setup-sentry-node) in front of a validator should be an archive node too.
+An **archive node** keeps all the past blocks. An archive node makes it convenient to query the past state of the chain at any point in time. Finding out what an account's balance at a certain block was, or which extrinsics resulted in a certain state change are fast operations when using an archive node. However, an archive node takes up a lot of disk space - around Clover's 1.6 millionth block this was around 15 to 20GB. When running a validator, this requirement doubles as [the sentry node](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/set-up-a-sentry-node-public-node/@drafts) in front of a validator should be an archive node too.
 
 A **full node** is _pruned_, meaning it discards all information older than 256 blocks, but keeps the extrinsics for all past blocks, and the genesis block. A node that is pruned this way requires much less space than an archive node. In order to query past state through a full node, a user would have to wait for the node to rebuild the chain up until that block. A full node _can_ rebuild the entire chain with no additional input from other nodes and become an archive node. One caveat is that if finality stalled for some reason and the last finalized block is more than 256 blocks behind, a pruned full node will not be able to sync to the network.
 
-Archive nodes are used by utilities that need past information - like block explorers, council scanners, discussion platforms like [Polkassembly](https://polkassembly.io/), and others. They need to be able to look at past on-chain data. Full nodes are used by everyone else - they allow you to read the current state of the chain and to submit transactions directly to the chain without relying on a centralized infrastructure provider.
+Archive nodes are used by utilities that need past information - like block explorers, council scanners, discussion platforms like Polkassembly, and others. They need to be able to look at past on-chain data. Full nodes are used by everyone else - they allow you to read the current state of the chain and to submit transactions directly to the chain without relying on a centralized infrastructure provider.
 
 Another type of node is a **light node**. A light node has only the runtime and the current state, but does not store past extrinsics and so cannot restore the full chain from genesis. Light nodes are useful for resource restricted devices. An interesting use-case of light nodes is a Chrome extension, which is a node in its own right, running the runtime in WASM format: [https://github.com/paritytech/substrate-light-ui](https://github.com/paritytech/substrate-light-ui)
 
 ### Fast Install Instructions \(Mac\)
 
-> Not recommended if you're a validator. Please see [secure validator setup](https://wiki.polkadot.network/docs/en/maintain-guides-secure-validator)
+> Not recommended if you're a validator. Please see [secure validator setup](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/secure-validator/@drafts)
 
 * Type terminal in the ios searchbar/searchlight to open the 'terminal' application
 * Install Homebrew within the terminal by running: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 * Then run: `brew install openssl cmake llvm`
 * Install Rust in your terminal by running: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-* Once Rust is installed, run the following command to clone and build the kusama code:
+* Once Rust is installed, run the following command to clone and build the Clover code:
 
   ```text
   git clone https://github.com/paritytech/Clover clover
@@ -41,7 +41,7 @@ Another type of node is a **light node**. A light node has only the runtime and 
 
 > This works only on Windows Pro with virtualization enabled.
 
-> Not recommended if you're a validator. Please see [secure validator setup](https://wiki.polkadot.network/docs/en/maintain-guides-secure-validator)
+> Not recommended if you're a validator. Please see [secure validator setup](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/secure-validator/@drafts)
 
 * Install WSL: [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 * Install Ubuntu \(same webpage\): [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
@@ -53,7 +53,7 @@ Another type of node is a **light node**. A light node has only the runtime and 
 
 ### Fast Install Instructions \(Linux\)
 
-> Not recommended if you're a validator. Please see [secure validator setup](https://wiki.polkadot.network/docs/en/maintain-guides-secure-validator)
+> Not recommended if you're a validator. Please see [secure validator setup](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/secure-validator/@drafts)
 
 For the most recent binary please see the [release page](https://github.com/clover-network/clover/releases) on the Clover repository. The URL in the code snippet below may become slightly out-of-date.
 
@@ -81,7 +81,7 @@ cargo 1.41.0 (626f0f40e 2019-12-03)
 
 ## Clone and Build
 
-The [clover-netwoek/clover](https://github.com/clover-network/clover) repo's master branch contains the latest Kusama code.
+The [clover-netwoek/clover](https://github.com/clover-network/clover) repo's master branch contains the latest Clover code.
 
 ```text
 git clone https://github.com/paritytech/clover clover
@@ -108,11 +108,11 @@ The built binary will be in the `target/release` folder, called clover.
 ./target/release/clover --name "My node's name" --chain specs/clover-cc1-raw.json
 ```
 
-Use the `--help` flag to find out which flags you can use when running the node. For example, if [connecting to your node remotely](https://wiki.polkadot.network/docs/en/maintain-wss), you'll probably want to use `--ws-external` and `--rpc-cors all`.
+Use the `--help` flag to find out which flags you can use when running the node. For example, if [connecting to your node remotely](https://app.gitbook.com/@clover-network/s/portal/maintain/nodes-and-dapps/set-up-secure-websocket-for-remote-connections/@drafts), you'll probably want to use `--ws-external` and `--rpc-cors all`.
 
 The syncing process will take a while depending on your bandwidth, processing power, disk speed and RAM. On a $10 DigitalOcean droplet, the process can complete in some 36 hours.
 
-Congratulations, you're now syncing with Kusama. Keep in mind that the process is identical when using any other Substrate chain.
+Congratulations, you're now syncing with Clover. Keep in mind that the process is identical when using any other Substrate chain.
 
 ## Running an Archive Node
 
