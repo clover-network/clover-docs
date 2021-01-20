@@ -2,7 +2,7 @@
 
 ## CEP20 Token <a id="bep20-token"></a>
 
-A CEP20 token must implement the interface `ICEP20` in ICEP20.sol. This is a template contract BEP20Token.template. Users just need to fill in `_name`, `_symbol`, `_decimals` and `_totalSupply` according to their own requirements:
+A CEP20 token must implement the interface `ICEP20` in ICEP20.sol. This is a template contract CEP20Token.template. Users just need to fill in `_name`, `_symbol`, `_decimals` and `_totalSupply` according to their own requirements:
 
 ```text
   constructor() public {
@@ -40,8 +40,8 @@ web3.eth.accounts.create([entropy]);
 ```text
 web3.eth.accounts.create();
 {
-  address: '0x926605D0729a968266f1BB299d8Df0471C4F5367',
-  privateKey: '0x6b4618539d95f205f33e916e89404b301dde545c0c4acc181fd0c0b42708bad3',
+  address: '0x883591a195537e90FE878a62363758C74fFd9E95',
+  privateKey: '0x5a7a2e98e2c63b8d3f9bcfd8d4b41846e28c1d01f6184550d42b688897c9bf4c',
   signTransaction: [Function: signTransaction],
   sign: [Function: sign],
   encrypt: [Function: encrypt]
@@ -51,7 +51,7 @@ web3.eth.accounts.create();
 #### Recover a wallet <a id="recover-a-wallet"></a>
 
 ```text
-const account = web3.eth.accounts.privateKeyToAccount("0xe500f5754d761d74c3eb6c2566f4c568b81379bf5ce9c1ecd475d40efe23c577")
+const account = web3.eth.accounts.privateKeyToAccount("0x5a7a2e98e2c63b8d3f9bcfd8d4b41846e28c1d01f6184550d42b688897c9bf4c")
 ```
 
 #### Check balance <a id="check-balance"></a>
@@ -85,7 +85,7 @@ The balance will be bumped by e18 for CLV.
     // // Make a transaction using the promise
     web3.eth.sendTransaction({
         from: holder,
-        to: '0x0B75fbeB0BC7CC0e9F9880f78a245046eCBDBB0D',
+        to: '0x063eBCD1dB02320814Acc0721e65f14b8755Ff41',
         value: '1000000000000000000',
         gas: 5000000,
         gasPrice: 18e9,
