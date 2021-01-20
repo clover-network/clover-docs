@@ -59,7 +59,7 @@ Burn percentage is currently `1.00%`.
 
 ## Precision
 
-CLV have 10 decimals of precision. In other words, 10 \*\* 10 \(10,000,000,000 or ten billion\) Plancks make up a CLV.
+CLV have 12 decimals of precision. In other words, 10 \*\* 10 \(10,000,000,000 or ten billion\) Plancks make up a CLV.
 
 The denomination of CLV was changed from 12 decimals of precision at block \#1,248,328 in an event known as _Denomination Day_. See Redenomination for details.
 

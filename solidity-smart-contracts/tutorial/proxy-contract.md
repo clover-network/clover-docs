@@ -19,7 +19,7 @@ By using this approach, data will be read from a designated data contract direct
 
 `delegatecall` opcode was implemented in [EIP-7](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7.md). It is possible to delegate execution to other contract, but execution context stays the same. As with delegatecall, the msg.sender will remain that of the caller of the proxy contract. One of the main disadvantages of this approach is that contract code of the proxy will not reflect the state that it stores.
 
-## Writing Upgradeable BEP20 Contracts <a id="writing-upgradeable-bep20-contracts"></a>
+## Writing Upgradeable CEP20 Contracts <a id="writing-upgradeable-bep20-contracts"></a>
 
 It’s worth mentioning that these restrictions have their roots in how the Ethereum VM works, and apply to all projects that work with upgradeable contracts, not just OpenZeppelin Upgrades.
 
@@ -32,12 +32,12 @@ This means that, when using a contract with the OpenZeppelin Upgrades, you need 
 ```text
 pragma solidity ^0.6.0;
   import "@openzeppelin/contracts/proxy/TransparentUpgradeableProxy.sol";
-  contract BEP20UpgradeableProxy is TransparentUpgradeableProxy {
+  contract CEP20UpgradeableProxy is TransparentUpgradeableProxy {
     constructor(address logic, address admin, bytes memory data) TransparentUpgradeableProxy(logic, admin, data) public {
     }}
 ```
 
- OpenZeppelin Upgrades provides an Initializable base contract that has an initializer modifier to prevent a contract from being _initialized_ multiple times: https://github.com/binance-chain/canonical-upgradeable-bep20/blob/47ed7a710e6e86bdc85f2118bf63fc892e3b7716/contracts/BEP20TokenImplementation.sol\#L37
+ OpenZeppelin Upgrades provides an Initializable base contract that has an initializer modifier to prevent a contract from being _initialized_ multiple times: https://github.com/clover-network/canonical-upgradeable-cep20/blob/47ed7a710e6e86bdc85f2118bf63fc892e3b7716/contracts/BEP20TokenImplementation.sol\#L37
 
 ```text
  /**
@@ -53,7 +53,7 @@ function initialize(string memory name, string memory symbol, uint8 decimals, ui
     }
 ```
 
- BEP20 contract initializes the token’s name, symbol, and decimals in its constructor. You should not use these contracts in your BEP20 Upgrades contract. , make sure to use the `upgradableBEP20implementation` that has been modified to use initializers instead of constructors. https://github.com/clover-chain/clv-genesis-contract/blob/42922472b43397fbca9d0c84c7f72fbfaf39efc3/contracts/bep20\_template/BEP20Token.template\#L351
+ CEP20 contract initializes the token’s name, symbol, and decimals in its constructor. You should not use these contracts in your BEP20 Upgrades contract. , make sure to use the `upgradableCEP20implementation` that has been modified to use initializers instead of constructors. https://github.com/clover-chain/clv-genesis-contract/blob/42922472b43397fbca9d0c84c7f72fbfaf39efc3/contracts/bep20\_template/BEP20Token.template\#L351
 
 ```text
 constructor() public {

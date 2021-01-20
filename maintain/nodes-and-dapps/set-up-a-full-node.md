@@ -84,8 +84,8 @@ cargo 1.41.0 (626f0f40e 2019-12-03)
 The [clover-netwoek/clover](https://github.com/clover-network/clover) repo's master branch contains the latest Kusama code.
 
 ```text
-git clone https://github.com/paritytech/clover kusama
-cd kusama
+git clone https://github.com/paritytech/clover clover
+cd clover
 ./scripts/init.sh
 cargo build --release
 ```
@@ -93,8 +93,8 @@ cargo build --release
 Alternatively, if you wish to use a specific release, you can check out a specific tag \(`v0.8.3` in the example below\):
 
 ```text
-git clone https://github.com/paritytech/clover kusama
-cd kusama
+git clone https://github.com/paritytech/clover clover
+cd clover
 git checkout tags/v0.8.3
 ./scripts/init.sh
 cargo build --release
@@ -105,7 +105,7 @@ cargo build --release
 The built binary will be in the `target/release` folder, called clover.
 
 ```text
-./target/release/clover --name "My node's name"
+./target/release/clover --name "My node's name" --chain specs/clover-cc1-raw.json
 ```
 
 Use the `--help` flag to find out which flags you can use when running the node. For example, if [connecting to your node remotely](https://wiki.polkadot.network/docs/en/maintain-wss), you'll probably want to use `--ws-external` and `--rpc-cors all`.
@@ -129,6 +129,8 @@ It is possible to almost quadruple synchronization speed by using an additional 
 Finally, you can use Docker to run your node in a container. Doing this is a bit more advanced so it's best left up to those that either already have familiarity with docker, or have completed the other set-up instructions in this guide. If you would like to connect to your node's WebSockets ensure that you run you node with the `--rpc-external` and `--ws-external` commands.
 
 ```text
-docker run -p 9944:9944 parity/clover:v0.8.24 --name "calling_home_from_a_docker_container" --rpc-external --ws-external
+docker run -p 9944:9944 clover-network/clover:latest --name "calling_home_from_a_docker_container" --rpc-external --ws-external
 ```
+
+
 

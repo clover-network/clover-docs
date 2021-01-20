@@ -2,7 +2,7 @@
 
 ### Create A Project <a id="create-a-project"></a>
 
-The first step is to create a Truffle project. We'll use the \*MegaCoin as an example, which creates a token that can be transferred between accounts:
+The first step is to create a Truffle project. We'll use the MegaCoin as an example, which creates a token that can be transferred between accounts:
 
 * Create a new directory for your Truffle project
 
@@ -11,7 +11,7 @@ mkdir MegaCoin
 cd MegaCoin
 ```
 
-* Intialize your project:
+* Initialize your project:
 
 ```text
 truffle init

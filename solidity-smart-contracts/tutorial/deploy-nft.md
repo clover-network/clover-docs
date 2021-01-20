@@ -290,7 +290,7 @@ A sample JSON for tokenID 1 is: [http://my-json-server.typicode.com/huangsuyu/nf
 
 ## Deploy to a public testnet <a id="deploy-to-a-public-testnet"></a>
 
-Next we will deploy to Binance Smart Chain testnet .
+Next we will deploy to Clover testnet .
 
 To deploy, we will use the instructions for [Connecting to Public Test Networks with Truffle](https://forum.openzeppelin.com/t/connecting-to-public-test-networks-with-truffle/2960)
 

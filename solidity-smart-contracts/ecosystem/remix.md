@@ -1,6 +1,6 @@
 # Remix
 
-Deploys a BEP20 smart contract with a message, and renders it in the front-end. You can interact with the smart contract easily!
+Deploys a CEP20 smart contract with a message, and renders it in the front-end. You can interact with the smart contract easily!
 
 This dapp implements a "Hello World" style application that echoes a message passed to the contract to the front end. This tutorial is intended to be followed using the online IDE available at [Remix IDE](https://remix.ethereum.org/).
 

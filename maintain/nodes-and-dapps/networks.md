@@ -10,23 +10,7 @@ To connect to a Clover network please follow the [instructions](https://app.gitb
 
 The Clover mainnet is not released yet. Instructions will be here once the network is available.
 
-### Kusama Canary Network
-
-The Kusama canary network is an early, unaudited version of Clover that is running today and holds real economic value.
-
-Currently Kusama is built from the tip of master and is the default option when starting a node.
-
-Run the Clover binary:
-
-```text
-clover
-```
-
-and you will connect and start syncing to Kusama.
-
-Check your node is connected by viewing it on [Telemetry](https://apps.clover.finance/#/explorer).
-
-### Westend Test Network
+### Clover Test Network
 
 Westend is the latest test network for Clover. The tokens on this network are called _Westies_ and they purposefully hold no economic value.
 
@@ -40,7 +24,7 @@ clover
 
 and you will connect and start syncing to Westend.
 
-#### Westend Faucet
+#### Clover Faucet
 
 Follow the instruction here for instructions on acquiring Westies.
 

@@ -1,6 +1,6 @@
 # How to Nominate on Clover
 
-> The following information applies to the Clover network. If you want to nominate on Kusama, check out the [Kusama guide](https://guide.kusama.network/docs/en/mirror-maintain-guides-how-to-nominate-kusama) instead.
+> The following information applies to the Clover network.
 
 Nominators are one type of participant in the staking subsystem of Clover. They are responsible for appointing their stake to the validators who are the second type of participant. By appointing their stake, they are able to elect the active set of validators and share in the rewards that are paid out.
 

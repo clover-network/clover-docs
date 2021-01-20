@@ -1,6 +1,6 @@
 # Run a Validator \(Clover\)
 
-> The following information applies to the Clover network. If you want to set up a validator on Kusama, check out the [Kusama guide](https://guide.kusama.network/docs/en/mirror-maintain-guides-how-to-validate-kusama) instead.
+> The following information applies to the Clover network.
 
 This guide will instruct you how to set up a validator node on the Clover network.
 
@@ -104,7 +104,7 @@ You should generally use the latest **0.8.x** tag. You should either review the 
 > Note: If you prefer to use SSH rather than HTTPS, you can replace the first line of the below with `git clone git@github.com:paritytech/`Clover`.git`.
 
 ```text
-git clone https://github.com/paritytech/Clover.git
+git clone https://github.com/clover-network/clover.git
 cd Clover
 git tag -l | sort -V | grep -v -- '-rc'
 echo Get the latest version and replace VERSION (below) with it.

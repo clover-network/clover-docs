@@ -14,8 +14,8 @@ Create a new server on your provider of choice or locally at home \(preferred\).
 
 ```text
 curl https://getsubstrate.io -sSf | bash
-git clone https://github.com/paritytech/clover kusama
-cd kusama
+git clone https://github.com/clover-network/clover clover
+cd clover
 ./scripts/init.sh
 cargo build --release
 ./target/release/clover --name "DigitalOcean 10 USD droplet ftw" --rpc-cors all
