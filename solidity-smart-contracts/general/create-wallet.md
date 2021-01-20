@@ -1,9 +1,5 @@
 # Create Wallet
 
-## Key Management <a id="key-management"></a>
-
-This article is a guide about key management strategy on client side of your Decentralised Application on Clover Chain
-
 ### Setup Web3 <a id="setup-web3"></a>
 
 `web3.js` is a javascript library that allows our client-side application to talk to the blockchain. We configure web3 to communicate via Metamask.

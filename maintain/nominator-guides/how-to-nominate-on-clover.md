@@ -105,7 +105,7 @@ Result:
     }
 ```
 
-You can verify the bonding state under the [Staking](https://polkadot.js.org/apps/#/staking/actions) page on the Clover-JS Apps Dashboard.
+You can verify the bonding state under the [Staking](https://apps.clover.finance/#/explorer) page on the Clover-JS Apps Dashboard.
 
 ### Step 3. Nominate a validator
 
