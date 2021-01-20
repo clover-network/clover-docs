@@ -7,7 +7,7 @@ description: >-
 # eth\_getTransactionByBlockNumberAndIndex
 
 ```text
-getTransactionFromBlock(BlockNumber, indexNumber [, callback])
+web3.eth.getTransactionByBlockNumberAndIndex(BlockNumber, indexNumber [, callback])
 ```
 
 #### Parameters
@@ -35,7 +35,7 @@ A transaction object its hash `transactionHash`:
 #### Example
 
 ```text
-getTransactionFromBlock("0x8",0).then(console.log)
+web3.eth.getTransactionByBlockNumberAndIndex("0x8",0).then(console.log)
 > {
     "blockHash":"0xfb8d7ee8fb5f4fbebf41a55caa5e988a480a0ce277813cd1ec4443c54f601ddd",
     "blockNumber":"0x8",
