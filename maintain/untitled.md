@@ -4,9 +4,9 @@ Welcome to the network maintainers section of the Clover wiki. Here you will fin
 
 ## Node
 
-* [Networks Guide](https://wiki.polkadot.network/docs/en/maintain-networks) - A list of the available Clover networks that you can connect to with a node.
-* [Set up a Full Node](https://wiki.polkadot.network/docs/en/maintain-sync) - Get up and started by syncing a full node for the Kusama network. The steps in the guide will broadly apply also to any Substrate-based network \(like Clover\).
-* [Set up WSS using Nginx](https://wiki.polkadot.network/docs/en/maintain-wss) - Set up a Secure WebSockets server for your node's WebSockets connection.
+* [Networks Guide](https://app.gitbook.com/@clover-network/s/portal/~/drafts/-MRTUAKNnSpv6t1L-a0H/maintain/nodes-and-dapps/networks/@drafts) - A list of the available Clover networks that you can connect to with a node.
+* [Set up a Full Node](https://app.gitbook.com/@clover-network/s/portal/~/drafts/-MRTY_VoDtkqKoz1BxW3/maintain/nodes-and-dapps/set-up-a-full-node/@drafts) - Get up and started by syncing a full node for the Kusama network. The steps in the guide will broadly apply also to any Substrate-based network \(like Clover\).
+* [Set up WSS using Nginx](https://app.gitbook.com/@clover-network/s/portal/~/drafts/-MRTY_VoDtkqKoz1BxW3/maintain/nodes-and-dapps/set-up-secure-websocket-for-remote-connections/@drafts) - Set up a Secure WebSockets server for your node's WebSockets connection.
 
 ## Collator
 
@@ -15,14 +15,13 @@ Welcome to the network maintainers section of the Clover wiki. Here you will fin
 ## Nominator
 
 * Learn about Nominators - High level overview of nominators and related links.
-* [Nomination Guide \(Clover\)](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-nominate-polkadot) - Walkthrough on how to nominate on the Clover network.
-* Nomination Guide \(Kusama\) - Walkthrough on how to nominate on the Kusama canary network.
-* [How to stop being a Nominator](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-unbond) - Guide on how to stop nominating.
+* [Nomination Guide \(Clover\)](https://app.gitbook.com/@clover-network/s/portal/~/drafts/-MRTY_VoDtkqKoz1BxW3/maintain/nominator-guides/how-to-nominate-on-clover/@drafts) - Walkthrough on how to nominate on the Clover network.
+* [How to stop being a Nominator](https://app.gitbook.com/@clover-network/s/portal/~/drafts/-MRTY_VoDtkqKoz1BxW3/maintain/nominator-guides/unbonding-and-rebonding/@drafts) - Guide on how to stop nominating.
 
 ## Validator
 
 * Learn about Validators - High level overview of validator and related links.
-* [Validator Payouts](https://wiki.polkadot.network/docs/en/maintain-guides-validator-payout) - Overview on how validator rewards are calculated and paid.
+* [Validator Payouts](https://app.gitbook.com/@clover-network/s/portal/~/drafts/-MRTY_VoDtkqKoz1BxW3/maintain/validator-guides/validator-payout-overview/@drafts) - Overview on how validator rewards are calculated and paid.
 * [Validation Guide \(Clover\)](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-validate-polkadot) - Walkthrough on how to validate on the Clover network.
 * Validation Guide \(Kusama\) - Walkthrough on how to validate on the Kusama canary network.
 * [Using systemmd for the Validator Node](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-systemd) - Configuring systemmd with the Validator node.
