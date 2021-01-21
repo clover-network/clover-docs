@@ -2,7 +2,7 @@
 
 ## 1. Install build tools & libraries <a id="__docusaurus"></a>
 
-Clover setup is easiest on Unix-based operating systems like macOS or Linux. Here are the instructions to install Rust's toolchains. If you have already done this before, please go to the Step 3
+Clover is the easiest to be set up on Unix-based operating systems like macOS or Linux. Here is the instruction on installing Rust's toolchains. If you have already done this, please go to the Step 3.
 
 #### macOS
 
@@ -39,7 +39,7 @@ export OPENSSL_INCLUDE_DIR="/usr/include/openssl-1.0"
 
 ## 2. Install Rust toolchain
 
-This guide uses [`rustup`](https://rustup.rs/) to help manage the Rust toolchain. First install and configure `rustup`:
+This guide uses [`rustup`](https://rustup.rs/) to help manage the Rust toolchain. First, install and configure `rustup`:
 
 ```bash
 # Install
@@ -50,14 +50,14 @@ source ~/.cargo/env
 
 ## 3. Compile the node
 
-We start by cloning the master branch of the Clover repo that you can find here: [https://github.com/clover-network/clover](https://github.com/clover-network/clover)
+Let's start by cloning the master branch of the Clover repo that you can find here: [https://github.com/clover-network/clover](https://github.com/clover-network/clover)
 
 ```bash
 git clone git@github.com:clover-network/clover.git
 cd clover
 ```
 
-Once you have followed all of the procedures above, it's time to build the standalone node by running:
+Once you have followed all of the steps above, it's time to build the standalone node by running:
 
 ```bash
 ./scripts/init.sh
@@ -65,7 +65,7 @@ cargo build --release
 ```
 
 {% hint style="info" %}
-The initial build will take a while. Depending on your hardware, you should plan on 30 minutes for the build process to finish.
+The initial build will take a while, depending on your hardware. It may take 30 minutes for the build process to complete.
 {% endhint %}
 
 ## 4. Run the Node
@@ -89,12 +89,12 @@ The local standalone Clover node provides two RPC endpoints:
 
 ### Connecting Polkadot JS Apps to a Local Clover Node <a id="connecting-polkadot-js-apps-to-a-local-moonbeam-node"></a>
 
-The locally-running Clover node is a Substrate-based node, so we can interact with it using standard Substrate tools. Let’s start by connecting to it with Clover JS Apps.  
-Open a browser to: [https://apps.clover.finance/\#/explorer](https://apps.clover.finance/#/explorer). This will open Polkadot JS Apps which automatically connects to Polkadot MainNet.
+The locally-running Clover node is a Substrate-based node, so we can interact with it using standard Substrate tools. Let’s start by connecting it with Clover JS Apps.  
+Visit https://apps.clover.finance/\#/explorer and you will see Polkadot JS Apps and are automatically connected to the Polkadot MainNet.
 
 ![](../../.gitbook/assets/1609227317438.jpg)
 
-Click on the top left corner to open the menu to configure the networks, and then navigate down to open the Development sub-menu. In there, you will want to toggle the "Local Node" option which points Polkadot JS Apps to `ws://127.0.0.1:9944`. Next, hit on the Switch button and the site should connect to your standalone Clover node.
+Click on the top left corner to open the menu and configure the networks, then navigate down to open the Development sub-menu. Select the "Local Node" option which points Polkadot JS Apps to `ws://127.0.0.1:9944`. Next, click on the Switch button and the site should be successfully connected to your standalone Clover node.
 
 ![](../../.gitbook/assets/1609227432992.jpg)
 

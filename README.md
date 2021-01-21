@@ -21,7 +21,7 @@ Clover is a Blockchain Operating System, which contains storage layer, smart con
 
 Substrate is technically fit for Clover. By building on top of Substrate, Clover is able to leverage the extensive functionalities that Substrate provides out-of-the-box, rather than needing to build them from scratch. These functionalities include peer-to-peer networking, consensus mechanisms, governance functionality, EVM implementation, and more.
 
-Overall, using Substrate will dramatically reduce the time and work needed to implement Clover. Substrate allows a great degree of customization, which is compulsory when achieving compatibility with Ethereum. And, by using Rust, we benefit from both safety guarantees and performance gains.
+Overall, using Substrate will dramatically reduce the time and work needed to implement Clover. Substrate allows a great degree of customization, which is compulsory when achieving compatibility with Ethereum. Meanwhile, by adopting Rust, Clover will gain both safety guarantee and performance enhancement.
 
 ### How to Engage With the Clover Community
 
