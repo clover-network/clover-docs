@@ -1,2 +1,0 @@
-# Transaction fee distribution protocol
-

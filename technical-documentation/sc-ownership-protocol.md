@@ -1,2 +1,0 @@
-# SC ownership protocol
-

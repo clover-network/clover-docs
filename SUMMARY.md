@@ -107,11 +107,6 @@
 * [DAPP store](wallet/dapp-store.md)
 * [Clover Assets Explorer](wallet/assets-stats-and-management.md)
 
-## CLOVER BLOCKCHAIN EXPLORER
-
-* [Block / Transaction / Contract](clover-blockchain-explorer/block-transaction-contract.md)
-* [Ownership transfer](clover-blockchain-explorer/untitled.md)
-
 ## Technical Documentation
 
 * [Web3 compatibility](technical-documentation/web3-compatibility/README.md)
@@ -151,10 +146,6 @@
   * [net\_listening](technical-documentation/web3-compatibility/net_listening.md)
   * [web3\_clientVersion](technical-documentation/web3-compatibility/web3_clientversion.md)
   * [web3\_sha3](technical-documentation/web3-compatibility/web3_sha3.md)
-* [SC ownership protocol](technical-documentation/sc-ownership-protocol.md)
-* [Transaction fee distribution protocol](technical-documentation/transaction-fee-distribution-protocol.md)
-* [Clover parachain](technical-documentation/clover-parachain.md)
-* [Cross-chain assets](technical-documentation/cross-chain-assets.md)
 * [Technical design of Clover wallet](technical-documentation/technical-design-of-clover-wallet.md)
 
 ## Maintain
