@@ -9,8 +9,14 @@ description: This section shows how to connect to Clover Test Net using MetaMask
 Please refer to the following details for Clover Test Net:
 
 * Network Name: `Clover TestNet`
-* RPC URL: `https://rpc.clover.finance`
-* Web Socket URL: `wss://api.clover.finance`
+* RPC URL: 
+  * `https://rpc.clover.finance` 
+  * `https://rpc-2.clover.finance` 
+  * `https://rpc-3.clover.finance`
+* Web Socket URL:
+  *  `wss://api.clover.finance`
+  * `wss://api-2.clover.finance`
+  * `wss://api-3.clover.finance`
 * ChainID: `1337`
 * Symbol \(Optional\): `CLV`
 
