@@ -14,7 +14,7 @@ Please refer to the following details for Clover Test Net:
   * `https://rpc-2.clover.finance` 
   * `https://rpc-3.clover.finance`
 * Web Socket URL:
-  *  `wss://api.clover.finance`
+  * `wss://api.clover.finance`
   * `wss://api-2.clover.finance`
   * `wss://api-3.clover.finance`
 * ChainID: `1337`
