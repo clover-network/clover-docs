@@ -2,7 +2,7 @@
 description: This section shows how to connect to Clover Test Net using MetaMask or Remix
 ---
 
-# Test Net
+# Testnet
 
 ## Clover Test Net
 
@@ -24,7 +24,7 @@ Please refer to the following details for Clover Test Net:
 
 In MetaMask, navigate to Settings -&gt; Networks -&gt; Add Network and fill in the above details:
 
-![](../.gitbook/assets/testnet.jpg)
+![](../../.gitbook/assets/testnet.jpg)
 
 Then the MetaMask can connect to Clover Test Net. You can apply CLV for test via the faucet [http://faucet.clovernode.com/](http://faucet.clovernode.com/)
 
@@ -32,7 +32,7 @@ Then the MetaMask can connect to Clover Test Net. You can apply CLV for test via
 
 Make sure your MetaMask is connected to Clover Test Net as described above.  The screen shot is as follows:
 
-![](../.gitbook/assets/remix.jpg)
+![](../../.gitbook/assets/remix.jpg)
 
 ## Connect to Clover Test Net
 

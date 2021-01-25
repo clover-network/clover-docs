@@ -13,8 +13,13 @@
   * [Web3.js](quick-start/local-node/web3.js/README.md)
     * [Query Balance](quick-start/local-node/web3.js/query-balance.md)
     * [Send Transaction](quick-start/local-node/web3.js/send-transaction.md)
-* [Test Net](quick-start/testnet.md)
-* [Faucet](quick-start/faucet.md)
+* [Testnet](quick-start/testnet/README.md)
+  * [Create an account](quick-start/testnet/create-an-account.md)
+  * [Faucet](quick-start/testnet/faucet.md)
+  * [Clover Explorer](quick-start/testnet/clover-explorer.md)
+  * [Run a Clover node](quick-start/testnet/run-a-clover-node.md)
+  * [Become a validator](quick-start/testnet/become-a-validator.md)
+  * [Connect to test network](quick-start/testnet/connect-to-test-network.md)
 
 ## Solidity Smart Contracts
 
@@ -92,6 +97,33 @@
   * [Deploy Contract](dapp-development-1/tutorial/deploy-contract.md)
   * [Counter Webapp](dapp-development-1/tutorial/counter-webapp.md)
 
+## Maintain
+
+* [Network Maintainers](maintain/untitled.md)
+* [Clover Parameters](maintain/clover-parameters.md)
+* [Nodes and Dapps](maintain/nodes-and-dapps/README.md)
+  * [Set up a Full Node](maintain/nodes-and-dapps/set-up-a-full-node.md)
+  * [Networks](maintain/nodes-and-dapps/networks.md)
+  * [Set up Secure WebSocket for Remote Connections](maintain/nodes-and-dapps/set-up-secure-websocket-for-remote-connections.md)
+  * [Errors and How to Resolve Them](maintain/nodes-and-dapps/errors-and-how-to-resolve-them.md)
+* [Nominator Guides](maintain/nominator-guides/README.md)
+  * [How to Nominate on Clover](maintain/nominator-guides/how-to-nominate-on-clover.md)
+  * [Unbonding and Rebonding](maintain/nominator-guides/unbonding-and-rebonding.md)
+* [Validator Guides](maintain/validator-guides/README.md)
+  * [Run a Validator \(Clover\)](maintain/validator-guides/run-a-validator-clover.md)
+  * [Validator Payout Overview](maintain/validator-guides/validator-payout-overview.md)
+  * [Using systemd for the Validator Node](maintain/validator-guides/using-systemd-for-the-validator-node.md)
+  * [Secure Validator](maintain/validator-guides/secure-validator.md)
+  * [How to use Clover Secure Validator Setup](maintain/validator-guides/how-to-use-clover-secure-validator-setup.md)
+  * [Set Up a Sentry Node - Public Node](maintain/validator-guides/set-up-a-sentry-node-public-node.md)
+  * [How to Upgrade Your Validator](maintain/validator-guides/how-to-upgrade-your-validator.md)
+  * [Monitor your node](maintain/validator-guides/monitor-your-node.md)
+  * [How to Chill](maintain/validator-guides/how-to-chill.md)
+* [Governance Guides](maintain/governance-guides/README.md)
+  * [Participate in Democracy](maintain/governance-guides/participate-in-democracy.md)
+  * [Join the Council](maintain/governance-guides/join-the-council.md)
+  * [Voting for Councillors](maintain/governance-guides/voting-for-councillors.md)
+
 ## Clover Eco Incentive Program
 
 * [Introduction](clover-eco-incentive-program/introduction.md)
@@ -147,31 +179,4 @@
   * [web3\_clientVersion](technical-documentation/web3-compatibility/web3_clientversion.md)
   * [web3\_sha3](technical-documentation/web3-compatibility/web3_sha3.md)
 * [Technical design of Clover wallet](technical-documentation/technical-design-of-clover-wallet.md)
-
-## Maintain
-
-* [Network Maintainers](maintain/untitled.md)
-* [Clover Parameters](maintain/clover-parameters.md)
-* [Nodes and Dapps](maintain/nodes-and-dapps/README.md)
-  * [Set up a Full Node](maintain/nodes-and-dapps/set-up-a-full-node.md)
-  * [Networks](maintain/nodes-and-dapps/networks.md)
-  * [Set up Secure WebSocket for Remote Connections](maintain/nodes-and-dapps/set-up-secure-websocket-for-remote-connections.md)
-  * [Errors and How to Resolve Them](maintain/nodes-and-dapps/errors-and-how-to-resolve-them.md)
-* [Nominator Guides](maintain/nominator-guides/README.md)
-  * [How to Nominate on Clover](maintain/nominator-guides/how-to-nominate-on-clover.md)
-  * [Unbonding and Rebonding](maintain/nominator-guides/unbonding-and-rebonding.md)
-* [Validator Guides](maintain/validator-guides/README.md)
-  * [Run a Validator \(Clover\)](maintain/validator-guides/run-a-validator-clover.md)
-  * [Validator Payout Overview](maintain/validator-guides/validator-payout-overview.md)
-  * [Using systemd for the Validator Node](maintain/validator-guides/using-systemd-for-the-validator-node.md)
-  * [Secure Validator](maintain/validator-guides/secure-validator.md)
-  * [How to use Clover Secure Validator Setup](maintain/validator-guides/how-to-use-clover-secure-validator-setup.md)
-  * [Set Up a Sentry Node - Public Node](maintain/validator-guides/set-up-a-sentry-node-public-node.md)
-  * [How to Upgrade Your Validator](maintain/validator-guides/how-to-upgrade-your-validator.md)
-  * [Monitor your node](maintain/validator-guides/monitor-your-node.md)
-  * [How to Chill](maintain/validator-guides/how-to-chill.md)
-* [Governance Guides](maintain/governance-guides/README.md)
-  * [Participate in Democracy](maintain/governance-guides/participate-in-democracy.md)
-  * [Join the Council](maintain/governance-guides/join-the-council.md)
-  * [Voting for Councillors](maintain/governance-guides/voting-for-councillors.md)
 
