@@ -179,4 +179,6 @@
   * [web3\_clientVersion](technical-documentation/web3-compatibility/web3_clientversion.md)
   * [web3\_sha3](technical-documentation/web3-compatibility/web3_sha3.md)
 * [Technical design of Clover wallet](technical-documentation/technical-design-of-clover-wallet.md)
+* [Clover Test Cases](technical-documentation/clover-test-cases.md)
+* [Clover EVM](technical-documentation/clover-evm.md)
 

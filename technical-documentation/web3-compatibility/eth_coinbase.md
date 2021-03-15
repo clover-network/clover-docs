@@ -5,7 +5,7 @@ description: Returns the coinbase address to which mining rewards will go.
 # eth\_coinbase
 
 ```text
-getCoinbase([callback])
+web3.eth.getCoinbase([callback])
 ```
 
 #### Returns
