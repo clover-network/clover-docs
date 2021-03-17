@@ -2,7 +2,7 @@
 
 Please refer to the following details for Clover Preview network:
 
-* Network Name: `Clover PreviewNet`
+* Network Name: `Clover Preview Net`
 * RPC URL: 
   * `https://rpc.clover.finance` 
   * `https://rpc-2.clover.finance` 
