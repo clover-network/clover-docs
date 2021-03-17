@@ -20,6 +20,6 @@ Returns chain ID.
 
 ```text
 > web3.eth.getChainId().then(console.log);
-> 1337
+> 1023
 ```
 

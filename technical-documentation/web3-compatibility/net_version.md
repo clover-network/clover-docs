@@ -21,7 +21,7 @@ The current network id.
 ```text
 var version = web3.net.version;
 console.log(version);
-> 1337
+> 1023
 ```
 
 

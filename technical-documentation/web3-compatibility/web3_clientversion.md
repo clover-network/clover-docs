@@ -17,7 +17,7 @@ The current version.
 ```text
 const clientVersion = web3.clientVersion
 console.log(clientVersion)
-> clover/v2.1/fc-rpc-0.9.0
+> clover/v11.1/fc-rpc-0.1.0-clover
 ```
 
 
