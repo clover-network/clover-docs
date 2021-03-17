@@ -13,13 +13,13 @@
   * [Web3.js](quick-start/local-node/web3.js/README.md)
     * [Query Balance](quick-start/local-node/web3.js/query-balance.md)
     * [Send Transaction](quick-start/local-node/web3.js/send-transaction.md)
-* [Testnet](quick-start/testnet/README.md)
+* [Previewnet](quick-start/testnet/README.md)
   * [Create an account](quick-start/testnet/create-an-account.md)
   * [Faucet](quick-start/testnet/faucet.md)
   * [Clover Explorer](quick-start/testnet/clover-explorer.md)
   * [Run a Clover node](quick-start/testnet/run-a-clover-node.md)
   * [Become a validator](quick-start/testnet/become-a-validator.md)
-  * [Connect to test network](quick-start/testnet/connect-to-test-network.md)
+  * [Connect to Preview network](quick-start/testnet/connect-to-test-network.md)
 
 ## Solidity Smart Contracts
 
