@@ -18,59 +18,6 @@ Archive nodes are used by utilities that need past information - like block expl
 
 Another type of node is a **light node**. A light node has only the runtime and the current state, but does not store past extrinsics and so cannot restore the full chain from genesis. Light nodes are useful for resource restricted devices. An interesting use-case of light nodes is a Chrome extension, which is a node in its own right, running the runtime in WASM format: [https://github.com/paritytech/substrate-light-ui](https://github.com/paritytech/substrate-light-ui)
 
-### Fast Install Instructions \(Mac\)
-
-> Not recommended if you're a validator. Please see [secure validator setup](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/secure-validator/@drafts)
-
-* Type terminal in the ios searchbar/searchlight to open the 'terminal' application
-* Install Homebrew within the terminal by running: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-* Then run: `brew install openssl cmake llvm`
-* Install Rust in your terminal by running: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-* Once Rust is installed, run the following command to clone and build the Clover code:
-
-  ```text
-  git clone https://github.com/paritytech/Clover clover
-  cd clover
-  ./scripts/init.sh
-  cargo build --release --features clover-testnet
-  # or use below command if you're using the latest rust toolchain
-  # cargo build --release --features clover-testnet -Z package-features
-
-  ```
-
-* Run the following command to start your node: `./target/release/clover --name "My node's name"`
-
-### Fast Install Instructions \(Windows\)
-
-> This works only on Windows Pro with virtualization enabled.
-
-> Not recommended if you're a validator. Please see [secure validator setup](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/secure-validator/@drafts)
-
-* Install WSL: [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-* Install Ubuntu \(same webpage\): [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-* Determine the latest version of the Clover binary \(you can see the latest releases here: [https://github.com/clover-network/clover/releases](https://github.com/clover-network/clover/releases)\)
-* Download the correct Clover binary within Ubuntu by running the following command. Replace `*VERSION*` with the tag of the latest version from the last step \(e.g. `v0.8.22`\): `curl -sL https://github.com/clover-network/clover/releases/download/*VERSION*/clover-o clover`
-* Run the following: `sudo chmod +x clover`
-* Run the following: `./clover --name "Your Node Name Here"`
-* Find your node at [https://apps.clover.finance/\#/explorer](https://apps.clover.finance/#/explorer)
-
-### Fast Install Instructions \(Linux\)
-
-> Not recommended if you're a validator. Please see [secure validator setup](https://app.gitbook.com/@clover-network/s/portal/maintain/validator-guides/secure-validator/@drafts)
-
-For the most recent binary please see the [release page](https://github.com/clover-network/clover/releases) on the Clover repository. The URL in the code snippet below may become slightly out-of-date.
-
-Also please note that the nature of pre-built binaries means that they may not work on your particular architecture or Linux distribution. If you see an error like `cannot execute binary file: Exec format error` it likely means the binary is not compatible with your system. You will either need to compile the source code yourself or use docker.
-
-* Determine the latest version of the Clover binary \(you can see the latest releases here: 
-
-  [https://github.com/clover-network/clover/releases](https://github.com/clover-network/clover/releases)\)
-
-* Download the correct Clover binary within Ubuntu by running the following command. Replace `*VERSION*` with the tag of the latest version from the last step \(e.g. `v0.8.22`\): `curl -sL https://github.com/clover-network/clover/releases/download/*VERSION*/clover -o clover`
-* Run the following: `sudo chmod +x clover`
-* Run the following: `./clover --name "Your Node Name Here"`
-* Find your node at [https://apps.clover.finance/\#/explorer](https://apps.clover.finance/#/explorer)
-
 ## Get Substrate
 
 Follow instructions as outlined [here](https://substrate.dev/docs/en/knowledgebase/getting-started) - note that Windows users will have their work cut out for them. It's better to use a virtual machine instead.
@@ -87,7 +34,7 @@ cargo 1.41.0 (626f0f40e 2019-12-03)
 The [clover-network/clover](https://github.com/clover-network/clover) repo's master branch contains the latest Clover code.
 
 ```text
-git clone https://github.com/paritytech/clover clover
+git clone https://github.com/clover-network/clover
 cd clover
 ./scripts/init.sh
 cargo build --release
@@ -96,7 +43,7 @@ cargo build --release
 Alternatively, if you wish to use a specific release, you can check out a specific tag \(`v0.8.3` in the example below\):
 
 ```text
-git clone https://github.com/paritytech/clover clover
+git clone https://github.com/clover-network/clover
 cd clover
 git checkout tags/v0.8.3
 ./scripts/init.sh
