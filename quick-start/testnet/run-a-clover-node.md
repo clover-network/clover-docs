@@ -84,7 +84,7 @@ cargo 1.41.0 (626f0f40e 2019-12-03)
 
 ## Clone and Build
 
-The [clover-netwoek/clover](https://github.com/clover-network/clover) repo's master branch contains the latest Clover code.
+The [clover-network/clover](https://github.com/clover-network/clover) repo's master branch contains the latest Clover code.
 
 ```text
 git clone https://github.com/paritytech/clover clover
