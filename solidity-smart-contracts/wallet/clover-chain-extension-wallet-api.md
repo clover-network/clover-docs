@@ -74,7 +74,7 @@ These are the IDs of the Clover chains that Clover Chain Wallet supports by defa
 
 | Hex | Decimal | Network |
 | :--- | :--- | :--- |
-| 0x539 | 1337 | Clover Chain Test Network \(clv-testnet\) |
+| 0x3ff | 1023 | Clover Chain Test Network \(clv-testnet\) |
 
 This API can also return chain ids of Clover Chains if users switch to them. The possible return value would be: \| Chain Id \| Network \| \| -------------------- \| ---------------------------------------- \| \|  Clover Chain Test Network \(clv-testnet\) \|
 
