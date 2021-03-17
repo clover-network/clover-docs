@@ -32,7 +32,10 @@ Another type of node is a **light node**. A light node has only the runtime and 
   git clone https://github.com/paritytech/Clover clover
   cd clover
   ./scripts/init.sh
-  cargo build --release
+  cargo build --release --features clover-testnet
+  # or use below command if you're using the latest rust toolchain
+  # cargo build --release --features clover-testnet -Z package-features
+
   ```
 
 * Run the following command to start your node: `./target/release/clover --name "My node's name"`
