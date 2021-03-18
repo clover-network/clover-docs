@@ -74,9 +74,9 @@ These are the IDs of the Clover chains that Clover Chain Wallet supports by defa
 
 | Hex | Decimal | Network |
 | :--- | :--- | :--- |
-| 0x3ff | 1023 | Clover Chain Test Network \(clv-testnet\) |
+| 0x3ff | 1023 | Clover Chain Preview Network \(clv-previewnet\) |
 
-This API can also return chain ids of Clover Chains if users switch to them. The possible return value would be: \| Chain Id \| Network \| \| -------------------- \| ---------------------------------------- \| \|  Clover Chain Test Network \(clv-testnet\) \|
+This API can also return chain ids of Clover Chains if users switch to them. The possible return value would be: \| Chain Id \| Network \| \| -------------------- \| ---------------------------------------- \| \|  Clover Chain Preview Network \(clv-previewnet\) \|
 
 ## Properties <a id="properties"></a>
 
@@ -229,7 +229,7 @@ Transfer certain `amount` of `asset` \(CEP20\) on CloverChain.
 
 `accountId` could be retrieved from the `CloverChain.requestAccounts` API \(`id` field of each account\)
 
-`networkId` could be clv`-testnet`
+`networkId` could be clv`-previewnet`
 
 For example:
 

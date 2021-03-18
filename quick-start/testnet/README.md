@@ -28,7 +28,7 @@ In MetaMask, navigate to Settings -&gt; Networks -&gt; Add Network and fill in t
 
 ![](../../.gitbook/assets/testnet.jpg)
 
-Then the MetaMask can connect to Clover Preview Net. You can apply CLV for test via the faucet [http://faucet.clovernode.com/](http://faucet.clovernode.com/)
+Then the MetaMask can connect to Clover Preview Net. You can apply CLV for test via the faucet [https://faucet-iris.clover.finance/](https://faucet-iris.clover.finance/)
 
 ## Using Remix for Preview Net
 
