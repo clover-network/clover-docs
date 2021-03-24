@@ -90,4 +90,5 @@
 * [Technical design of Clover wallet](technical-documentation/technical-design-of-clover-wallet.md)
 * [Clover Test Cases](technical-documentation/clover-test-cases.md)
 * [Clover EVM](technical-documentation/clover-evm.md)
+* [Clover Accounts Binding](technical-documentation/clover-evm-bind.md)
 
