@@ -1,3 +1,7 @@
+---
+description: 'from https://wiki.polkadot.network/docs/en/maintain-sync'
+---
+
 # Set up a Full Node
 
 If you're building dapps or products on a Substrate-based chain like Clover or a custom Substrate implementation, you probably want the ability to run a node-as-a-back-end. After all, it's always better to rely on your own infrastructure than on a third-party-hosted one in this brave new decentralized world.

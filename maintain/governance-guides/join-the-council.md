@@ -1,3 +1,7 @@
+---
+description: 'from https://wiki.polkadot.network/docs/en/maintain-guides-how-to-join-council'
+---
+
 # Join the Council
 
 The council is an elected body of on-chain accounts that are intended to represent the passive stakeholders of Clover and/or Kusama. The council has two major tasks in governance: proposing referenda and vetoing dangerous or malicious referenda. For more information on the council, see the [governance page](https://wiki.polkadot.network/docs/en/learn-governance#council). This guide will walk you through entering your candidacy to the council.

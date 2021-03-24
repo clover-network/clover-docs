@@ -1,3 +1,7 @@
+---
+description: 'from https://wiki.polkadot.network/docs/en/maintain-guides-validator-payout'
+---
+
 # Validator Payout Overview
 
 ### Era Points

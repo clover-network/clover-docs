@@ -1,3 +1,7 @@
+---
+description: 'from https://wiki.polkadot.network/docs/en/maintain-guides-democracy'
+---
+
 # Participate in Democracy
 
 The public referenda chamber is one of the three bodies of on-chain governance as it's instantiated in Clover and Kusama. The other two bodies are the [council](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-join-council) and the [technical committee](https://wiki.polkadot.network/docs/en/learn-governance#technical-committee).

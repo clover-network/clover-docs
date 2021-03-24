@@ -1,3 +1,7 @@
+---
+description: 'from https://wiki.polkadot.network/docs/en/maintain-guides-how-to-upgrade'
+---
+
 # How to Upgrade Your Validator
 
 Validators perform critical functions for the network, and as such, have strict uptime requirements. Validators may have to go offline for periods of time to upgrade the client software or the host machine. This guide will walk you through upgrading your machine and keeping your validator online.

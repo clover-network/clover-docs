@@ -1,3 +1,7 @@
+---
+description: 'from https://wiki.polkadot.network/docs/en/maintain-index'
+---
+
 # Network Maintainers
 
 Welcome to the network maintainers section of the Clover wiki. Here you will find information and guides to set up a node and run the network.

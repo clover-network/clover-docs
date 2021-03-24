@@ -1,3 +1,9 @@
+---
+description: >-
+  from
+  https://wiki.polkadot.network/docs/en/maintain-guides-how-to-use-polkadot-secure-validator
+---
+
 # How to use Clover Secure Validator Setup
 
 The following guide will walk you through using [clover secure validator](https://github.com/w3f/polkadot-secure-validator) to deploy your validator in a secure way. It will work for Kusama \(and later clover\) out of the box, and if you're using another Substrate-based chain, should work with some tweaking. We assume you will be deploying on Kusama.

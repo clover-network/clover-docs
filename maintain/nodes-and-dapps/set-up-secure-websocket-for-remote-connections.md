@@ -1,3 +1,7 @@
+---
+description: 'from https://wiki.polkadot.network/docs/en/maintain-wss'
+---
+
 # Set up Secure WebSocket for Remote Connections
 
 You might want to host a node on one server and then connect to it from a UI hosted on another, e.g. [Clovere-JS UI](https://apps.clover.finance/#/explorer). This will not be possible unless you set up a secure proxy for websocket connections. Let's see how we can set up WSS on a remote Substrate node.

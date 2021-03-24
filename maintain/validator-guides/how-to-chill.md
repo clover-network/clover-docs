@@ -1,3 +1,7 @@
+---
+description: 'from https://wiki.polkadot.network/docs/en/maintain-guides-how-to-chill'
+---
+
 # How to Chill
 
 Stakers can be in any one of the three states: validating, nominating, or chilling. When a staker wants to temporarily pause their active engagement in staking, but does not want to unbond their funds, they can choose to "chill" their involvement and keep their funds staked.

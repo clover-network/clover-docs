@@ -1,3 +1,9 @@
+---
+description: >-
+  from
+  https://wiki.polkadot.network/docs/en/maintain-guides-how-to-nominate-polkadot
+---
+
 # How to Nominate on Clover
 
 > The following information applies to the Clover network.
