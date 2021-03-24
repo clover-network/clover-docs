@@ -1,3 +1,7 @@
+---
+description: 'from https://docs.binance.org/smart-chain/developer/BEP20.html'
+---
+
 # Introduction
 
 ## CIP20 Token <a id="bep20-token"></a>

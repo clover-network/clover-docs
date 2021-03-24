@@ -1,3 +1,7 @@
+---
+description: 'from https://docs.binance.org/smart-chain/developer/create-wallet.html'
+---
+
 # Create Wallet
 
 ### Setup Web3 <a id="setup-web3"></a>

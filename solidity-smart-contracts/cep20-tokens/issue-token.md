@@ -1,3 +1,7 @@
+---
+description: 'from https://docs.binance.org/smart-chain/developer/issue-BEP20.html'
+---
+
 # Issue Token
 
 **Compile and Deploy CP20 Contract**

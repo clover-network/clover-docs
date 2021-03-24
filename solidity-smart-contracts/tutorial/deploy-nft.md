@@ -1,3 +1,7 @@
+---
+description: 'from https://docs.binance.org/smart-chain/developer/ERC721.html'
+---
+
 # Deploy NFT
 
 > This work is inspired by [this blog](https://forum.openzeppelin.com/t/draft-create-an-nft-and-deploy-to-a-public-testnet-using-truffle/2961)

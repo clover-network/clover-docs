@@ -1,3 +1,7 @@
+---
+description: 'from https://docs.binance.org/smart-chain/developer/upgrade/proxy.html'
+---
+
 # Proxy Contract
 
 ## What are Upgradeable Contracts? <a id="what-are-upgradeable-contracts"></a>

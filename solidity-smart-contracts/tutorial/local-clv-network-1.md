@@ -1,3 +1,7 @@
+---
+description: 'from https://docs.binance.org/smart-chain/developer/deploy/local.html'
+---
+
 # Local CLV Network
 
 ## 1. Install build tools & libraries <a id="__docusaurus"></a>

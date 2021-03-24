@@ -1,3 +1,7 @@
+---
+description: 'from https://docs.binance.org/smart-chain/wallet/wallet_api.html'
+---
+
 # Developer
 
 Clover Chain Wallet injects a global API into websites visited by its users at `window.CloverChain`.

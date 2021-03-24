@@ -1,3 +1,7 @@
+---
+description: 'from https://docs.binance.org/smart-chain/developer/oracle/link.html'
+---
+
 # Chainlink Protocol Integration
 
 ## Introduction to Price Feeds <a id="introduction-to-price-feeds"></a>
