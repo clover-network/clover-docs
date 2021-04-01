@@ -91,4 +91,5 @@
 * [Clover Test Cases](technical-documentation/clover-test-cases.md)
 * [Clover EVM](technical-documentation/clover-evm.md)
 * [Clover Accounts Binding](technical-documentation/clover-evm-bind.md)
+* [Query Banalnce](technical-documentation/query-banalnce.md)
 
