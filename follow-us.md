@@ -1,7 +1,7 @@
 # Follow Us
 
 * **Website**: [https://clover.finance/](https://clover.finance/)
-* **WhitePaper**: [https://clover.finance/whitepaper.pdf](https://clover.finance/whitepaper.pdf)
+* **LitePaper**: [https://clover.finance/whitepaper.pdf](https://clover.finance/whitepaper.pdf)
 * **Telegram**: [https://t.me/clover\_en](https://t.me/clover_en)
 * **Discord**: [https://discord.gg/z2egJBsBWx](https://discord.gg/z2egJBsBWx)
 * **Twitter**: [https://twitter.com/clover\_finance](https://twitter.com/clover_finance)
