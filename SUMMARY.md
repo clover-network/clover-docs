@@ -6,7 +6,6 @@
 ## Quick Start
 
 * [Local Node](quick-start/local-node/README.md)
-  * [Untitled](quick-start/local-node/untitled.md)
   * [Setting Up a Node](quick-start/local-node/setting-up-a-node.md)
   * [Using MetaMask](quick-start/local-node/using-metamask.md)
   * [Using Remix](quick-start/local-node/using-remix.md)
