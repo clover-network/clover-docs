@@ -6,6 +6,7 @@
 ## Quick Start
 
 * [Local Node](quick-start/local-node/README.md)
+  * [Untitled](quick-start/local-node/untitled.md)
   * [Setting Up a Node](quick-start/local-node/setting-up-a-node.md)
   * [Using MetaMask](quick-start/local-node/using-metamask.md)
   * [Using Remix](quick-start/local-node/using-remix.md)
@@ -18,7 +19,6 @@
   * [Faucet](quick-start/testnet/faucet.md)
   * [Clover Explorer](quick-start/testnet/clover-explorer.md)
   * [Run a Clover node](quick-start/testnet/run-a-clover-node.md)
-  * [Become a validator](quick-start/testnet/become-a-validator.md)
   * [Connect to Preview network](quick-start/testnet/connect-to-test-network.md)
 
 ## Clover DAPP Development <a id="dapp-development-1"></a>
