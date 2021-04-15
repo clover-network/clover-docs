@@ -2,6 +2,7 @@
 
 * [Welcome to Clover](README.md)
 * [Follow Us](follow-us.md)
+* [FAQ](faq.md)
 
 ## Quick Start
 
