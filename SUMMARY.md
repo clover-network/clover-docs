@@ -48,6 +48,10 @@
 * [DAPP store](wallet/dapp-store.md)
 * [Clover Assets Explorer](wallet/assets-stats-and-management.md)
 
+## Maintain
+
+* [Running a validator on Clover Network](maintain/running-a-validator-on-clover-network.md)
+
 ## Technical Documentation
 
 * [Web3 compatibility](technical-documentation/web3-compatibility/README.md)
