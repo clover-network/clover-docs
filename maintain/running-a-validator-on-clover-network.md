@@ -93,7 +93,7 @@ You can edit the `docker-compose.yaml` and include your customizations by updati
 
 ## 🚀 Bring up the validator node
 
-use below command to bring up the validator node:
+Use below command to bring up the validator node:
 
 ```bash
 cd /opt/compose # goto the compose file directory
