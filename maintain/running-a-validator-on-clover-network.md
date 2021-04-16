@@ -58,7 +58,7 @@ Create `/opt/compose/docker-compose.yaml` and set the content as below:
 version: "3.8"
 services:
   clover-validator:
-    image: "cloverio/clover-iris:latest"
+    image: "cloverio/clover-iris:0.1.14"
     restart: always
     command:
       - /opt/clover/bin/clover
@@ -87,7 +87,7 @@ services:
 {% hint style="info" %}
 You can edit the `docker-compose.yaml` and include your customizations by updating below arguments:
 
-* image: the docker image used to launch the node, for Clover Testnet, use `cloverio/clover-iris:latest`
+* image: the docker image used to launch the node, for Clover Testnet, use `cloverio/clover-iris:0.1.14`
 * --_name_:  The node name of your validator, the name could be found in the telemetry node list.
 {% endhint %}
 
