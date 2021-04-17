@@ -96,4 +96,5 @@
 * [Clover EVM](technical-documentation/clover-evm.md)
 * [Clover Accounts Binding](technical-documentation/clover-evm-bind.md)
 * [Query Balance](technical-documentation/query-banalnce.md)
+* [Transaction Finality](technical-documentation/transaction-finality.md)
 
