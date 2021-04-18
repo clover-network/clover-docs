@@ -42,7 +42,7 @@
 
 ## Clover Wallet <a id="wallet"></a>
 
-* [Clover Wallet  browser extension version](wallet/clover-wallet-browser-extension-version.md)
+* [Clover Wallet browser extension version](wallet/clover-wallet-browser-extension-version.md)
 * [Clover Wallet mobile version](wallet/clover-wallet-mobile-version.md)
 * [Web3 compatibility](wallet/web3-compatibility.md)
 * [DAPP store](wallet/dapp-store.md)
