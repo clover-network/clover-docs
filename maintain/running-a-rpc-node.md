@@ -10,12 +10,12 @@ With a self hosted Clover RPC service you could gain below benefits:
 
 Clover is a fully decentralized network, any people can setup a Clover node by following this tutorial!
 
-##  🍀 Types Of Clover Nodes
+##  🍀 Types Of Clover RPC Nodes
 
-Generally speaking, there are two kind of nodes:
+Generally speaking, there are two kind of RPC nodes:
 
-* Archive node An archive node keeps all the past blocks data. And client can't query data in any of the past blocks.
-* Full node A full is node is pruned. which means it keeps only a few of the past blocks data\(256 by default, which could be adjusted using the `--pruning` command line arguments.
+* **Archive node** An archive node keeps all the past blocks data. And client can't query data in any of the past blocks.
+* **Full node** A full is node is pruned. which means it keeps only a few of the past blocks data\(256 by default, which could be adjusted using the `--pruning` command line arguments.
 
 An archive nodes consumes much more disk spaces it stores more data than a full node. You need to take the decision based on your business model and requirements. E.g. block explorer and historical analysis tools normally requires an archive node to query the full historical data. Wallets on the other hand normally only requires a full node to be able to query the current state\(e.g. the balance of an account\) and submit transactions to the Clover Network.
 
@@ -117,7 +117,7 @@ You can edit the `docker-compose.yaml` and include your customizations by updati
 * _--ws-extenral/--rpc-external:_ it enable the outer access for the RPC service.
 {% endhint %}
 
-## 🚀 Bring up the rpc node
+## 🚀 Bring up the RPC node
 
 Use below command to bring up the validator node:
 
@@ -133,7 +133,7 @@ You need to check the node logs using `docker-compose logs`  command. Wait until
 
 ## 📡 Post Setup
 
-You may want to setup a reverse proxy server or load balancing for the RPC service. There're some known tools for you to start with, please checkout:
+You may want to setup a reverse proxy server or load balancer for the RPC service. There're some known tools for you to start with, please checkout:
 
 * [Nginx](https://www.nginx.com/) - High Performance Load Balancer, Web Server, & Reverse Proxy
 * [Caddy](https://caddyserver.com/) -  Powerful, enterprise-ready, open source web server with automatic HTTPS written in Go
