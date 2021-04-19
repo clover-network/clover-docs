@@ -89,6 +89,7 @@ You can edit the `docker-compose.yaml` and include your customizations by updati
 
 * image: the docker image used to launch the node, for Clover Testnet, use `cloverio/clover-iris:0.1.14`
 * --_name_:  The node name of your validator, the name could be found in the telemetry node list.
+* _--unsafe-rpc-external:_  You might need this flag to call the `author_rotateKeys` api, make sure to remove this flag later on for better security.
 {% endhint %}
 
 ## 🚀 Bring up the validator node
