@@ -4,33 +4,35 @@ description: Interacting Remix with Clover
 
 # Using Remix
 
-This guide walks through the process of creating and deploying a Solidity-based smart contract to a Clover standalone node using the [Remix IDE](https://remix.ethereum.org/). Remix is one of the commonly used development environments for smart contracts on Ethereum. Given Clover’s Ethereum compatibility features, Remix can be used directly with a Clover node.
+This guide shows how to create and deploy a Solidity-based smart contract to a Clover standalone node using the [Remix IDE](https://remix.ethereum.org/). 
 
-This guide assumes that you have a running local Clover node running in `--dev` mode, and that you have a [MetaMask](https://metamask.io/) installation configured to use this local node. You can find instructions for running a local Clover node [here](https://clover-network.gitbook.io/portal/quick-start/local-node/setting-up-a-node) and to connect MetaMask to it [here](https://clover-network.gitbook.io/portal/quick-start/local-node/using-metamask).
+Remix is one of the most popular Solidity IDE used to write, compile and debug Solidity code. With Clover’s Ethereum compatibility features, Remix can be used directly with a Clover node.
+
+This guide assumes that you have a running local Clover node running in `--dev` mode, and that you have a [MetaMask](https://metamask.io/) installation configured to use this local node. If you don't know how to do it, you can find instructions for running a local Clover node [here](https://clover-network.gitbook.io/portal/quick-start/local-node/setting-up-a-node) and to connect MetaMask to it [here](https://clover-network.gitbook.io/portal/quick-start/local-node/using-metamask).
 
 ### Checking Prerequisites <a id="checking-prerequisites"></a>
 
-If you followed the guides above, you should have a local Clover node producing blocks that looks like this:
+We assume you have followed the guides above, and have a local Clover node producing blocks. It should look like this:
 
 ![](../../.gitbook/assets/1608540371482.jpg)
 
-And you should have a MetaMask installation, connected to your local Clover dev node with at least one account in it that has a balance. It should look something like this \(expanded view\):
+And you should have installed MetaMask connected to your local Clover dev node. You should have at least one account that has a balance. It should look like this \(expanded view\):
 
 ![](../../.gitbook/assets/image%20%289%29.png)
 
 ### Getting Started with Remix <a id="getting-started-with-remix"></a>
 
-Now let’s fire up Remix to exercise some more advanced functionalities in Clover.
+Now that we can start with Remix to exercise some advanced functionalities in Clover.
 
-Launch Remix by navigating to [https://remix.ethereum.org/](https://remix.ethereum.org/). In the main screen, under Environments, select Solidity to configure Remix for Solidity development, then navigate to the File Explorers view:
+To launch Remix, you need to navigate to [https://remix.ethereum.org/](https://remix.ethereum.org/). In the main screen, select Solidity to configure Remix for Solidity development, then navigate to the File Explorers view:
 
 ![](../../.gitbook/assets/1.png)
 
-We will create a new file to save the Solidity smart contract. Hit the + button under File Explorers and enter the name "MyToken.sol" into the popup dialog:
+Now we can create a new file to save the Solidity smart contract. Click the "+" button under "File Explorers" at the top left. Give it a name "MyToken.sol" in the popup box.
 
 ![](../../.gitbook/assets/2.jpg)
 
-Now let's paste the following smart contract into the editor tab that comes up:
+Now paste the following smart contract code into the editor tab on the right side:
 
 ```go
 // SPDX-License-Identifier: MIT
@@ -48,11 +50,11 @@ contract Token is ERC20 {
 
 This is a simple ERC-20 contract based on the current Open Zeppelin ERC-20 template. It creates MyToken with symbol ABC and mints the entirety of the initial supply to the creator of the contract.
 
-Once you have pasted the contract into the editor it should look like this:
+Now the editor should look like this:
 
 ![](../../.gitbook/assets/3.jpg)
 
-Now navigate to the compile sidebar option to press the “Compile MyToken.sol” button:
+Now navigate to the compile sidebar option first and then click the “Compile MyToken.sol” button at the bottom left:
 
 ![](../../.gitbook/assets/4.jpg)
 
