@@ -115,13 +115,5 @@ Note that the corss-chain fee is 1 CLV for now. This number can be changed throu
 
 
 
-## **Security**
-
-Clover Wallet generates passwords and keys on self-owned devices. So only the users themselves have access to their accounts and data. They can always choose what to share and what to keep private.
-
-## **DeFi SDK for Dapp developers**
-
-Clover Wallet provides an open-source DeFi SDK as well as a platform of smart contracts that makes it easier for developers to integrate with every DeFi product. The DeFi SDK gives the developers instant access to leading DeFi prototals, like Acala, OCEAN, Mantra DAO, Rio DeFi, in the Polkadot ecosystem instead of manually integrating each of them.  
-  
-
+\*\*\*\*
 
