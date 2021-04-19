@@ -51,6 +51,7 @@
 ## Maintain
 
 * [Running a validator on Clover Network](maintain/running-a-validator-on-clover-network.md)
+* [Running a RPC node](maintain/running-a-rpc-node.md)
 
 ## Technical Documentation
 
