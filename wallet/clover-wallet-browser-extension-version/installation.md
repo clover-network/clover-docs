@@ -17,6 +17,12 @@ While creating, please do write down your seed phrase to a safe place that no on
 
 After that, you're ready to start using the clover wallet!
 
+![](../../.gitbook/assets/image%20%2862%29.png)
+
+
+
+Note that Clover wallet supports two keypair crypto types, SR25519 and ED25519. The account address for Clover and other substrate networks will be SR25519 by default.
+
 
 
 

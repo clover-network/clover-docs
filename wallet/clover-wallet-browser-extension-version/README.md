@@ -16,8 +16,6 @@ Clover wallet \(browser extension version\) includes following features:
 * Interact with DApps on many EVM compatible chains like Ethereum, BSC,  Heco, Phantom, etc.
 * Interact with Dapps on many Substrate chains.
 
-Please note that more supported networks are coming soon. 
-
 
 
 
