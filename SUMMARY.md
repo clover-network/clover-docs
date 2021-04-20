@@ -43,7 +43,7 @@
 
 ## Clover Wallet <a id="wallet"></a>
 
-* [Clover Wallet browser extension version](wallet/clover-wallet-browser-extension-version/README.md)
+* [Clover Wallet Browser Extension Version](wallet/clover-wallet-browser-extension-version/README.md)
   * [Getting Started](wallet/clover-wallet-browser-extension-version/installation.md)
   * [View Seed Phrase](wallet/clover-wallet-browser-extension-version/view-seed-phrase.md)
   * [Restore/import account](wallet/clover-wallet-browser-extension-version/restore-import-account.md)
