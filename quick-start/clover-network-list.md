@@ -34,7 +34,7 @@ Currently Evm is not enabled on Clover Mainnet. The Evm network id is reserved f
   * wss://api-2.clover.finance
   * wss://api-3.clover.finance
 
-## 🌴 Sakura Preview network
+## 🌴 Sakura Canary Network
 
 {% hint style="info" %}
 Sakura is a preview network and is still in active development. The details will be updated later.
