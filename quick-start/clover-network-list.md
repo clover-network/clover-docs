@@ -30,13 +30,13 @@ Currently Evm is not enabled on Clover Mainnet. The Evm network id is reserved f
   * https://rpc-2.clover.finance
   * https://rpc-3.clover.finance
 * **Api Endpoints**:
-  * wss://apiclover.finance
+  * wss://api.clover.finance
   * wss://api-2.clover.finance
   * wss://api-3.clover.finance
 
 ## 🌴 Sakura Preview network
 
 {% hint style="info" %}
-Sakura is a preview network and is still on active development. The details will be updated later.
+Sakura is a preview network and is still in active development. The details will be updated later.
 {% endhint %}
 
