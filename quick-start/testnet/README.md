@@ -22,6 +22,10 @@ Please refer to the following details for Clover Preview Net:
 * ChainID: `1023`
 * Symbol \(Optional\): `CLV`
 
+{% hint style="info" %}
+For a full list of clover networks please check out the [Clover Network List](../clover-network-list.md) page.
+{% endhint %}
+
 ## Using MetaMask for Preview Net
 
 In MetaMask, navigate to Settings -&gt; Networks -&gt; Add Network and fill in the above details:

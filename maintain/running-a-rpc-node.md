@@ -111,7 +111,7 @@ services:
 {% hint style="info" %}
 You can edit the `docker-compose.yaml` and include your customizations by updating below arguments:
 
-* image: the docker image used to launch the node, for Clover Testnet, use `cloverio/clover-iris:0.1.14`
+* image: the docker image used to launch the node, for Clover Testnet, use `cloverio/clover-iris:0.1.14.` For a full list of clover networks please check out the [Clover Network List](../quick-start/clover-network-list.md) page.
 * --_name_:  The node name of your validator, the name could be found in the telemetry node list
 * _--pruning_: we're using the `archive` mode for the pruning argument, which means it will keep all the historical block data. You can provide numeric parameters for it, to let it just keep the provided number of blocks data.
 * _--ws-extenral/--rpc-external:_ it enable the outer access for the RPC service.
