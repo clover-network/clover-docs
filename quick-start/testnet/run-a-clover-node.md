@@ -40,7 +40,7 @@ Now launch the node with below command:
 docker-compose up -d 
 ```
 
-You should get clover node runs and syncing data from the preview test net now. You can monitor the logs with:
+You should get clover node runs and syncing data from the test net now. You can monitor the logs with:
 
 ```bash
 docker-compose logs -f --tail 10 clover-node
