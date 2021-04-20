@@ -43,7 +43,14 @@
 
 ## Clover Wallet <a id="wallet"></a>
 
-* [Clover Wallet browser extension version](wallet/clover-wallet-browser-extension-version.md)
+* [Clover Wallet browser extension version](wallet/clover-wallet-browser-extension-version/README.md)
+  * [Getting Started](wallet/clover-wallet-browser-extension-version/installation.md)
+  * [View Seed Phrase](wallet/clover-wallet-browser-extension-version/view-seed-phrase.md)
+  * [Restore/import account](wallet/clover-wallet-browser-extension-version/restore-import-account.md)
+  * [Switch networks](wallet/clover-wallet-browser-extension-version/switch-networks.md)
+  * [Add tokens](wallet/clover-wallet-browser-extension-version/add-tokens.md)
+  * [Send tokens](wallet/clover-wallet-browser-extension-version/send-tokens.md)
+  * [Cross-chain transfer](wallet/clover-wallet-browser-extension-version/cross-chain-transfer.md)
 * [Clover Wallet mobile version](wallet/clover-wallet-mobile-version.md)
 * [Web3 compatibility](wallet/web3-compatibility.md)
 * [DAPP store](wallet/dapp-store.md)
