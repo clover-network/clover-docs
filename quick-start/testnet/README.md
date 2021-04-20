@@ -30,11 +30,11 @@ In MetaMask, navigate to Settings -&gt; Networks -&gt; Add Network and fill in t
 
 ![](../../.gitbook/assets/testnet.jpg)
 
-Then the MetaMask can connect to Clover Test Net. You can apply CLV for test via the faucet [https://faucet-iris.clover.finance/](https://faucet-iris.clover.finance/)
+Then the MetaMask can connect to Clover TestNet. You can apply CLV for test via the faucet [https://faucet-iris.clover.finance/](https://faucet-iris.clover.finance/)
 
 ## Using Remix for Test Net
 
-Make sure your MetaMask is connected to CloverTest Net as described above.  The screen shot is as follows:
+Make sure your MetaMask is connected to CloverTestNet as described above.  The screen shot is as follows:
 
 ![](../../.gitbook/assets/remix.jpg)
 

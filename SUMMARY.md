@@ -19,7 +19,7 @@
   * [Faucet](quick-start/testnet/faucet.md)
   * [Clover Explorer](quick-start/testnet/clover-explorer.md)
   * [Run a Clover node](quick-start/testnet/run-a-clover-node.md)
-  * [Connect to Preview network](quick-start/testnet/connect-to-test-network.md)
+  * [Connect to TestNet network](quick-start/testnet/connect-to-test-network.md)
 * [Clover Network List](quick-start/clover-network-list.md)
 
 ## Clover DAPP Development <a id="dapp-development-1"></a>

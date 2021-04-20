@@ -1,8 +1,8 @@
-# Connect to Preview network
+# Connect to TestNet network
 
-Please refer to the following details for Clover Preview network:
+Please refer to the following details for Clover TestNet:
 
-* Network Name: `Clover Preview Net`
+* Network Name: `Clover TestNet`
 * RPC URL: 
   * `https://rpc.clover.finance` 
   * `https://rpc-2.clover.finance` 
@@ -14,17 +14,17 @@ Please refer to the following details for Clover Preview network:
 * ChainID: `1023`
 * Symbol \(Optional\): `CLV`
 
-## Using MetaMask for Preview Net
+## Using MetaMask for TestNet
 
 In MetaMask, navigate to Settings -&gt; Networks -&gt; Add Network and fill in the above details:
 
 ![](../../.gitbook/assets/testnet.jpg)
 
-Then the MetaMask can connect to Clover Preview Net. You can apply CLV for test via the faucet [http://faucet.clovernode.com/](http://faucet.clovernode.com/)
+Then the MetaMask can connect to Clover TestNet. You can apply CLV for test via the faucet [http://faucet.clovernode.com/](http://faucet.clovernode.com/)
 
-## Using Remix for Preview Net
+## Using Remix for TestNet
 
-Make sure your MetaMask is connected to Clover Preview Net as described above.  The screen shot is as follows:
+Make sure your MetaMask is connected to Clover TestNet as described above.  The screen shot is as follows:
 
 ![](../../.gitbook/assets/remix.jpg)
 
