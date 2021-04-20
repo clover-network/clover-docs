@@ -14,7 +14,7 @@
   * [Web3.js](quick-start/local-node/web3.js/README.md)
     * [Query Balance](quick-start/local-node/web3.js/query-balance.md)
     * [Send Transaction](quick-start/local-node/web3.js/send-transaction.md)
-* [Preview Net](quick-start/testnet/README.md)
+* [TestNet \(Iris\)](quick-start/testnet/README.md)
   * [Create an account](quick-start/testnet/create-an-account.md)
   * [Faucet](quick-start/testnet/faucet.md)
   * [Clover Explorer](quick-start/testnet/clover-explorer.md)
