@@ -1,4 +1,4 @@
-# Clover Wallet mobile version
+# Clover Mobile Wallet
 
 ## **Introduction**
 

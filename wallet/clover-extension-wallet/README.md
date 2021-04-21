@@ -1,4 +1,4 @@
-# Clover Wallet Browser Extension Version
+# Clover Extension Wallet
 
 ## **Introduction**
 
