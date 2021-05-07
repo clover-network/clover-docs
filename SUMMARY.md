@@ -52,6 +52,7 @@
   * [Send tokens](wallet/clover-extension-wallet/send-tokens.md)
   * [Cross-chain transfer](wallet/clover-extension-wallet/cross-chain-transfer.md)
   * [Avoid Metamask Conflict](wallet/clover-extension-wallet/avoid-metamask-conflict.md)
+  * [DApp Integration](wallet/clover-extension-wallet/dapp-integration.md)
 * [Clover Mobile Wallet](wallet/clover-mobile-wallet.md)
 * [Web3 compatibility](wallet/web3-compatibility.md)
 * [DAPP store](wallet/dapp-store.md)
