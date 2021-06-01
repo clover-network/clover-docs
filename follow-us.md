@@ -7,7 +7,7 @@
 
 ### Official Community
 
-* Discord: [https://discord.gg/z2egJBsBWx](https://discord.gg/z2egJBsBWx)
+* Discord: [https://discord.gg/z2egJBsBWx](https://discord.gg/3gwTGqRuDb)
 * Telegram Group: [https://t.me/clover\_en](https://t.me/clover_en)
 * Telegram Channel: [https://t.me/clover\_ann](https://t.me/clover_ann)
 * Dev Group: [https://t.me/clover\_dev](https://t.me/clover_dev)
