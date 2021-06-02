@@ -19,7 +19,7 @@ To run a clover full node, create a `docker-compose.yaml` file with below conten
 version: "3.8"
 services:
   clover-node:
-    image: "cloverio/clover-iris:0.1.14"
+    image: "cloverio/clover-iris:0.1.15"
     restart: always
     environment:
         ARGS: "--base-path /opt/chaindata --chain /opt/specs/clover-preview-iris.json --port 30333 --ws-port 9944 --rpc-port 9933 --name "clover-node" --rpc-cors=all --validator --unsafe-ws-external --unsafe-rpc-external --rpc-methods=Unsafe"
@@ -107,6 +107,6 @@ It is possible to almost quadruple synchronization speed by using an additional 
 Finally, you can use Docker to run your node in a container. Doing this is a bit more advanced so it's best left up to those that either already have familiarity with docker, or have completed the other set-up instructions in this guide. If you would like to connect to your node's WebSockets ensure that you run you node with the `--rpc-external` and `--ws-external` commands.
 
 ```text
-docker run -p 9944:9944 clover-network/clover-iris:0.1.14 --name "calling_home_from_a_docker_container" --rpc-external --ws-external
+docker run -p 9944:9944 clover-network/clover-iris:0.1.15 --name "calling_home_from_a_docker_container" --rpc-external --ws-external
 ```
 

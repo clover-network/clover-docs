@@ -22,7 +22,7 @@ Currently Evm is not enabled on Clover Mainnet. The Evm network id is reserved f
 
 ## ☘ Clover Testnet
 
-* **Docker Image**: [cloverio/clover-iris:0.1.14 ](https://hub.docker.com/r/cloverio/clover-iris/tags?page=1&ordering=last_updated)
+* **Docker Image**: [cloverio/clover-iris:0.1.15 ](https://hub.docker.com/r/cloverio/clover-iris/tags?page=1&ordering=last_updated)
 * **Apps Portal**: [https://apps.clover.finance](https://apps.clover.finance)
 * **EVM Network id:** 1023
 * **RPC Endpoints**:
