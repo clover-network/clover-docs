@@ -21,7 +21,11 @@ Clover web wallet never stores users' private key or seed phrase in cloud servic
 
 ### 3. Send and receive digital currencies via email
 
+Using Clover web wallet, users don't need to remember the complicated addresses of their contacts. They can send and receive digital currencies via email.
+
 ### 4. Muti-chain support
+
+Clover web wallet is multi-chain based. It supports most of the main blockchains, such as Ethereum, BSC, Polkadot, Kusama, Matic, OkEx chain, Fantom, etc.
 
 
 
