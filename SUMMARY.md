@@ -54,6 +54,7 @@
   * [Avoid Metamask Conflict](wallet/clover-extension-wallet/avoid-metamask-conflict.md)
   * [DApp Integration](wallet/clover-extension-wallet/dapp-integration.md)
 * [Clover Mobile Wallet](wallet/clover-mobile-wallet.md)
+* [Clover Web Wallet](wallet/clover-web-wallet.md)
 * [Web3 compatibility](wallet/web3-compatibility.md)
 * [DAPP store](wallet/dapp-store.md)
 * [Clover Assets Explorer](wallet/assets-stats-and-management.md)
