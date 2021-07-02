@@ -11,11 +11,13 @@ Usually, a crypto wallet needs users to provide a seed phrase or a private key t
 * Users may forget their seed phrase or private key, and they will never get back of their assets.
 * Users may have their seed phrase or private key hacked, and they will permanently lose their assets.
 
-Clover web wallet provides a OAuth social login mechanism, no passwords and no downloads.  Users can connect their wallet account by Google, Facebook, Twitter, etc.
+Clover web wallet provides a OAuth social login mechanism, no passwords and no downloads.  Users can connect their wallet account by Google, Facebook, Twitter, etc. No more complicated seed phrases or private keys. 
+
+Clover web wallet inherits traditional account recovery systems that allow users to recover their account via email/social login. And users don't need to worry about that if they lose access to their accounts.
 
 ### 2. Non-custodial Key Management
 
-Clover web wallet never stores users' private key or seed phrase in cloud service.  All the credential info are accessible only by users.
+Clover web wallet never stores users' private key or seed phrase in cloud service.  All the credential info are accessible only by users. Clover web wallet is powered by decentralized non-custodial PKI infrastructure that is maintained by users themselves and IPFS with encryption.
 
 ### 3. Send and receive digital currencies via email
 
