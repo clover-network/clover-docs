@@ -41,23 +41,24 @@
 * [Virtual Ethereum address binding](clover-eco-incentive-program/clover-user-incentive-program.md)
 * [Clover User Incentive Program](clover-eco-incentive-program/clover-user-incentive-program-1.md)
 
-## Clover Wallet <a id="wallet"></a>
+## Clover Wallets & Dapps <a id="wallet-and-dapp"></a>
 
-* [Clover Extension Wallet](wallet/clover-extension-wallet/README.md)
-  * [Getting Started](wallet/clover-extension-wallet/installation.md)
-  * [View Seed Phrase](wallet/clover-extension-wallet/view-seed-phrase.md)
-  * [Restore/import account](wallet/clover-extension-wallet/restore-import-account.md)
-  * [Switch networks](wallet/clover-extension-wallet/switch-networks.md)
-  * [Add tokens](wallet/clover-extension-wallet/add-tokens.md)
-  * [Send tokens](wallet/clover-extension-wallet/send-tokens.md)
-  * [Cross-chain transfer](wallet/clover-extension-wallet/cross-chain-transfer.md)
-  * [Avoid Metamask Conflict](wallet/clover-extension-wallet/avoid-metamask-conflict.md)
-  * [DApp Integration](wallet/clover-extension-wallet/dapp-integration.md)
-* [Clover Mobile Wallet](wallet/clover-mobile-wallet.md)
-* [Clover Web Wallet](wallet/clover-web-wallet.md)
-* [Web3 compatibility](wallet/web3-compatibility.md)
-* [DAPP store](wallet/dapp-store.md)
-* [Clover Assets Explorer](wallet/assets-stats-and-management.md)
+* [Clover Extension Wallet](wallet-and-dapp/clover-extension-wallet/README.md)
+  * [Getting Started](wallet-and-dapp/clover-extension-wallet/installation.md)
+  * [View Seed Phrase](wallet-and-dapp/clover-extension-wallet/view-seed-phrase.md)
+  * [Restore/import account](wallet-and-dapp/clover-extension-wallet/restore-import-account.md)
+  * [Switch networks](wallet-and-dapp/clover-extension-wallet/switch-networks.md)
+  * [Add tokens](wallet-and-dapp/clover-extension-wallet/add-tokens.md)
+  * [Send tokens](wallet-and-dapp/clover-extension-wallet/send-tokens.md)
+  * [Cross-chain transfer](wallet-and-dapp/clover-extension-wallet/cross-chain-transfer.md)
+  * [Avoid Metamask Conflict](wallet-and-dapp/clover-extension-wallet/avoid-metamask-conflict.md)
+  * [DApp Integration](wallet-and-dapp/clover-extension-wallet/dapp-integration.md)
+* [Clover Mobile Wallet](wallet-and-dapp/clover-mobile-wallet.md)
+* [Clover Web Wallet](wallet-and-dapp/clover-web-wallet.md)
+* [Web3 compatibility](wallet-and-dapp/web3-compatibility.md)
+* [DAPP store](wallet-and-dapp/dapp-store.md)
+* [Clover Assets Explorer](wallet-and-dapp/assets-stats-and-management.md)
+* [Clover Cross-Chain Explorer](wallet-and-dapp/clover-cross-chain-explorer.md)
 
 ## Maintain
 
