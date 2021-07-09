@@ -36,3 +36,15 @@ You can click the cross-chain transaction record to expand the details:
 
 ![Cross-chain Details](../.gitbook/assets/image%20%2866%29.png)
 
+## Claim Your CLV
+
+In case of special case, for example you uninstall the Clover mobile or extension wallet which contains pending cross-chain transactions.  You can use cross-chain transaction explorer to get your CLV back.
+
+* First, you need to install Clover intension wallet and import the same account from which you sent the previous cross-chain transaction
+* Connect you wallet to the cross-chain transaction explorer
+* Search your address or the pending transaction hash
+* Expand the detail, and click the "Claim" button
+* Input your claiming CLV address trigger the claim process
+
+
+
