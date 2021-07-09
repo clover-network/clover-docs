@@ -6,22 +6,13 @@ PolkadotJS API provides **signAndSend** function to send a transaction,  the cal
 
 ```javascript
 const API = require("@polkadot/api");
+import cloverTypes from '@clover-network/node-types';
 
 async function sendCLV(address, amount) {
   const wsProvider = new API.WsProvider('wss://api-ivy.clover.finance');
   const api = await API.ApiPromise.create({
     provider: wsProvider,
-    types: {
-      Amount: 'i128',
-      Keys: 'SessionKeys4',
-      AmountOf: 'Amount',
-      Balance: 'u128',
-      Rate: 'FixedU128',
-      Ratio: 'FixedU128',
-      EcdsaSignature: '[u8; 65]',
-      EvmAddress: 'H160',
-      EthereumTxHash: 'H256'
-    },
+    types: cloverTypes
   });
   const nonce = await api.rpc.system.accountNextIndex('your CLV address configured somewhere');
   const keyring = new API.Keyring({ type: 'sr25519' });
