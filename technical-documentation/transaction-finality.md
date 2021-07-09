@@ -6,7 +6,7 @@ PolkadotJS API provides **signAndSend** function to send a transaction,  the cal
 
 ```javascript
 const API = require("@polkadot/api");
-import cloverTypes from '@clover-network/node-types';
+const cloverTypes = require('@clover-network/node-types');
 
 async function sendCLV(address, amount) {
   const wsProvider = new API.WsProvider('wss://api-ivy.clover.finance');
