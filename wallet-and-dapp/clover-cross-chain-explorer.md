@@ -13,7 +13,7 @@ The summary section will show:
 
 Also users can search all the cross-chain transactions by hash or their CLV \(Native token, ERC20, BEP20\) token address
 
-![Cross-chain Summary](../.gitbook/assets/image%20%2867%29.png)
+![Cross-chain Summary](../.gitbook/assets/image%20%2869%29.png)
 
 ## Cross-chain Transaction Record
 
@@ -24,7 +24,7 @@ cross-chain transaction list will show all the details, like:
 * Amount of CLV transferred
 * The cross-chain transaction time, fee, duration, and status
 
-![Cross-chain Tx List](../.gitbook/assets/image%20%2865%29.png)
+![Cross-chain Tx List](../.gitbook/assets/image%20%2867%29.png)
 
 ## Cross-chain Transaction Details
 
@@ -34,7 +34,7 @@ You can click the cross-chain transaction record to expand the details:
 * Mint info
 * Claim info, including the claim transaction hash, claim block, claim time, etc.
 
-![Cross-chain Details](../.gitbook/assets/image%20%2866%29.png)
+![Cross-chain Details](../.gitbook/assets/image%20%2868%29.png)
 
 ## Claim Your CLV
 
@@ -45,6 +45,16 @@ In case of special case, for example you uninstall the Clover mobile or extensio
 * Search your address or the pending transaction hash
 * Expand the detail, and click the "Claim" button
 * Input your claiming CLV address trigger the claim process
+
+![Claim CLV from Cross-chain Transaction Explorer](../.gitbook/assets/image%20%2870%29.png)
+
+Once you input your CLV address, just click "claim" to invoke Clover extension wallet to sign your claim request.
+
+![Sign your Claim Request ](../.gitbook/assets/image%20%2865%29.png)
+
+Once your claim is successful, you can view your claim transaction detail in Subscan.
+
+![Claim Success](../.gitbook/assets/image%20%2866%29.png)
 
 
 
