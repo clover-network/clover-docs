@@ -1,4 +1,4 @@
-# Switch networks
+# Switch Networks
 
 Clover wallet is capable of connecting to multiple blockchain networks simultaneously. By default , Clover wallet connects to Ethereum mainnet and Polkadot mainnet. That means, you're able to interact with Dapp's on both Ethereum and Polkadot mainnet, or to add Assets on these networks.
 
