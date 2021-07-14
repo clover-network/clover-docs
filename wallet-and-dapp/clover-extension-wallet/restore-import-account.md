@@ -1,4 +1,4 @@
-# Restore/import account
+# Restore/Import Account
 
 Any time you want to restore or import your account , just click on the wallet icon on the top right of the asset list page. In the popup panel, hit the "Import Account" button.  
 

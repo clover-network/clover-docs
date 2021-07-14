@@ -1,4 +1,4 @@
-# Add tokens
+# Add Tokens
 
 Clover wallet supports a great number of assets on various blockchain networks. The number is continuously increasing. You can see the most used assets in your default asset list. The top two represent your Clover native token account and bridged Clover account on Binance Smart Chain \(BSC\), Which is a BEP20 token.  
 
