@@ -36,7 +36,7 @@ If you have the knowledge of the three different CLV assets. It is time to make 
 
 ### 1. Click the CLV native token
 
-![You need to Click your native CLV token](../../.gitbook/assets/image%20%2881%29.png)
+![You need to Click your native CLV token](../../.gitbook/assets/image%20%2882%29.png)
 
 ### 2. Go to the asset page, and click Cross-Chain button
 
@@ -46,7 +46,7 @@ If you have the knowledge of the three different CLV assets. It is time to make 
 
 You need to select Ethereum if you want to send CLV to your Ethereum account address. \(**By default, CLV will be sent to BSC chain !**\)
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
 ### 4. Fill in the form
 
@@ -56,7 +56,7 @@ Before you click Continue button, please make sure:
 * The recipient address is correct.
 * The transfer amount \(There is a minimum amount for cross-chain \)
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2883%29.png)
 
 Please noted that: 
 

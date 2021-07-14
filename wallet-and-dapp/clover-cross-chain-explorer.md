@@ -13,7 +13,7 @@ The summary section will show:
 
 Also users can search all the cross-chain transactions by hash or their CLV \(Native token, ERC20, BEP20\) token address
 
-![Cross-chain Summary](../.gitbook/assets/image%20%2869%29.png)
+![](../.gitbook/assets/image%20%2881%29.png)
 
 ## Cross-chain Transaction Record
 
