@@ -22,7 +22,7 @@ This is the bep20 token deployed on BSC. The address format is like: **0xcdbf901
 
 If you install Clover extension wallet, you should see these three assets:
 
-![Three CLV assets, on Clover chain, BSC and Ethereum](../../.gitbook/assets/image%20%2877%29.png)
+![Three CLV assets, on Clover chain, BSC and Ethereum](../../.gitbook/assets/image%20%2878%29.png)
 
 ## CLV Tokens on Mobile Wallet
 
@@ -67,5 +67,5 @@ Please noted that:
 
 Once you confirm and send the cross-chain transaction, you can just wait for your transaction to be successful. You can check your cross-chain transaction in your wallet or Clover's cross-chain transaction explorer at [https://tx.clover.finance/](https://tx.clover.finance/)
 
-![](../../.gitbook/assets/image%20%2878%29.png)
+![Clover cross-chain transaction explorer](../../.gitbook/assets/image%20%2877%29.png)
 
