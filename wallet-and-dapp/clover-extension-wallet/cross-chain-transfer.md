@@ -12,11 +12,11 @@ This is the token issued on Clover mainnet. The address format is like: **5CyngU
 
 ### 2. CLV erc20 token
 
-This is the erc20 token deployed on Ethereum. The address format is like: **0xcdbf90174493dcc418f177a4d7b2604a95997e1f**. The smart contract address is: [https://etherscan.io/address/0x80C62FE4487E1351b47Ba49809EBD60ED085bf52](https://etherscan.io/address/0x80C62FE4487E1351b47Ba49809EBD60ED085bf52)
+This is the erc20 token deployed on Ethereum. The address format is like: **0xcdbf90174493dcc418f177a4d7b2604a95997e1f**. The smart contract address is: [0x80C62FE4487E1351b47Ba49809EBD60ED085bf52](https://etherscan.io/address/0x80C62FE4487E1351b47Ba49809EBD60ED085bf52)
 
 ### 3. CLV bep20 token
 
-This is the bep20 token deployed on BSC. The address format is like: **0xcdbf90174493dcc418f177a4d7b2604a95997e1f**. The smart contract address is: [https://bscscan.com/address/0x09E889BB4D5b474f561db0491C38702F367A4e4d](https://bscscan.com/address/0x09E889BB4D5b474f561db0491C38702F367A4e4d)
+This is the bep20 token deployed on BSC. The address format is like: **0xcdbf90174493dcc418f177a4d7b2604a95997e1f**. The smart contract address is: [0x09E889BB4D5b474f561db0491C38702F367A4e4d](https://bscscan.com/address/0x09E889BB4D5b474f561db0491C38702F367A4e4d)
 
 ## CLV Tokens on Extension Wallet
 
