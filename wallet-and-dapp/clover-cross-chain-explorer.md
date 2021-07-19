@@ -64,7 +64,9 @@ Private Key: the private key or seed phrase of your **Ethereum/BSC** account \(C
 
 ![Confirm you request](../.gitbook/assets/image%20%2885%29.png)
 
+4. Check your balance after claim succeed:
 
+![Claim with success](../.gitbook/assets/image%20%2888%29.png)
 
 ### Using Clover Extension Wallet
 
