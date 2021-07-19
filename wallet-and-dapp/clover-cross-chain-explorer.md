@@ -40,6 +40,34 @@ You can click the cross-chain transaction record to expand the details:
 
 In case of special case, for example you uninstall the Clover mobile or extension wallet which contains pending cross-chain transactions.  You can use cross-chain transaction explorer to get your CLV back.
 
+There are two ways to claim your CLV:
+
+### Using Cross-Chain Explorer
+
+1. First, click the "Claim CLV" button on the right upper corner:
+
+![Click the &quot;Claim CLV&quot; button](../.gitbook/assets/image%20%2886%29.png)
+
+2. Fill in the claim form:
+
+Blockchain: you need to select the blockchain where the transaction happened.
+
+Transaction Hash: you need to copy your transaction hash from [Etherscan](https://etherscan.io/) or [BscScan](https://bscscan.com/)
+
+CLV Address: **make sure the CLV address is yours, otherwise you may lose your CLV forever!**
+
+Private Key: the private key or seed phrase of your **Ethereum/BSC** account \(Clover will **never save** your private key, it will only be used in your computer, and deleted from any cache once you close the claim dialog!\).
+
+![Fill in your CLV claim request](../.gitbook/assets/image%20%2887%29.png)
+
+3. Confirm the claim:
+
+![Confirm you request](../.gitbook/assets/image%20%2885%29.png)
+
+
+
+### Using Clover Extension Wallet
+
 * First, you need to install Clover intension wallet and import the same account from which you sent the previous cross-chain transaction
 * Connect you wallet to the cross-chain transaction explorer
 * Search your address or the pending transaction hash
