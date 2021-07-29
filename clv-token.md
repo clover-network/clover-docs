@@ -23,7 +23,7 @@
 * **CLV ERC-20:** [Etherscan](https://etherscan.io/token/0x80C62FE4487E1351b47Ba49809EBD60ED085bf52)
 * **CLV BEP-20:** [Bscscan](https://bscscan.com/token/0x09E889BB4D5b474f561db0491C38702F367A4e4d)
 * **CLV Native:** [Subscan](https://clover.subscan.io/)
-* **Cross-Chain Transaction Explorer:** [CloverScan](https://tx.clover.finance/#/)
+* **CLV Cross-Chain Transaction Explorer:** [CloverScan](https://tx.clover.finance/#/)
 
 ## How to store CLV?
 
