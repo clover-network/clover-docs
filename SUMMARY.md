@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Welcome to Clover](README.md)
-* [Follow Us](follow-us.md)
+* [Useful Links](useful-links.md)
+* [CLV Token](clv-token.md)
 * [FAQ](faq.md)
 
 ## Quick Start
