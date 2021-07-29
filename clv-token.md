@@ -4,18 +4,25 @@
 
 **CLV** is the native token of the platform, and is used for staking to take part in network consensus, transaction fees, platform rewards, and network governance.
 
-* **Opt-in Fees**: Pay gas fee in CLV, or have the option to pay with any network token.
-* **Governance**: Lock CLV to elect council members and guide the development through on-chain governance.
-* **Validation**: Stake CLV to validate the network with your validator infrastructure.
-* **Treasury**: Get your projects funded from the treasury.
-* **Nomination**: Stake CLV to nominate your own node validator using a single-click deployment.
-* **Deployment**: Use CLV to deploy your smart contracts and dApps on Clover.
+* **Opt-in Fees:** Pay gas fee in CLV, or have the option to pay with any network token.
+* **Governance:** Lock CLV to elect council members and guide the development through on-chain governance.
+* **Validation:** Stake CLV to validate the network with your validator infrastructure.
+* **Treasury:** Get your projects funded from the treasury.
+* **Nomination:** Stake CLV to nominate your own node validator using a single-click deployment.
+* **Deployment:** Use CLV to deploy your smart contracts and dApps on Clover.
 
 ## Token Info
 
+**SmartContract**
 
+* CLV ERC-20: 0x80C62FE4487E1351b47Ba49809EBD60ED085bf52
+* CLV BEP-20: 0x09E889BB4D5b474f561db0491C38702F367A4e4d
 
+**Block Explorer**
 
+* CLV ERC-20: [Etherscan](https://etherscan.io/token/0x80C62FE4487E1351b47Ba49809EBD60ED085bf52)
+* CLV BEP-20: [Bscscan](https://bscscan.com/token/0x09E889BB4D5b474f561db0491C38702F367A4e4d)
+* CLV Native: [Subscan](https://clover.subscan.io/)
 
 ## How to trade CLV?
 
