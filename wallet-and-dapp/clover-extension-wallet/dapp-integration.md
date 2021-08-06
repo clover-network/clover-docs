@@ -4,7 +4,7 @@
 
 Clover Extension Wallet injected into web pages a varible, which named 'clover'. DApp developer could integrate with the wallet with window.clover. Below snippet shows how to use it to interact between dapp and the wallet.
 
-```text
+```javascript
 const example = async () => {
     // connect to wallet and get accounts
     const accounts = await window.clover.request({ method: 'eth_requestAccounts' })
@@ -43,7 +43,7 @@ window.clover.on('accountsChanged', handleAccountsChanged);
 
 First, Web3ReactProvider and getLibrary should be used as provider as below:
 
-```text
+```javascript
 <Web3ReactProvider getLibrary={getLibrary}>
     {/* <...> */}
 </Web3ReactProvider>
@@ -52,13 +52,13 @@ First, Web3ReactProvider and getLibrary should be used as provider as below:
 
 Second, initialize InjectedConnector, which could be used as connector to connect to Clover Extension Wallet.
 
-```text
+```javascript
 const injectedConnector = new InjectedConnector({ supportedChainIds: [1, 3] })
 ```
 
 At last, we could use injectedConnector to connect to and communicate with the wallet
 
-```text
+```javascript
 const { activate, deactivate, library, account, error } = useWeb3React()
 
 useEffect(() => {
