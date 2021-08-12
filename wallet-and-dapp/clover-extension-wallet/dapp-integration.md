@@ -45,7 +45,8 @@ First, install clover connector as dependency to your project:
 
 ```javascript
 npm i @clover-network/clover-connector
-or yarn add @clover-network/clover-connector
+or 
+yarn add @clover-network/clover-connector
 ```
 
 Second, Web3ReactProvider and getLibrary should be used as provider as below:
