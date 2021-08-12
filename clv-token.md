@@ -42,6 +42,7 @@
 * **Coinbase Pro:** [CLV/USDT](https://pro.coinbase.com/trade/CLV-USDT), [CLV/USD](https://pro.coinbase.com/trade/CLV-USD), [CLV/GBP](https://pro.coinbase.com/trade/CLV-GBP), [CLV/EUR](https://pro.coinbase.com/trade/CLV-EUR)
 * **Binance:** [CLV/USDT](https://www.binance.com/en/trade/CLV_USDT), [CLV/BUSD](https://www.binance.com/en/trade/CLV_BUSD), [CLV/BNB](https://www.binance.com/en/trade/CLV_BNB), [CLV/BTC](https://www.binance.com/en/trade/CLV_BTC)
 * **FTX:** [CLV/USD](https://ftx.com/trade/CLV/USD)
+* **Huobi:** [CLV/USDT](https://www.huobi.com/en-us/exchange/clv_usdt), [CLV/BTC](https://www.huobi.com/en-us/exchange/clv_btc)
 * **OKEx:** [CLV/USDT](https://www.okex.com/trade-spot/clv-usdt)
 * **Kucoin:** [CLV/USDT](https://trade.kucoin.com/CLV-USDT)
 * **CoinEx:** [CLV/USDT](https://www.coinex.com/exchange/CLV-USDT)
