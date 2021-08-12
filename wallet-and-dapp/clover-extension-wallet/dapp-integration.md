@@ -41,7 +41,14 @@ window.clover.on('accountsChanged', handleAccountsChanged);
 
 ### Integrated with web3-react
 
-First, Web3ReactProvider and getLibrary should be used as provider as below:
+First, install clover connector as dependency to your project:
+
+```javascript
+npm i @clover-network/clover-connector
+or yarn add @clover-network/clover-connector
+```
+
+Second, Web3ReactProvider and getLibrary should be used as provider as below:
 
 ```javascript
 <Web3ReactProvider getLibrary={getLibrary}>
@@ -50,19 +57,19 @@ First, Web3ReactProvider and getLibrary should be used as provider as below:
 
 ```
 
-Second, initialize InjectedConnector, which could be used as connector to connect to Clover Extension Wallet.
+Then, initialize cloverConnector, which could be used as connector to connect to Clover Extension Wallet.
 
 ```javascript
-const injectedConnector = new InjectedConnector({ supportedChainIds: [1, 3] })
+const cloverConnector = new CloverConnector({ supportedChainIds: [1, 3] })
 ```
 
-At last, we could use injectedConnector to connect to and communicate with the wallet
+At last, we could use cloverConnector to connect to and communicate with the wallet
 
 ```javascript
 const { activate, deactivate, library, account, error } = useWeb3React()
 
 useEffect(() => {
-    activate(injectedConnector, async (error) => {
+    activate(cloverConnector, async (error) => {
         if (error instanceof UnsupportedChainIdError) {
             setToast('error', 'Unsupported chain id')
         } else {
@@ -75,16 +82,16 @@ useEffect(() => {
             } else {
                 setToast('error', error.message)
             }
-            }
+        }
     })
 }, [activate])
 
 useEffect(() => {
     const send = async () => {
         if (account !== undefined) {
-            const chainId = await library.request({ method: 'eth_chainId' });
+            const chainId = '0x3';
     
-            const transactionParameters = {
+            const transaction = {
                 nonce: '0x05',
                 to: account,
                 from: account,
@@ -94,7 +101,7 @@ useEffect(() => {
             
             const txHash = await library.request({
               method: 'eth_sendTransaction',
-              params: [transactionParameters],
+              params: [transaction],
             });
         }
     }
