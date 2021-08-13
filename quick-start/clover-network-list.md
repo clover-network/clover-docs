@@ -36,7 +36,8 @@ Currently Evm is not enabled on Clover Mainnet. The Evm network id is reserved f
 
 ## 🌴 Sakura Canary Network
 
-{% hint style="info" %}
-Sakura is a preview network and is still in active development. The details will be updated later.
-{% endhint %}
+* **Docker Image**: [cloverio/clover-sakura:0.1.13 ](https://hub.docker.com/r/cloverio/clover-sakura)
+* **Apps Portal**: [https://apps-sakura.clover.finance](https://apps-sakura.clover.finance/)
+* **Api Endpoints**:
+  * [wss://rpc.sakura.clover.finance](wss://rpc.sakura.clover.finance)
 
