@@ -23,8 +23,6 @@
 * China: [https://t.me/CloverCN](https://t.me/CloverCN)
 * Russia: [https://t.me/clover\_ru](https://t.me/clover_ru)
 * Turkey: [https://t.me/clover\_turkiye](https://t.me/clover_turkiye)
-* Pakistan & India: [https://t.me/CloverPK\_IN](https://t.me/CloverPK_IN)
-* Vietnam: [https://t.me/CloverVN](https://t.me/CloverVN)
 
 Many thanks to volunteers contributed to Clover Finance
 
