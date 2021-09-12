@@ -1,4 +1,4 @@
-# DApp Integration
+# dApp Integration
 
 ### Integrated with JS
 
