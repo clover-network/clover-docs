@@ -1,4 +1,4 @@
-# DApp Interaction Protocol
+# dApp Interaction Protocol
 
 Clover extension wallet implemented  a brand-new dApp interaction protocol, it can support multiple active blockchains. dApps can use the above protocol to interact with different blockchains, **without the need to switch between them !**
 

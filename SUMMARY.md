@@ -55,7 +55,7 @@
   * [Avoid Metamask Conflict](wallet-and-dapp/clover-extension-wallet/avoid-metamask-conflict.md)
   * [dApp Integration](wallet-and-dapp/clover-extension-wallet/dapp-integration.md)
   * [Solana-dApp-Integration](wallet-and-dapp/clover-extension-wallet/solana-dapp-integration.md)
-  * [DApp Interaction Protocol](wallet-and-dapp/clover-extension-wallet/dapp-protocol.md)
+  * [dApp Interaction Protocol](wallet-and-dapp/clover-extension-wallet/dapp-protocol.md)
 * [Clover Mobile Wallet](wallet-and-dapp/clover-mobile-wallet.md)
 * [Clover Web Wallet](wallet-and-dapp/clover-web-wallet.md)
 * [DAPP store](wallet-and-dapp/dapp-store.md)
