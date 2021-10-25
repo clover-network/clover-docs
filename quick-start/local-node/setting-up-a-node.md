@@ -1,6 +1,6 @@
 # Setting Up a Node
 
-## 1. Install build tools & libraries <a id="__docusaurus"></a>
+## 1. Install build tools & libraries <a href="__docusaurus" id="__docusaurus"></a>
 
 Clover is the easiest to be set up on Unix-based operating systems like macOS or Linux. Here is the instruction on installing Rust's toolchains. If you have already done this, please go to the Step 3.
 
@@ -39,7 +39,7 @@ export OPENSSL_INCLUDE_DIR="/usr/include/openssl-1.0"
 
 ## 2. Install Rust toolchain
 
-This guide uses [`rustup`](https://rustup.rs/) to help manage the Rust toolchain. First, install and configure `rustup`:
+This guide uses [`rustup`](https://rustup.rs) to help manage the Rust toolchain. First, install and configure `rustup`:
 
 ```bash
 # Install
@@ -72,7 +72,7 @@ The initial build will take a while, depending on your hardware. It may take 30 
 
 Then you will want to run the node in dev mode using the following command:
 
-```text
+```
 ./target/release/clover --dev --rpc-cors=all  --unsafe-rpc-external  --unsafe-ws-external --validator --tmp -lruntime=debug
 ```
 
@@ -87,10 +87,10 @@ The local standalone Clover node provides two RPC endpoints:
 * WS: `ws://127.0.0.1:9944`
 {% endhint %}
 
-### Connecting Polkadot JS Apps to a Local Clover Node <a id="connecting-polkadot-js-apps-to-a-local-moonbeam-node"></a>
+### Connecting Polkadot JS Apps to a Local Clover Node <a href="connecting-polkadot-js-apps-to-a-local-moonbeam-node" id="connecting-polkadot-js-apps-to-a-local-moonbeam-node"></a>
 
-The locally-running Clover node is a Substrate-based node, so we can interact with it using standard Substrate tools. Let’s start by connecting it with Clover JS Apps.  
-Visit https://apps.clover.finance/\#/explorer and you will see Polkadot JS Apps and are automatically connected to the Polkadot MainNet.
+The locally-running Clover node is a Substrate-based node, so we can interact with it using standard Substrate tools. Let’s start by connecting it with Clover JS Apps.\
+Visit https://apps.clover.finance/#/explorer and you will see Polkadot JS Apps and are automatically connected to the Polkadot MainNet.
 
 ![](../../.gitbook/assets/1609227317438.jpg)
 
@@ -101,4 +101,3 @@ Click on the top left corner to open the menu and configure the networks, then n
 With Polkadot JS Apps connected, you will see the standalone Clover node producing blocks.
 
 ![](../../.gitbook/assets/1609227552510.jpg)
-

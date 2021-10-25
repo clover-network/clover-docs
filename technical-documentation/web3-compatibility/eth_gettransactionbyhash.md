@@ -4,14 +4,14 @@ description: Get transaction by its hash
 
 # eth\_getTransaction
 
-```text
+```
 web3.eth.getTransaction(transactionHash [, callback])
 ```
 
 #### Parameters
 
 1. The transaction hash.
-2. \(optional\) Optional callback, returns an error object as first parameter and the result as second.
+2. (optional) Optional callback, returns an error object as first parameter and the result as second.
 
 #### Returns
 
@@ -39,7 +39,7 @@ A transaction object its hash `transactionHash`:
 >
 > #### Example
 
-> ```text
+> ```
 > web3.eth.getTransaction('0xe4cb9e145ecefdcccdb033989cef9f371f146a6e3a884b97f4766cc9e7a9d6fe').then(console.log)
 > > {
 >   blockHash: '0xad92691ed2094fcd96d8b7c9afbf5f0516afe786ef3682f40c175bc3038dc04b',
@@ -63,4 +63,5 @@ A transaction object its hash `transactionHash`:
 >   value: '0'
 > }
 > ```
-
+>
+>

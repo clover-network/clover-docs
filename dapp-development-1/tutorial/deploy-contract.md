@@ -2,7 +2,7 @@
 
 ## Start Clover dev node
 
-Now we will deploy the Counter smart contract to our clover local dev node. 
+Now we will deploy the Counter smart contract to our clover local dev node.&#x20;
 
 First make sure clover is started using below command:
 
@@ -11,10 +11,10 @@ First make sure clover is started using below command:
 ```
 
 {% hint style="info" %}
- In the following steps we assume you're using the local clover node. You may need to adjust some parameters if you're connecting to other clover nodes.
+&#x20;In the following steps we assume you're using the local clover node. You may need to adjust some parameters if you're connecting to other clover nodes.
 {% endhint %}
 
-Once clover is started, you could see it's producing blocks every 6 seconds. 
+Once clover is started, you could see it's producing blocks every 6 seconds.&#x20;
 
 {% code title="hello.sh" %}
 ```bash
@@ -155,15 +155,15 @@ module.exports = {
 };
 ```
 
-Here we imported the `private-provider` package and added the network section in the configuration. We defined the `development` network by using the `pkProvider` which uses the private key  and connects to the local clover rpc port. 
+Here we imported the `private-provider` package and added the network section in the configuration. We defined the `development` network by using the `pkProvider` which uses the private key  and connects to the local clover rpc port.&#x20;
 
 The private key is defined in the dev chain and has enough CLV for testing. It's important to use the `private-provider.js` here because we need add some customization to make truffle pass the correct information to the clover chain.
 
-Clover node uses the `1337` network id and it supports a higher gas limit.  We specified the gas price in the configuration. because clover limits the gas price to be at least `1 gwei` .  
+Clover node uses the `1337` network id and it supports a higher gas limit.  We specified the gas price in the configuration. because clover limits the gas price to be at least `1 gwei` . &#x20;
 
 ## Write the migration
 
-Migrations are used to do stuff like contract migration and initialization scripts. We'll just write a simple migration to deploy the Counter contract. 
+Migrations are used to do stuff like contract migration and initialization scripts. We'll just write a simple migration to deploy the Counter contract.&#x20;
 
 First create the `migrations` folder
 
@@ -241,7 +241,7 @@ Summary
 > Final cost:          0.00186031 ETH
 ```
 
-It says that the counter contract was deployed successfully to the network and the deployed contract address is `0xeB1c50679f8fe33542C44a4A6D779Fb47886E27f` . It also include the transaction details like the gas price, gas used and total cost in the output. 
+It says that the counter contract was deployed successfully to the network and the deployed contract address is `0xeB1c50679f8fe33542C44a4A6D779Fb47886E27f` . It also include the transaction details like the gas price, gas used and total cost in the output.&#x20;
 
 ## Interact with the Counter contract in the console
 
@@ -298,4 +298,3 @@ The result of the `instance.inc()` call was the transaction details which includ
 {% hint style="info" %}
 The source code of this chapter could be found at the revision `3e76c43d3` in the [`counter-dapp`](https://github.com/clover-network/example-counter-dapp) source repo.
 {% endhint %}
-

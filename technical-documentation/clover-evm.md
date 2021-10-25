@@ -22,4 +22,3 @@ In order to make developer easily do the development on Clover.  Clover EVM supp
 ## Other EVM Configurations
 
 Clover change the create\_contract\_limit from 0x6000 to 0xc000,  try to reduce the chances that smart contract deployer has to split their big contract for deployment.
-

@@ -4,12 +4,11 @@ Clover wallet is capable of connecting to multiple blockchain networks simultane
 
 If you need to switch to another network, just click "Change" and select another network.
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](<../../.gitbook/assets/image (42).png>)
 
-  
+\
 
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](<../../.gitbook/assets/image (44).png>)
 
-## 
-
+##

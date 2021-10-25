@@ -83,7 +83,7 @@ After the fix, Clover EVM can support all kinds of gas estimation correctly, ple
 
 ## Clover Account Binding Tests
 
-Clover has a powerful dual-chain architecture, which will empower its users to build their decentralized apps and digital assets on one blockchain \(Clover EVM powered\) and take advantage of Polkadot chain on the other. Thus Clover account binding is very import, which make users able to do all the staffs under one unified account. Also the bound accounts can share the same balance, as well as the integration of the cool features on the dual-chain.
+Clover has a powerful dual-chain architecture, which will empower its users to build their decentralized apps and digital assets on one blockchain (Clover EVM powered) and take advantage of Polkadot chain on the other. Thus Clover account binding is very import, which make users able to do all the staffs under one unified account. Also the bound accounts can share the same balance, as well as the integration of the cool features on the dual-chain.
 
 The related test cases can be found here: [https://github.com/clover-network/clover-sdk/blob/main/tests/account-bind-tests/test-account-bind.js](https://github.com/clover-network/clover-sdk/blob/main/tests/account-bind-tests/test-account-bind.js)
 
@@ -94,4 +94,3 @@ In order to test the performance of Clover chain,  test cases have been carried 
 The EVM TPS tests can be found at: [https://github.com/clover-network/clover-sdk/blob/main/tests/tps-tests/test-web3-tps.js](https://github.com/clover-network/clover-sdk/blob/main/tests/tps-tests/test-web3-tps.js)
 
 The Clover Parachain tests can be found at: [https://github.com/clover-network/clover-sdk/blob/main/tests/tps-tests/test-polkadot-tps.js](https://github.com/clover-network/clover-sdk/blob/main/tests/tps-tests/test-polkadot-tps.js)
-

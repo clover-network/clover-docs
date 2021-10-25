@@ -2,9 +2,9 @@
 
 Clover has 3 networks: Mainnet, Testnet, Sakura. Below are the details of each networks.
 
-## 🍀 Clover Mainnet
+## :four\_leaf\_clover: Clover Mainnet
 
-* **Docker Image**: [cloverio/clover-ivy:0.1.13 ](https://hub.docker.com/r/cloverio/clover-ivy/tags?page=1&ordering=last_updated)
+* **Docker Image**: [cloverio/clover-ivy:0.1.13 ](https://hub.docker.com/r/cloverio/clover-ivy/tags?page=1\&ordering=last\_updated)
 * **Apps Portal**: [https://apps-ivy.clover.finance](https://apps-ivy.clover.finance)
 * **EVM Network id:** 1024
 * **RPC Endpoints**:
@@ -20,9 +20,9 @@ Clover has 3 networks: Mainnet, Testnet, Sakura. Below are the details of each n
 Currently Evm is not enabled on Clover Mainnet. The Evm network id is reserved for future use.
 {% endhint %}
 
-## ☘ Clover Testnet
+## :shamrock: Clover Testnet
 
-* **Docker Image**: [cloverio/clover-iris:0.1.15 ](https://hub.docker.com/r/cloverio/clover-iris/tags?page=1&ordering=last_updated)
+* **Docker Image**: [cloverio/clover-iris:0.1.15 ](https://hub.docker.com/r/cloverio/clover-iris/tags?page=1\&ordering=last\_updated)
 * **Apps Portal**: [https://apps.clover.finance](https://apps.clover.finance)
 * **EVM Network id:** 1023
 * **RPC Endpoints**:
@@ -34,10 +34,9 @@ Currently Evm is not enabled on Clover Mainnet. The Evm network id is reserved f
   * wss://api-2.clover.finance
   * wss://api-3.clover.finance
 
-## 🌴 Sakura Canary Network
+## :palm\_tree: Sakura Canary Network
 
 * **Docker Image**: [cloverio/clover-sakura:0.1.13 ](https://hub.docker.com/r/cloverio/clover-sakura)
-* **Apps Portal**: [https://apps-sakura.clover.finance](https://apps-sakura.clover.finance/)
+* **Apps Portal**: [https://apps-sakura.clover.finance](https://apps-sakura.clover.finance)
 * **Api Endpoints**:
   * [wss://rpc.sakura.clover.finance](wss://rpc.sakura.clover.finance)
-

@@ -4,18 +4,18 @@ description: Returns transaction receipt by transaction hash
 
 # eth\_getTransactionReceipt
 
-```text
+```
 web3.eth.getTransactionReceipt(hash [, callback])
 ```
 
 #### Parameters
 
 1. The transaction hash.
-2. \(optional\) Optional callback, returns an error object as first parameter and the result as second.
+2. (optional) Optional callback, returns an error object as first parameter and the result as second.
 
 #### Returns
 
- A transaction receipt object, or `null` if no receipt was found:
+&#x20;A transaction receipt object, or `null` if no receipt was found:
 
 > * `status`: `TRUE` if the transaction was successful, `FALSE` if the EVM reverted the transaction.
 > * `blockHash`: Hash of the block where this transaction was in.
@@ -33,7 +33,7 @@ web3.eth.getTransactionReceipt(hash [, callback])
 >
 > #### Example
 
-> ```text
+> ```
 > web3.eth.getTransactionReceipt('0x6d7d750cea87c11ade7852ce02a0a10617f1877995591057f99f66c4d9a350a3').then(console.log)
 > > {
 >   blockHash: '0x79275dcda076bd6d07774318ae7cd74b9f7141b4e6242b1501b2ca25edb35684',
@@ -61,4 +61,3 @@ web3.eth.getTransactionReceipt(hash [, callback])
 > ```
 >
 > ####
-

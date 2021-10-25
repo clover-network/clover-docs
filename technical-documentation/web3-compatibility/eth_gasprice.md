@@ -6,7 +6,7 @@ description: >-
 
 # eth\_gasPrice
 
-```text
+```
 web3.eth.getGasPrice([callback])
 ```
 
@@ -16,8 +16,7 @@ Number string of the current gas price in wei
 
 #### Example
 
-```text
+```
 > web3.eth.getGasPrice().then(console.log)
 > 1000000000
 ```
-

@@ -16,8 +16,6 @@ Clover Mobile Wallet helps users to connect to the dapps world conveniently, the
 
 ## **Technology**
 
-Clover Mobile Wallet is developed based on the flutter framework, which could develop applications for Android and iOS. And Polkadot/api is injected into webview as javascript extension for web page and native app features.  
-  
-  
-
-
+Clover Mobile Wallet is developed based on the flutter framework, which could develop applications for Android and iOS. And Polkadot/api is injected into webview as javascript extension for web page and native app features.\
+\
+\

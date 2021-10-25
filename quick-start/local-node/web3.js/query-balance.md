@@ -6,7 +6,7 @@ description: Use Web3.js to Query Balance on Clover
 
 We can easily do this by leveraging the Ethereum compatibility features of Clover.
 
-First let's create a file _balance.js_ under the project we've created. Here we just query the balance of the genesis account, and the genesis account is endowed with **10,000,000** ETH by your local Clover node under the development mode. To get the balances of the account, we need to make an asynchronous function that uses the `web3.eth.getBalance(address)` command. We can take advantage of the `web3.utils.fromWei()` function to transform the balance into a more readable number in ETH.
+First let's create a file _balance.js _under the project we've created. Here we just query the balance of the genesis account, and the genesis account is endowed with **10,000,000** ETH by your local Clover node under the development mode. To get the balances of the account, we need to make an asynchronous function that uses the `web3.eth.getBalance(address)` command. We can take advantage of the `web3.utils.fromWei()` function to transform the balance into a more readable number in ETH.
 
 The file looks like this:
 
@@ -29,11 +29,10 @@ getBalance(GENESIS_ACCOUNT);
 
 You can run the above script using command :
 
-```text
+```
 node balance.js
 ```
 
 The output of the execution is as following:
 
-![](../../../.gitbook/assets/image%20%282%29.png)
-
+![](<../../../.gitbook/assets/image (1).png>)

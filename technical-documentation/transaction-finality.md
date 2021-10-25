@@ -1,6 +1,6 @@
 # Transaction Finality
 
-PolkadotJS API provides **signAndSend** function to send a transaction,  the callback will yield information around the transaction pool status as well as any events when isInBlock or isFinalized.  If you receive the isFinalized event, then your transaction is considered as finality and will never be reverted.
+PolkadotJS API provides **signAndSend **function to send a transaction,  the callback will yield information around the transaction pool status as well as any events when isInBlock or isFinalized.  If you receive the isFinalized event, then your transaction is considered as finality and will never be reverted.
 
 ## Sample Code
 
@@ -34,4 +34,3 @@ async function sendCLV(address, amount) {
   });
 }
 ```
-

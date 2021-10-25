@@ -1,4 +1,3 @@
 # Clover User Incentive Program
 
-## 
-
+##

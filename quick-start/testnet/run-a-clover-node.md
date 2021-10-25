@@ -32,7 +32,7 @@ services:
       - /opt/data/dev:/opt/chaindata
 ```
 
-You're free to edit the name of this node in the ARGS field. 
+You're free to edit the name of this node in the ARGS field.&#x20;
 
 Now launch the node with below command:
 
@@ -52,7 +52,7 @@ Follow instructions as outlined [here](https://substrate.dev/docs/en/knowledgeba
 
 Test if the installation was successful by running `cargo --version`.
 
-```text
+```
 λ cargo --version
 cargo 1.41.0 (626f0f40e 2019-12-03)
 ```
@@ -61,16 +61,16 @@ cargo 1.41.0 (626f0f40e 2019-12-03)
 
 The [clover-network/clover](https://github.com/clover-network/clover) repo's master branch contains the latest Clover code.
 
-```text
+```
 git clone https://github.com/clover-network/clover
 cd clover
 ./scripts/init.sh
 cargo build --release
 ```
 
-Alternatively, if you wish to use a specific release, you can check out a specific tag \(`v0.8.3` in the example below\):
+Alternatively, if you wish to use a specific release, you can check out a specific tag (`v0.8.3` in the example below):
 
-```text
+```
 git clone https://github.com/clover-network/clover
 cd clover
 git checkout tags/v0.8.3
@@ -82,7 +82,7 @@ cargo build --release
 
 The built binary will be in the `target/release` folder, called clover.
 
-```text
+```
 ./target/release/clover --name "My node's name" --chain specs/clover-cc1-raw.json
 ```
 
@@ -94,9 +94,9 @@ Congratulations, you're now syncing with Clover. Keep in mind that the process i
 
 ## Running an Archive Node
 
-When running as a simple sync node \(above\), only the state of the past 256 blocks will be kept. When validating, it defaults to archive mode. To keep the full state use the `--pruning` flag:
+When running as a simple sync node (above), only the state of the past 256 blocks will be kept. When validating, it defaults to archive mode. To keep the full state use the `--pruning` flag:
 
-```text
+```
 ./target/release/clover --name "My node's name" --pruning archive
 ```
 
@@ -106,7 +106,6 @@ It is possible to almost quadruple synchronization speed by using an additional 
 
 Finally, you can use Docker to run your node in a container. Doing this is a bit more advanced so it's best left up to those that either already have familiarity with docker, or have completed the other set-up instructions in this guide. If you would like to connect to your node's WebSockets ensure that you run you node with the `--rpc-external` and `--ws-external` commands.
 
-```text
+```
 docker run -p 9944:9944 clover-network/clover-iris:0.1.15 --name "calling_home_from_a_docker_container" --rpc-external --ws-external
 ```
-

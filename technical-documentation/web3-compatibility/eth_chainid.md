@@ -8,7 +8,7 @@ description: >-
 
 
 
-```text
+```
 web3.eth.getChainId([callback])
 ```
 
@@ -18,8 +18,7 @@ Returns chain ID.
 
 #### Example
 
-```text
+```
 > web3.eth.getChainId().then(console.log);
 > 1023
 ```
-

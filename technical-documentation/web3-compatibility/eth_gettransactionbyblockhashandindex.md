@@ -6,7 +6,7 @@ description: >-
 
 # eth\_getTransactionByBlockHashAndIndex
 
-```text
+```
 web3.eth.getTransactionByBlockHashAndIndex(BlockHash, indexNumber [, callback])
 ```
 
@@ -34,7 +34,7 @@ A transaction object its hash `transactionHash`:
 
 #### Example
 
-```text
+```
 web3.eth.getTransactionByBlockHashAndIndex("0xfb8d7ee8fb5f4fbebf41a55caa5e988a480a0ce277813cd1ec4443c54f601ddd",0).then(console.log)
 > {
     "blockHash":"0xfb8d7ee8fb5f4fbebf41a55caa5e988a480a0ce277813cd1ec4443c54f601ddd",
@@ -57,4 +57,3 @@ web3.eth.getTransactionByBlockHashAndIndex("0xfb8d7ee8fb5f4fbebf41a55caa5e988a48
     "value":"0x6c6b935b8bbd400000"
     }
 ```
-

@@ -4,13 +4,13 @@ Using Clover mobile wallet or extension wallet. You can cross-chain transfer you
 
 ## CLV Tokens
 
-Currently, there are three kinds of CLV assets:  
-  
-**WARNING: DO NOT send CLV cross-chain transfer to any of the addresses listed below or you will risk losing your assets, these are only example addresses or contract addresses which the team DOES NOT have access to. Please send the cross-chain transfer only directly to your own address or input address on an exchange account.** 
+Currently, there are three kinds of CLV assets:\
+\
+**WARNING: DO NOT send CLV cross-chain transfer to any of the addresses listed below or you will risk losing your assets, these are only example addresses or contract addresses which the team DOES NOT have access to. Please send the cross-chain transfer only directly to your own address or input address on an exchange account. **
 
 ### 1. CLV native token
 
-This is the token issued on Clover mainnet. The address format is like: **5CyngUVPJD2MnAbrYR9F72CA5YX1VekR6ip9n2QuuBWcKXKB**. You can view your balance in Subscan,  the url is like \(you need to change the address to your own!\):  [https://clover.subscan.io/account/5CyngUVPJD2MnAbrYR9F72CA5YX1VekR6ip9n2QuuBWcKXKB](https://clover.subscan.io/account/5CyngUVPJD2MnAbrYR9F72CA5YX1VekR6ip9n2QuuBWcKXKB)
+This is the token issued on Clover mainnet. The address format is like: **5CyngUVPJD2MnAbrYR9F72CA5YX1VekR6ip9n2QuuBWcKXKB**. You can view your balance in Subscan,  the url is like (you need to change the address to your own!):  [https://clover.subscan.io/account/5CyngUVPJD2MnAbrYR9F72CA5YX1VekR6ip9n2QuuBWcKXKB](https://clover.subscan.io/account/5CyngUVPJD2MnAbrYR9F72CA5YX1VekR6ip9n2QuuBWcKXKB)
 
 ### 2. CLV erc20 token
 
@@ -24,31 +24,31 @@ This is the bep20 token deployed on BSC. The address format is like: **0xcdbf901
 
 If you install Clover extension wallet, you should see these three assets:
 
-![Three CLV assets, on Clover chain, BSC and Ethereum](../../.gitbook/assets/image%20%2878%29.png)
+![Three CLV assets, on Clover chain, BSC and Ethereum](<../../.gitbook/assets/image (77).png>)
 
 ## CLV Tokens on Mobile Wallet
 
 If you install Clover mobile wallet, you should see these three assets:
 
-![](../../.gitbook/assets/image%20%2880%29.png)
+![](<../../.gitbook/assets/image (78).png>)
 
 ## Make a Cross-Chain Transfer
 
-If you have the knowledge of the three different CLV assets. It is time to make a cross-chain transfer. Let us give an example of **how to transfer native CLV token to Ethereum**. Here we will use extension wallet to explain \(You can use mobile wallet to do cross-chain transfer as well !\).
+If you have the knowledge of the three different CLV assets. It is time to make a cross-chain transfer. Let us give an example of **how to transfer native CLV token to Ethereum**. Here we will use extension wallet to explain (You can use mobile wallet to do cross-chain transfer as well !).
 
 ### 1. Click the CLV native token
 
-![You need to Click your native CLV token](../../.gitbook/assets/image%20%2882%29.png)
+![You need to Click your native CLV token](<../../.gitbook/assets/image (79).png>)
 
 ### 2. Go to the asset page, and click Cross-Chain button
 
-![Click the cross-chain button](../../.gitbook/assets/image%20%2879%29.png)
+![Click the cross-chain button](<../../.gitbook/assets/image (80).png>)
 
 ### 3. Select target chain
 
-You need to select Ethereum if you want to send CLV to your Ethereum account address. \(**By default, CLV will be sent to BSC chain !**\)
+You need to select Ethereum if you want to send CLV to your Ethereum account address. (**By default, CLV will be sent to BSC chain !**)
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](<../../.gitbook/assets/image (81).png>)
 
 ### 4. Fill in the form
 
@@ -56,18 +56,17 @@ Before you click Continue button, please make sure:
 
 * The target chain is correct,  here we use Ethereum
 * The recipient address is correct.
-* The transfer amount \(There is a minimum amount for cross-chain \)
+* The transfer amount (There is a minimum amount for cross-chain )
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](<../../.gitbook/assets/image (82).png>)
 
-Please noted that: 
+Please noted that:&#x20;
 
 * If you cross-chain transfer CLV to Ethereum or BSC, there will be a cross-chain fee + transaction fee charged.  However, users don't need to pay ETH or BNB as cross-chain fee.
-* You can check current cross-chain fee at [https://tx.clover.finance/](https://tx.clover.finance/)
+* You can check current cross-chain fee at [https://tx.clover.finance/](https://tx.clover.finance)
 
 ### 5. Confirm your cross-chain transaction
 
-Once you confirm and send the cross-chain transaction, you can just wait for your transaction to be successful. You can check your cross-chain transaction in your wallet or Clover's cross-chain transaction explorer at [https://tx.clover.finance/](https://tx.clover.finance/)
+Once you confirm and send the cross-chain transaction, you can just wait for your transaction to be successful. You can check your cross-chain transaction in your wallet or Clover's cross-chain transaction explorer at [https://tx.clover.finance/](https://tx.clover.finance)
 
-![Clover cross-chain transaction explorer](../../.gitbook/assets/image%20%2877%29.png)
-
+![Clover cross-chain transaction explorer](<../../.gitbook/assets/image (83).png>)

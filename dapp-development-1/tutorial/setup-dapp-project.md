@@ -1,15 +1,15 @@
 # Setup dapp project
 
-## 🌽 Create a project using create-react-app
+## :corn: Create a project using create-react-app
 
-Let's start with creating a frontend project using create-react-app. 
+Let's start with creating a frontend project using create-react-app.&#x20;
 
 ```
 npx create-react-app counter-dapp
 ```
 
 {% hint style="info" %}
- This command takes a little while to complete, be pertinent. You need to confirm the installation of create-react-app if it's your first time using this command.
+&#x20;This command takes a little while to complete, be pertinent. You need to confirm the installation of create-react-app if it's your first time using this command.
 {% endhint %}
 
 Once the command complete, start the web app:
@@ -20,14 +20,14 @@ yarn start
 ```
 
 {% hint style="info" %}
-A browser window will be opened and who the web app. You can visit [http://localhost:3000/](http://localhost:3000/) either. 
+A browser window will be opened and who the web app. You can visit [http://localhost:3000/](http://localhost:3000) either.&#x20;
 {% endhint %}
 
-## 🛠 Add counter state and buttons
+## :tools: Add counter state and buttons
 
 We'll add a simple text to show the current value of the counter state.
 
-"Inc" and "Dec" buttons to update the counter state. 
+"Inc" and "Dec" buttons to update the counter state.&#x20;
 
 Edit `src/App.js` and set the `App()` function looks like below:
 
@@ -72,4 +72,3 @@ Now you can see we're having the basic page layout!
 {% hint style="info" %}
 The source code of this chapter could be found at the revision `fdb1b9e5f` in the [`counter-dapp`](https://github.com/clover-network/example-counter-dapp) source repo.
 {% endhint %}
-

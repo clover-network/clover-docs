@@ -6,12 +6,12 @@ Clover web wallet is the most secure decentralized web-based digital wallet. It 
 
 ### 1. OAuth social logins without password
 
-Usually, a crypto wallet needs users to provide a seed phrase or a private key to secure their crypto assets. This may lead to two risks: 
+Usually, a crypto wallet needs users to provide a seed phrase or a private key to secure their crypto assets. This may lead to two risks:&#x20;
 
 * Users may forget their seed phrase or private key, and they will never get back of their assets.
 * Users may have their seed phrase or private key hacked, and they will permanently lose their assets.
 
-Clover web wallet provides a OAuth social login mechanism, no passwords and no downloads.  Users can connect their wallet account by Google, Facebook, Twitter, etc. No more complicated seed phrases or private keys. 
+Clover web wallet provides a OAuth social login mechanism, no passwords and no downloads.  Users can connect their wallet account by Google, Facebook, Twitter, etc. No more complicated seed phrases or private keys.&#x20;
 
 Clover web wallet inherits traditional account recovery systems that allow users to recover their account via email/social login. And users don't need to worry about that if they lose access to their accounts.
 
@@ -26,6 +26,4 @@ Using Clover web wallet, users don't need to remember the complicated addresses 
 ### 4. Muti-chain support
 
 Clover web wallet is multi-chain based. It supports most of the main blockchains, such as Ethereum, BSC, Polkadot, Kusama, Matic, OkEx chain, Fantom, etc.
-
-
 

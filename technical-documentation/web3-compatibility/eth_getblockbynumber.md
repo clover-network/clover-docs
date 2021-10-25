@@ -4,15 +4,15 @@ description: Returns block with given number
 
 # eth\_getBlock
 
-```text
+```
 web3.eth.getBlock(blockHashOrBlockNumber [, returnTransactionObjects] [, callback])
 ```
 
 #### Parameters
 
 1. The block number or block hash. Or the string `"earliest"`, `"latest"` or `"pending"` as in the [default block parameter](https://web3js.readthedocs.io/en/v1.3.0/web3-eth.html#eth-defaultblock).
-2. \(optional, default `false`\) If specified `true`, the returned block will contain all transactions as objects. If `false` it will only contains the transaction hashes.
-3. \(optional\) Optional callback, returns an error object as first parameter and the result as second.
+2. (optional, default `false`) If specified `true`, the returned block will contain all transactions as objects. If `false` it will only contains the transaction hashes.
+3. (optional) Optional callback, returns an error object as first parameter and the result as second.
 
 #### Returns
 
@@ -35,13 +35,13 @@ The block object:
 > * `timestamp`: The unix timestamp for when the block was collated.
 > * `transactions`: Array of transaction objects, or 32 Bytes transaction hashes depending on the `returnTransactionObjects` parameter.
 > * `uncles`: Array of uncle hashes.
-> *   author ：
-> *   receiptsRoot ：
-> *   sealFields ：
+> * &#x20; author ：
+> * &#x20; receiptsRoot ：
+> * &#x20; sealFields ：
 >
 > #### Example
 
-> ```text
+> ```
 > //block number
 > > web3.eth.getBlock(43458).then(console.log);
 > > {
@@ -71,7 +71,7 @@ The block object:
 > }
 > ```
 
-```text
+```
 //block hash
 > web3.eth.getBlock("0x0098d4eb6ec05bf6a7c727310b64ae9bfe1c5fb3ff57a3449bcededa00858015",true).then(console.log)
 > {
@@ -101,4 +101,3 @@ The block object:
 }
 
 ```
-

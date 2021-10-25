@@ -4,7 +4,7 @@ description: Returns true if client is actively mining new blocks
 
 # eth\_mining
 
-```text
+```
 web3.eth.isMining([callback])
 ```
 
@@ -14,8 +14,7 @@ web3.eth.isMining([callback])
 
 #### Example
 
-```text
+```
 > web3.eth.isMining().then(console.log)
 > true
 ```
-

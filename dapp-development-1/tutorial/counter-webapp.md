@@ -1,15 +1,15 @@
 # Counter Webapp
 
-Now we have the `Counter` smart contract and deployed it to the clover local node. It's time to make changes to the web app so that it can interact with the `Counter` smart contract instance. 
+Now we have the `Counter` smart contract and deployed it to the clover local node. It's time to make changes to the web app so that it can interact with the `Counter` smart contract instance.&#x20;
 
 ## Preparation
 
 ### Setup the browser wallet
 
-As it's a web application, make sure you've setup a `browser wallet` that connects to the local node. Follow the tutorials in the [Quick Start](../../quick-start/local-node/) section if you have set it up yet. In this guide, we assume you connect to the local node using the [MetaMask](../../quick-start/local-node/using-metamask.md) wallet. 
+As it's a web application, make sure you've setup a `browser wallet` that connects to the local node. Follow the tutorials in the [Quick Start](../../quick-start/local-node/) section if you have set it up yet. In this guide, we assume you connect to the local node using the [MetaMask](../../quick-start/local-node/using-metamask.md) wallet.&#x20;
 
 {% hint style="info" %}
- MetaMask is the most commonly used browser wallet for Ethereum like blockchain networks. We can use MetaMask to connect to Clover network since Clover is fully compatible with Ethereum. 
+&#x20;MetaMask is the most commonly used browser wallet for Ethereum like blockchain networks. We can use MetaMask to connect to Clover network since Clover is fully compatible with Ethereum.&#x20;
 {% endhint %}
 
 After you have the wallet installed, import the `dev account` , you can import the dev account using the seed phase:
@@ -219,13 +219,13 @@ export default function() {
 ```
 {% endcode %}
 
-We added the `Web3ReactProvider` to the root of the application and include the `useEagerConnect` hooks in the `App` component. We also includes the `ChainId` component which will show the connected chain id and show `not connected` if no connection detected. 
+We added the `Web3ReactProvider` to the root of the application and include the `useEagerConnect` hooks in the `App` component. We also includes the `ChainId` component which will show the connected chain id and show `not connected` if no connection detected.&#x20;
 
 Start the application you will see the `not connected` in the ChainId component. It's find since we haven't implement the connection logic. But you can test it by manually connect to the web app from `MetaMask`, try to figure out how to do it by yourself.
 
 ### Add the Connect Button
 
-Now let's add a button to trigger the wallet connect dialog. 
+Now let's add a button to trigger the wallet connect dialog.&#x20;
 
 Edit `App.js` to add some imports:
 
@@ -321,7 +321,7 @@ and the css class for the button
 ```
 {% endcode %}
 
-The `ConnectChain` component simple renders a button if it's not connected, click it will trigger the web3 connection dialog. 
+The `ConnectChain` component simple renders a button if it's not connected, click it will trigger the web3 connection dialog.&#x20;
 
 Let's add the `ConnectChain` component to the `App` component, you could place it under the `<h1>` title or somewhere else as you like.
 
@@ -340,7 +340,7 @@ $ yarn add @ethersproject/contracts
 ```
 
 {% hint style="info" %}
-`@ethersproject/contracts` is a sub module of the ethers project.It is creating \(at run-time\) an object which interacts with an on-chain contract as a native JavaScript object.
+`@ethersproject/contracts` is a sub module of the ethers project.It is creating (at run-time) an object which interacts with an on-chain contract as a native JavaScript object.
 {% endhint %}
 
 We need add extra hooks to interact with the contract:
@@ -405,7 +405,7 @@ export function useContractCallData(contract, methodName, args) {
 ```
 {% endcode %}
 
-1. We add 3 hooks, the `useBlockNumber`hook returns the latest block number from the chain \(we emulate the data with 1 second refresh interval\).
+1. We add 3 hooks, the `useBlockNumber`hook returns the latest block number from the chain (we emulate the data with 1 second refresh interval).
 2. The `useContract` hook creates a smart contract instance from the json definition which was created by truffle. It will automatically detect the smart contract address on the chain.
 3. The `useContractCallData` hook calls the contract method and will keep up to date with the latest block.
 
@@ -439,15 +439,15 @@ function App() {
 }
 ```
 
-Here we create the counter contract using the `useContract` hook. And then we use the `useContractCallData` hook to fetch the `current_value` state from the smart contract. 
+Here we create the counter contract using the `useContract` hook. And then we use the `useContractCallData` hook to fetch the `current_value` state from the smart contract.&#x20;
 
-In the renderer function, we set the current value text to the value on the chain. 
+In the renderer function, we set the current value text to the value on the chain.&#x20;
 
 Save `App.js` and reload the webpage, you should see the current counter value on the page.
 
 ## Write contract state
 
-Now we can work on the inc/dec buttons, we'll add the `onClick` handler to them and call the `inc`/`dec` method correspondingly. 
+Now we can work on the inc/dec buttons, we'll add the `onClick` handler to them and call the `inc`/`dec` method correspondingly.&#x20;
 
 ```javascript
 function App() {
@@ -494,7 +494,7 @@ Besides calling the `inc`/`dec`method, we also added a loading state to indicate
 
 Save `App.js` and reload the webpage.
 
-Click the Inc or Dec button, the sign transaction dialog will show up, click confirm to sign and send the transaction. The current value will be updated after a short while \(~around 10 seconds\).
+Click the Inc or Dec button, the sign transaction dialog will show up, click confirm to sign and send the transaction. The current value will be updated after a short while (\~around 10 seconds).
 
 That's it! We've implemented read/write the smart contracts in the DApp.
 
@@ -514,4 +514,3 @@ There're several things to improve which you can do:
 4. The loading spinner shows when the `confirm transaction` dialog open, improve it so that it will wait for the transaction completes.
 
 As we only demo a smallest DApp development, some code/functions are not written in a performant style, you should adjust them if you want to use them in a real project.
-

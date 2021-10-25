@@ -1,6 +1,6 @@
 # The Counter Contract
 
-## 📝 The Code
+## :pencil: The Code
 
 Smart contracts are put at the contracts folder. Create the contract folder using:
 
@@ -9,7 +9,7 @@ mkdir contracts
 ```
 
 {% hint style="info" %}
-Placing smart contracts in the contracts folder is a convention of truffle. You can specify a different directory by modifying truffle configuration. Checkout the [conracts\_directory](https://www.trufflesuite.com/docs/truffle/reference/configuration#contracts_directory) section in truffles document.
+Placing smart contracts in the contracts folder is a convention of truffle. You can specify a different directory by modifying truffle configuration. Checkout the [conracts\_directory](https://www.trufflesuite.com/docs/truffle/reference/configuration#contracts\_directory) section in truffles document.
 {% endhint %}
 
 Once created the contracts folder , create the `Counter.sol` file with contents below:
@@ -34,16 +34,16 @@ contract Counter {
 ```
 {% endcode %}
 
-## 🌟 Explain
+## :star2: Explain
 
-The contract code is quite self explain: 
+The contract code is quite self explain:&#x20;
 
-* A state variable `current_value` which is an unsigned integer. 
-* inc\(\) method, which increase the current\_value by one. 
-* dec\(\) method, which decrease the current\_value by one.
-* current\_value has a bound of \[0, 10000\] which was checked in inc and dec methods.
+* A state variable `current_value` which is an unsigned integer.&#x20;
+* inc() method, which increase the current\_value by one.&#x20;
+* dec() method, which decrease the current\_value by one.
+* current\_value has a bound of \[0, 10000] which was checked in inc and dec methods.
 
-## 🚗 Test out
+## :red\_car: Test out
 
 Run command `truffle compile`, it will find and compiles the Counter contract. you should looks outputs like:
 
@@ -60,7 +60,5 @@ Compiling your contracts...
 Truffle command will download solidity compiler at the first time. There could be some messages related to the compiler setup. It's normal.
 {% endhint %}
 
- 
-
-
+&#x20;
 

@@ -4,11 +4,11 @@ description: Use Web3.js to Send Transaction on Clover
 
 # Send Transaction
 
-For our example, we only need a single JavaScript file \(arbitrarily named _transaction.js_\) to create and send the transaction, which we will run using the `node` command in the terminal. The script will transfer 100 CLV from the genesis account to another address. For simplicity, the file is divided into three sections: variable definition, create transaction, and send transaction.
+For our example, we only need a single JavaScript file (arbitrarily named _transaction.js_) to create and send the transaction, which we will run using the `node` command in the terminal. The script will transfer 100 CLV from the genesis account to another address. For simplicity, the file is divided into three sections: variable definition, create transaction, and send transaction.
 
 We need to set a couple of values in the variable definitions, then construct and sign the transaction:
 
-1. Create your Web3 constructor \(`Web3`\).
+1. Create your Web3 constructor (`Web3`).
 2. Specify the received address, CLV amount, gas price and gas limit.
 3. Sign the transaction and broadcast it the Clover chain
 
@@ -50,9 +50,7 @@ webTransfer('0x1874FC5f915aa9Fd24C379fE7F9ec40607CEf78A', 100).then(console.log)
 
 You can run the above script using command :
 
-```text
+```
 node transaction.js
 ```
-
-
 
