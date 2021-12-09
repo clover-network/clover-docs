@@ -1,16 +1,16 @@
 # dApp Integration
 
-Clover Web wallet could be used for dapp's sign transaction or sign message through a sdk named @clover-network/web-wallet-sdk.
+dApps can easily integrate Clover Web Wallet for transaction & message signing. The SDK **@clover-network/web-wallet-sdk** is **** needed for the integration.
 
-The sdk could be installed as below:
+The SDK can be installed as follows:
 
 ```
 yarn add @clover-network/web-wallet-sdk
 ```
 
-### Integrated For Polkadot family
+### Substrate Blockchains Integration
 
-Clover web wallet supports dApps on polkadot family, it could be used as below:
+Clover web wallet supports dApps on substrate based blockchains, such as Polkadot, Kusama, Acala, etc.  The sample code is as follows:
 
 ```
 import CloverWebInjected from '@clover-network/web-wallet-sdk';
@@ -63,9 +63,9 @@ polkadotSignTransaction = async () => {
 
 ```
 
-### Integrated for Evm chains
+### EVM Blockchains Integration
 
-Clover web wallet supports dApps on Evm chains, it could be used as below:
+Clover web wallet supports dApps on EVM blockchains, such as Ethereum, Moonbeam. The sample code is as follows:
 
 ```
 import CloverWebInjected from '@clover-network/web-wallet-sdk';
@@ -135,9 +135,9 @@ const signPersonalMsg = async () => {
 
 ```
 
-### Solana Integrated
+### Solana Blockchain Integration
 
-Clover web wallet supports dApps on Solana, it could be used as below:
+Clover web wallet supports dApps on Solana. The sample code is as follows:
 
 ```
 import CloverWebInjected from '@clover-network/web-wallet-sdk';
