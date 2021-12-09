@@ -1,8 +1,8 @@
 # Substrate dApp Integration
 
-Clover Extension Wallet use method 'injectExtension' of @polkadot/extension-inject to inject a object into dApp's web page, then it could be used by calling web3Enable() as official document said. Sample code is below:
+Clover Extension Wallet use method 'injectExtension' of **@polkadot/extension-inject** to inject a object into dApp's web page, then it could be used by calling web3Enable() as official document said. Sample code is below:
 
-```
+```typescript
 import { web3Accounts, web3Enable } from '@polkadot/extension-dapp';
 
 // find clover extension wallet injector
