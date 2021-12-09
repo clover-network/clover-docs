@@ -10,7 +10,7 @@ In order to show how Clover extension wallet interacts with multiple active bloc
 
 ### 1. Install Clover Extension Wallet
 
-In order to play with the demo, you need to install Clover extension wallet, and make sure the version is above** 2.5.0**. Then connect with your wallet:
+In order to play with the demo, you need to install Clover extension wallet, and make sure the version is above **2.5.0**. Then connect with your wallet:
 
 ![Connect to your wallet](<../../.gitbook/assets/image (72).png>)
 

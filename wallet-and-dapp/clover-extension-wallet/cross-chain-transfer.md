@@ -6,7 +6,7 @@ Using Clover mobile wallet or extension wallet. You can cross-chain transfer you
 
 Currently, there are three kinds of CLV assets:\
 \
-**WARNING: DO NOT send CLV cross-chain transfer to any of the addresses listed below or you will risk losing your assets, these are only example addresses or contract addresses which the team DOES NOT have access to. Please send the cross-chain transfer only directly to your own address or input address on an exchange account. **
+**WARNING: DO NOT send CLV cross-chain transfer to any of the addresses listed below or you will risk losing your assets, these are only example addresses or contract addresses which the team DOES NOT have access to. Please send the cross-chain transfer only directly to your own address or input address on an exchange account.**&#x20;
 
 ### 1. CLV native token
 

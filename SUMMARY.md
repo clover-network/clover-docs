@@ -23,7 +23,7 @@
   * [Connect to TestNet network](quick-start/testnet/connect-to-test-network.md)
 * [Clover Network List](quick-start/clover-network-list.md)
 
-## Clover DAPP Development <a href="dapp-development-1" id="dapp-development-1"></a>
+## Clover DAPP Development <a href="#dapp-development-1" id="dapp-development-1"></a>
 
 * [Introduction](dapp-development-1/introduction/README.md)
   * [Prerequisites](dapp-development-1/introduction/prerequisites.md)
@@ -42,7 +42,7 @@
 * [Virtual Ethereum address binding](clover-eco-incentive-program/clover-user-incentive-program.md)
 * [Clover User Incentive Program](clover-eco-incentive-program/clover-user-incentive-program-1.md)
 
-## Clover Wallets & Dapps <a href="wallet-and-dapp" id="wallet-and-dapp"></a>
+## Clover Wallets & Dapps <a href="#wallet-and-dapp" id="wallet-and-dapp"></a>
 
 * [Clover Extension Wallet](wallet-and-dapp/clover-extension-wallet/README.md)
   * [Getting Started](wallet-and-dapp/clover-extension-wallet/installation.md)
@@ -58,7 +58,8 @@
   * [dApp Interaction Protocol](wallet-and-dapp/clover-extension-wallet/dapp-protocol.md)
   * [Wallet Integration QA](wallet-and-dapp/clover-extension-wallet/wallet-integration-qa.md)
 * [Clover Mobile Wallet](wallet-and-dapp/clover-mobile-wallet.md)
-* [Clover Web Wallet](wallet-and-dapp/clover-web-wallet.md)
+* [Clover Web Wallet](wallet-and-dapp/clover-web-wallet/README.md)
+  * [dApp Integration](wallet-and-dapp/clover-web-wallet/dapp-integration.md)
 * [DAPP store](wallet-and-dapp/dapp-store.md)
 * [Clover Assets Explorer](wallet-and-dapp/assets-stats-and-management.md)
 * [Clover Cross-Chain Explorer](wallet-and-dapp/clover-cross-chain-explorer.md)
