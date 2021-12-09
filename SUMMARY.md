@@ -54,6 +54,7 @@
   * [Cross-Chain Transfer](wallet-and-dapp/clover-extension-wallet/cross-chain-transfer.md)
   * [Avoid Metamask Conflict](wallet-and-dapp/clover-extension-wallet/avoid-metamask-conflict.md)
   * [dApp Integration](wallet-and-dapp/clover-extension-wallet/dapp-integration.md)
+  * [Substrate dApp Integration](wallet-and-dapp/clover-extension-wallet/substrate-dapp-integration.md)
   * [Solana-dApp-Integration](wallet-and-dapp/clover-extension-wallet/solana-dapp-integration.md)
   * [dApp Interaction Protocol](wallet-and-dapp/clover-extension-wallet/dapp-protocol.md)
   * [Wallet Integration QA](wallet-and-dapp/clover-extension-wallet/wallet-integration-qa.md)
