@@ -10,8 +10,8 @@ Please refer to the following details for Clover TestNet:
 
 * Network Name: `Clover TestNet`
 * RPC URL:&#x20;
-  * `https://rpc.clover.finance `
-  * `https://rpc-2.clover.finance `
+  * `https://rpc.clover.finance`&#x20;
+  * `https://rpc-2.clover.finance`&#x20;
   * `https://rpc-3.clover.finance`
 * Web Socket URL:
   * `wss://api.clover.finance`
@@ -43,5 +43,9 @@ Make sure your MetaMask is connected to CloverTestNet as described above.  The s
 If you want to set up a local node, which can connect to Clover TestNet, please use the following command to start your local node:
 
 ```bash
-./target/release/clover --chain specs/clover-preview-iris.json --port 30333 --ws-port 9944 --rpc-port 9933  --name myNode --rpc-cors=all --rpc-methods=Unsafe --validator --unsafe-ws-external --unsafe-rpc-external
+./target/release/clover --chain specs/clover-preview-iris.json \
+    --port 30333 --ws-port 9944 --rpc-port 9933  \
+    --name myNode --rpc-cors=all --rpc-methods=Unsafe \
+    --validator --unsafe-ws-external --unsafe-rpc-external \
+    --execution wasm
 ```

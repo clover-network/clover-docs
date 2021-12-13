@@ -102,6 +102,8 @@ services:
       - "2000"
       - --ws-external 
       - --rpc-external
+      - --execution
+      - wasm
     ports:
       - "30333:30333"
       - "9933:9933"
@@ -111,12 +113,13 @@ services:
 ```
 
 {% hint style="info" %}
-You can edit the `docker-compose.yaml `and include your customizations by updating below arguments:
+You can edit the `docker-compose.yaml` and include your customizations by updating below arguments:
 
-* image: the docker image used to launch the node, for Clover Testnet, use `cloverio/clover-iris:0.1.15. `For a full list of clover networks please check out the [Clover Network List](../quick-start/clover-network-list.md) page.
+* image: the docker image used to launch the node, for Clover Testnet, use `cloverio/clover-iris:0.1.15.` For a full list of clover networks please check out the [Clover Network List](../quick-start/clover-network-list.md) page.
 * \--_name_:  The node name of your validator, the name could be found in the telemetry node list
 * _--pruning_: we're using the `archive` mode for the pruning argument, which means it will keep all the historical block data. You can provide numeric parameters for it, to let it just keep the provided number of blocks data.
 * _--ws-extenral/--rpc-external:_ it enable the outer access for the RPC service.
+* `Enabling --execution wasm` will spped up wasm code execution quite a lot, it's recommended for rpc nodes.
 {% endhint %}
 
 ## :rocket: Bring up the RPC node
@@ -131,7 +134,7 @@ docker-compose up # bring up the rpc node in the foreground
 docker-compose up -d # start the rpc node in the daemon mode.
 ```
 
-You need to check the node logs using `docker-compose logs ` command. Wait until the node is synced and the block numbers syncs with the latest number on the chain.
+You need to check the node logs using `docker-compose logs` command. Wait until the node is synced and the block numbers syncs with the latest number on the chain.
 
 ## :satellite: Post Setup
 

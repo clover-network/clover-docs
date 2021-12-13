@@ -58,7 +58,7 @@ Create `/opt/compose/docker-compose.yaml` and set the content as below:
 version: "3.8"
 services:
   clover-validator:
-    image: "cloverio/clover-iris:0.1.14"
+    image: "cloverio/clover-iris:0.1.15"
     restart: always
     command:
       - /opt/clover/bin/clover
@@ -76,6 +76,8 @@ services:
       - --rpc-port 
       - "9933"
       - --rpc-cors=all 
+      - --execution
+      - wasm
     ports:
       - "30333:30333"
       - "9933:9933"
@@ -85,11 +87,12 @@ services:
 ```
 
 {% hint style="info" %}
-You can edit the `docker-compose.yaml `and include your customizations by updating below arguments:
+You can edit the `docker-compose.yaml` and include your customizations by updating below arguments:
 
 * image: the docker image used to launch the node, for Clover Testnet, use `cloverio/clover-iris:0.1.14.`For a full list of clover networks please check out the [Clover Network List](../quick-start/clover-network-list.md) page.
 * \--_name_:  The node name of your validator, the name could be found in the telemetry node list.
 * _--unsafe-rpc-external:_  You might need this flag to call the `author_rotateKeys` api, make sure to remove this flag later on for better security.
+* Ensure enable the `--exeuction wasm` flag, This is required for all validator nodes.
 {% endhint %}
 
 ## :rocket: Bring up the validator node
@@ -104,7 +107,7 @@ docker-compose up # bring up the validator node in the foreground
 docker-compose up -d # start the validator node in the daemon mode.
 ```
 
-You need to check the node logs using `docker-compose logs ` command. Wait until the node is synced and the block numbers syncs with the latest number on the chain.
+You need to check the node logs using `docker-compose logs` command. Wait until the node is synced and the block numbers syncs with the latest number on the chain.
 
 ## :chart: Bond CLV
 
