@@ -22,6 +22,7 @@
   * [Run a Clover node](quick-start/testnet/run-a-clover-node.md)
   * [Connect to TestNet network](quick-start/testnet/connect-to-test-network.md)
 * [Clover Network List](quick-start/clover-network-list.md)
+* [Staking on Ivy network](quick-start/staking-on-ivy-network.md)
 
 ## Clover DAPP Development <a href="#dapp-development-1" id="dapp-development-1"></a>
 
