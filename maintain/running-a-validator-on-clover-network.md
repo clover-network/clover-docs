@@ -58,12 +58,12 @@ Create `/opt/compose/docker-compose.yaml` and set the content as below:
 version: "3.8"
 services:
   clover-validator:
-    image: "cloverio/clover-iris:0.1.15"
+    image: "cloverio/clover-ivy:0.1.16"
     restart: always
     command:
       - /opt/clover/bin/clover
       - --chain 
-      - /opt/specs/clover-preview-iris.json  
+      - /opt/specs/clover-ivy.json  
       - --base-path 
       - /opt/chaindata
       - --validator
@@ -89,7 +89,7 @@ services:
 {% hint style="info" %}
 You can edit the `docker-compose.yaml` and include your customizations by updating below arguments:
 
-* image: the docker image used to launch the node, for Clover Testnet, use `cloverio/clover-iris:0.1.14.`For a full list of clover networks please check out the [Clover Network List](../quick-start/clover-network-list.md) page.
+* image: the docker image used to launch the node, for Clover mainnet, use `cloverio/clover-ivy:0.1.16.`For a full list of clover networks please check out the [Clover Network List](../quick-start/clover-network-list.md) page.
 * \--_name_:  The node name of your validator, the name could be found in the telemetry node list.
 * _--unsafe-rpc-external:_  You might need this flag to call the `author_rotateKeys` api, make sure to remove this flag later on for better security.
 * Ensure enable the `--exeuction wasm` flag, This is required for all validator nodes.
@@ -111,7 +111,7 @@ You need to check the node logs using `docker-compose logs` command. Wait until 
 
 ## :chart: Bond CLV
 
-Checkout[ Polkadot Bond ](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-validate-polkadot#bond-dot)documentation.
+Checkout [Staking](../quick-start/staking-on-ivy-network.md) documentation.
 
 ## :key2: Set the session keys
 
