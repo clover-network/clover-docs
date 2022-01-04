@@ -6,7 +6,7 @@ description: Interacting with a Clover Node Using MetaMask
 
 This guide will show you how to use MetaMask wallet connecting to a self-run Clover standalone node, and sending tokens between accounts. There are two ways to interact with Clover: using Substrate RPC endpoints, or by using Web3-compatible RPC endpoints, which is served from the same Substrate RPC RPC server. In this tutorial, we will use Web3 RPC endpoints.
 
-### Installing MetaMask Chrome Extension <a href="install-the-metamask-extension" id="install-the-metamask-extension"></a>
+### Installing MetaMask Chrome Extension <a href="#install-the-metamask-extension" id="install-the-metamask-extension"></a>
 
 First of all, install the [MetaMask](https://metamask.io) Extension from the Chrome Store. After installation is done, follow the "Get Started" guide to create a wallet, set a password, and keep your secret backup phrases in a secure place.&#x20;
 
@@ -27,7 +27,7 @@ You will see an imported “Account 2” looks like this:
 
 ![](<../../.gitbook/assets/image (3).png>)
 
-### Connecting to the Local Clover Node <a href="connect-to-the-local-moonbeam-node" id="connect-to-the-local-moonbeam-node"></a>
+### Connecting to the Local Clover Node <a href="#connect-to-the-local-moonbeam-node" id="connect-to-the-local-moonbeam-node"></a>
 
 Now connect MetaMask to your locally running Clover node. It should be producing blocks now:
 
@@ -37,7 +37,7 @@ Back to MetaMask, navigate to Settings -> Networks -> Add Network. Fill in the f
 
 * Network Name: `Clover Dev`
 * New RPC URL: `http://127.0.0.1:9933`
-* ChainID: `1337`
+* ChainID: `1023`
 * Symbol (Optional): `CLV`
 
 ![](<../../.gitbook/assets/image (4).png>)
@@ -46,7 +46,7 @@ When done, click on the "save" button. MetaMask should be connected to the local
 
 ![](<../../.gitbook/assets/image (5).png>)
 
-### Initiating a Transfer <a href="initiating-a-transfer" id="initiating-a-transfer"></a>
+### Initiating a Transfer <a href="#initiating-a-transfer" id="initiating-a-transfer"></a>
 
 Now we can try sending tokens with MetaMask. Let's transfer from this dev account to the account we just created while setting up MetaMask, so that we can simply use the “Transfer between my accounts” option.&#x20;
 
