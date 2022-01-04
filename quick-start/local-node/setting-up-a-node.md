@@ -1,6 +1,6 @@
 # Setting Up a Node
 
-## 1. Install build tools & libraries <a href="__docusaurus" id="__docusaurus"></a>
+## 1. Install build tools & libraries <a href="#__docusaurus" id="__docusaurus"></a>
 
 Clover is the easiest to be set up on Unix-based operating systems like macOS or Linux. Here is the instruction on installing Rust's toolchains. If you have already done this, please go to the Step 3.
 
@@ -60,8 +60,7 @@ cd clover
 Once you have followed all of the steps above, it's time to build the standalone node by running:
 
 ```bash
-./scripts/init.sh
-cargo build --release
+cargo build --release --features clover-testnet
 ```
 
 {% hint style="info" %}
@@ -87,7 +86,7 @@ The local standalone Clover node provides two RPC endpoints:
 * WS: `ws://127.0.0.1:9944`
 {% endhint %}
 
-### Connecting Polkadot JS Apps to a Local Clover Node <a href="connecting-polkadot-js-apps-to-a-local-moonbeam-node" id="connecting-polkadot-js-apps-to-a-local-moonbeam-node"></a>
+### Connecting Polkadot JS Apps to a Local Clover Node <a href="#connecting-polkadot-js-apps-to-a-local-moonbeam-node" id="connecting-polkadot-js-apps-to-a-local-moonbeam-node"></a>
 
 The locally-running Clover node is a Substrate-based node, so we can interact with it using standard Substrate tools. Let’s start by connecting it with Clover JS Apps.\
 Visit https://apps.clover.finance/#/explorer and you will see Polkadot JS Apps and are automatically connected to the Polkadot MainNet.
