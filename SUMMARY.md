@@ -62,7 +62,6 @@
 * [Clover Mobile Wallet](wallet-and-dapp/clover-mobile-wallet.md)
 * [Clover Web Wallet](wallet-and-dapp/clover-web-wallet/README.md)
   * [dApp Integration](wallet-and-dapp/clover-web-wallet/dapp-integration.md)
-* [DAPP store](wallet-and-dapp/dapp-store.md)
 * [Clover Assets Explorer](wallet-and-dapp/assets-stats-and-management.md)
 * [Clover Cross-Chain Explorer](wallet-and-dapp/clover-cross-chain-explorer.md)
 

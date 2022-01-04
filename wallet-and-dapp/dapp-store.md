@@ -1,2 +1,0 @@
-# DAPP store
-
