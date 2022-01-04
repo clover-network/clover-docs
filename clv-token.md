@@ -23,6 +23,7 @@
 * **CLV ERC-20:** [Etherscan](https://etherscan.io/token/0x80C62FE4487E1351b47Ba49809EBD60ED085bf52)
 * **CLV BEP-20:** [Bscscan](https://bscscan.com/token/0x09E889BB4D5b474f561db0491C38702F367A4e4d)
 * **CLV Native:** [Subscan](https://clover.subscan.io)
+* **CLV Parachain:** [Subscan](https://clv.subscan.io)
 * **CLV Cross-Chain Transaction Explorer:** [CloverScan](https://tx.clover.finance/#/)
 
 ## How to store CLV?
@@ -30,7 +31,7 @@
 **Clover App Wallet**
 
 * [IOS](https://apps.apple.com/us/app/clover-wallet/id1570072858)
-* [Android](https://play.google.com/store/apps/details?id=com.clover.wallet\&hl=zh\&gl=US)
+* [Android](https://play.google.com/store/apps/details?id=com.clover.finance.wallet\&hl=zh\&gl=US)
 * [APK](https://github.com/clover-network/clover-multichain-mobile-wallet-release/releases/latest/download/clover.apk)
 
 **Clover Extension Wallet**
