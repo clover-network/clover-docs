@@ -8,9 +8,9 @@ This site will be updated from as Clover evolves. We welcome everyone joins the 
 
 Clover is a Substrate-based Polkadot parachain. Clover is committed to providing easy-to-use blockchain infrastructure and creating a one-stop comprehensive infrastructure platform, which aims to reduce the threshold and cost for developers, while bringing them great returns.&#x20;
 
-### Blockchain Operating System
+### Passport to the Omniverse
 
-Clover is a Blockchain Operating System, which contains storage layer, smart contract layer, Defi protocol layer and eApp layer, in details:
+Clover is the passport to the omniverse, which contains storage layer, smart contract layer, Defi protocol layer and eApp layer, in details:
 
 * Storage layer: Storage protocol layer supports distributed storage of dApp data. The supported protocols are IPFS, AR, CRUST etc.
 * Smart contract layer: It supports one-stop cross-chain deployment and calls of dApp. Clover provides a Web3-compatible API,  and existing web3 dApps can be migrated to Clover without any change needed.
@@ -22,12 +22,6 @@ Clover is a Blockchain Operating System, which contains storage layer, smart con
 Substrate is technically fit for Clover. By building on top of Substrate, Clover is able to leverage the extensive functionalities that Substrate provides out-of-the-box, rather than needing to build them from scratch. These functionalities include peer-to-peer networking, consensus mechanisms, governance functionality, EVM implementation, and more.
 
 Overall, using Substrate will dramatically reduce the time and work needed to implement Clover. Substrate allows a great degree of customization, which is compulsory when achieving compatibility with Ethereum. Meanwhile, by adopting Rust, Clover will gain both safety guarantee and performance enhancement.
-
-### How to Engage With the Clover Community
-
-{% hint style="info" %}
-&#x20;Clover TestNet and community will be available soon...
-{% endhint %}
 
 
 
