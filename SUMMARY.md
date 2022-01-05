@@ -32,13 +32,6 @@
   * [Deploy Contract](development-guide/tutorial/deploy-contract.md)
   * [Counter Webapp](development-guide/tutorial/counter-webapp.md)
 
-## Clover Eco Incentive Program
-
-* [Introduction](clover-eco-incentive-program/introduction.md)
-* [Clover Developer Incentive Program](clover-eco-incentive-program/clover-dapp-developer-incentive-structure.md)
-* [Virtual Ethereum address binding](clover-eco-incentive-program/clover-user-incentive-program.md)
-* [Clover User Incentive Program](clover-eco-incentive-program/clover-user-incentive-program-1.md)
-
 ## Clover Wallets & Dapps <a href="#wallet-and-dapp" id="wallet-and-dapp"></a>
 
 * [Clover Extension Wallet](wallet-and-dapp/clover-extension-wallet/README.md)
@@ -112,6 +105,13 @@
 * [Clover Accounts Binding](technical-documentation/clover-evm-bind.md)
 * [Query Balance](technical-documentation/query-banalnce.md)
 * [Transaction Finality](technical-documentation/transaction-finality.md)
+
+## Clover Eco Incentive Program
+
+* [Introduction](clover-eco-incentive-program/introduction.md)
+* [Clover Developer Incentive Program](clover-eco-incentive-program/clover-dapp-developer-incentive-structure.md)
+* [Virtual Ethereum address binding](clover-eco-incentive-program/clover-user-incentive-program.md)
+* [Clover User Incentive Program](clover-eco-incentive-program/clover-user-incentive-program-1.md)
 
 ## Parachain Auction
 
