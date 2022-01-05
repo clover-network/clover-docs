@@ -89,7 +89,7 @@ services:
 {% hint style="info" %}
 You can edit the `docker-compose.yaml` and include your customizations by updating below arguments:
 
-* image: the docker image used to launch the node, for Clover mainnet, use `cloverio/clover-ivy:0.1.16.`For a full list of clover networks please check out the [Clover Network List](../quick-start/clover-network-list.md) page.
+* image: the docker image used to launch the node, for Clover mainnet, use `cloverio/clover-ivy:0.1.16.`For a full list of clover networks please check out the [Clover Network List](../quick-start/clover-networks.md) page.
 * \--_name_:  The node name of your validator, the name could be found in the telemetry node list.
 * _--unsafe-rpc-external:_  You might need this flag to call the `author_rotateKeys` api, make sure to remove this flag later on for better security.
 * Ensure enable the `--exeuction wasm` flag, This is required for all validator nodes.

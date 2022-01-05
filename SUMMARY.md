@@ -7,21 +7,22 @@
 
 ## Quick Start
 
+* [Clover Networks](quick-start/clover-networks.md)
+* [Sakura Networks](quick-start/sakura-networks.md)
 * [Local Node](quick-start/local-node/README.md)
-  * [Setting Up a Node](quick-start/local-node/setting-up-a-node.md)
   * [Using MetaMask](quick-start/local-node/using-metamask.md)
   * [Using Remix](quick-start/local-node/using-remix.md)
   * [Using Truffle](quick-start/local-node/using-truffle.md)
   * [Web3.js](quick-start/local-node/web3.js/README.md)
     * [Query Balance](quick-start/local-node/web3.js/query-balance.md)
     * [Send Transaction](quick-start/local-node/web3.js/send-transaction.md)
+  * [Setting Up a Node](quick-start/local-node/setting-up-a-node.md)
 * [TestNet (Iris)](quick-start/testnet/README.md)
   * [Create an account](quick-start/testnet/create-an-account.md)
   * [Faucet](quick-start/testnet/faucet.md)
   * [Clover Explorer](quick-start/testnet/clover-explorer.md)
   * [Run a Clover node](quick-start/testnet/run-a-clover-node.md)
   * [Connect to TestNet network](quick-start/testnet/connect-to-test-network.md)
-* [Clover Network List](quick-start/clover-network-list.md)
 * [Staking on Ivy network](quick-start/staking-on-ivy-network.md)
 
 ## Clover DAPP Development <a href="#dapp-development-1" id="dapp-development-1"></a>

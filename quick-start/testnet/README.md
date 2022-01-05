@@ -21,7 +21,7 @@ Please refer to the following details for Clover TestNet:
 * Symbol (Optional): `CLV`
 
 {% hint style="info" %}
-For a full list of clover networks please check out the [Clover Network List](../clover-network-list.md) page.
+For a full list of clover networks please check out the [Clover Network List](../clover-networks.md) page.
 {% endhint %}
 
 ## Using MetaMask for TestNet
