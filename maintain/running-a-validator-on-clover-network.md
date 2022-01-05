@@ -111,7 +111,7 @@ You need to check the node logs using `docker-compose logs` command. Wait until 
 
 ## :chart: Bond CLV
 
-Checkout [Staking](../quick-start/staking-on-ivy-network.md) documentation.
+Checkout [Staking](staking-on-clover/) documentation.
 
 ## :key2: Set the session keys
 

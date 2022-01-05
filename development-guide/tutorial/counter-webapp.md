@@ -6,7 +6,7 @@ Now we have the `Counter` smart contract and deployed it to the clover local nod
 
 ### Setup the browser wallet
 
-As it's a web application, make sure you've setup a `browser wallet` that connects to the local node. Follow the tutorials in the [Quick Start](../../quick-start/local-node/) section if you have set it up yet. In this guide, we assume you connect to the local node using the [MetaMask](../../quick-start/local-node/using-metamask.md) wallet.&#x20;
+As it's a web application, make sure you've setup a `browser wallet` that connects to the local node. Follow the tutorials in the [Quick Start](broken-reference) section if you have set it up yet. In this guide, we assume you connect to the local node using the [MetaMask](../using-metamask.md) wallet.&#x20;
 
 {% hint style="info" %}
 &#x20;MetaMask is the most commonly used browser wallet for Ethereum like blockchain networks. We can use MetaMask to connect to Clover network since Clover is fully compatible with Ethereum.&#x20;

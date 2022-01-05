@@ -3,39 +3,34 @@
 * [Welcome to Clover](README.md)
 * [Useful Links](useful-links.md)
 * [CLV Token](clv-token.md)
-* [FAQ](faq.md)
 
 ## Quick Start
 
 * [Clover Networks](quick-start/clover-networks.md)
 * [Sakura Networks](quick-start/sakura-networks.md)
-* [Local Node](quick-start/local-node/README.md)
-  * [Using MetaMask](quick-start/local-node/using-metamask.md)
-  * [Using Remix](quick-start/local-node/using-remix.md)
-  * [Using Truffle](quick-start/local-node/using-truffle.md)
-  * [Web3.js](quick-start/local-node/web3.js/README.md)
-    * [Query Balance](quick-start/local-node/web3.js/query-balance.md)
-    * [Send Transaction](quick-start/local-node/web3.js/send-transaction.md)
-  * [Setting Up a Node](quick-start/local-node/setting-up-a-node.md)
-* [TestNet (Iris)](quick-start/testnet/README.md)
-  * [Create an account](quick-start/testnet/create-an-account.md)
-  * [Faucet](quick-start/testnet/faucet.md)
-  * [Clover Explorer](quick-start/testnet/clover-explorer.md)
-  * [Run a Clover node](quick-start/testnet/run-a-clover-node.md)
-  * [Connect to TestNet network](quick-start/testnet/connect-to-test-network.md)
-* [Staking on Ivy network](quick-start/staking-on-ivy-network.md)
+* [Using Local Node](quick-start/using-local-node.md)
+* [Using Testnet](quick-start/using-testnet/README.md)
+  * [Create an account](quick-start/using-testnet/create-an-account.md)
+  * [Faucet](quick-start/using-testnet/faucet.md)
+  * [Run a Testnet Node](quick-start/using-testnet/run-a-testnet-node.md)
+  * [Connect to Testnet](quick-start/using-testnet/connect-to-testnet.md)
 
-## Clover DAPP Development <a href="#dapp-development-1" id="dapp-development-1"></a>
+## Development Guide
 
-* [Introduction](dapp-development-1/introduction/README.md)
-  * [Prerequisites](dapp-development-1/introduction/prerequisites.md)
-  * [Setup environment](dapp-development-1/introduction/setup-environment.md)
-* [Counter Tutorial](dapp-development-1/tutorial/README.md)
-  * [Setup dapp project](dapp-development-1/tutorial/setup-dapp-project.md)
-  * [Setup truffle](dapp-development-1/tutorial/setup-truffle.md)
-  * [The Counter Contract](dapp-development-1/tutorial/the-counter-contract.md)
-  * [Deploy Contract](dapp-development-1/tutorial/deploy-contract.md)
-  * [Counter Webapp](dapp-development-1/tutorial/counter-webapp.md)
+* [Introduction](development-guide/introduction/README.md)
+  * [Prerequisites](development-guide/introduction/prerequisites.md)
+  * [Setup environment](development-guide/introduction/setup-environment.md)
+* [Using MetaMask](development-guide/using-metamask.md)
+* [Using Remix](development-guide/using-remix.md)
+* [Using Web3.js](development-guide/using-web3js/README.md)
+  * [Query Balance](development-guide/using-web3js/query-balance.md)
+  * [Send Transaction](development-guide/using-web3js/send-transaction.md)
+* [Counter Tutorial](development-guide/tutorial/README.md)
+  * [Setup dapp project](development-guide/tutorial/setup-dapp-project.md)
+  * [Setup truffle](development-guide/tutorial/setup-truffle.md)
+  * [The Counter Contract](development-guide/tutorial/the-counter-contract.md)
+  * [Deploy Contract](development-guide/tutorial/deploy-contract.md)
+  * [Counter Webapp](development-guide/tutorial/counter-webapp.md)
 
 ## Clover Eco Incentive Program
 
@@ -70,6 +65,8 @@
 
 * [Running a validator on Clover Network](maintain/running-a-validator-on-clover-network.md)
 * [Running a RPC node](maintain/running-a-rpc-node.md)
+* [Staking on Clover](maintain/staking-on-clover/README.md)
+  * [Staking via Apps](maintain/staking-on-clover/staking-via-apps.md)
 
 ## Technical Documentation
 

@@ -1,4 +1,6 @@
-# Setting Up a Node
+# Using Local Node
+
+This guide outlines steps to create a standalone local node to test Clover's compatibility with Ethereum. Follow this guide and you will have a Clover node running in your local environment, which can be connected to the default Polkadot JS GUI.
 
 ## 1. Install build tools & libraries <a href="#__docusaurus" id="__docusaurus"></a>
 
@@ -77,7 +79,7 @@ Then you will want to run the node in dev mode using the following command:
 
 You should see an output that looks like the following, showing that blocks are being produced:
 
-![](../../.gitbook/assets/1608540371482.jpg)
+![](../.gitbook/assets/1608540371482.jpg)
 
 {% hint style="info" %}
 The local standalone Clover node provides two RPC endpoints:
@@ -91,12 +93,12 @@ The local standalone Clover node provides two RPC endpoints:
 The locally-running Clover node is a Substrate-based node, so we can interact with it using standard Substrate tools. Let’s start by connecting it with Clover JS Apps.\
 Visit https://apps.clover.finance/#/explorer and you will see Polkadot JS Apps and are automatically connected to the Polkadot MainNet.
 
-![](../../.gitbook/assets/1609227317438.jpg)
+![](../.gitbook/assets/1609227317438.jpg)
 
 Click on the top left corner to open the menu and configure the networks, then navigate down to open the Development sub-menu. Select the "Local Node" option which points Polkadot JS Apps to `ws://127.0.0.1:9944`. Next, click on the Switch button and the site should be successfully connected to your standalone Clover node.
 
-![](../../.gitbook/assets/1609227432992.jpg)
+![](../.gitbook/assets/1609227432992.jpg)
 
 With Polkadot JS Apps connected, you will see the standalone Clover node producing blocks.
 
-![](../../.gitbook/assets/1609227552510.jpg)
+![](../.gitbook/assets/1609227552510.jpg)

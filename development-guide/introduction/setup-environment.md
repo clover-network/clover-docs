@@ -38,7 +38,7 @@ Create React App is an officially supported way to create single-page React appl
 npx create-react-app
 ```
 
-## :rocket: [Clover local node](../../quick-start/local-node/)
+## :rocket: [Clover local node](broken-reference)
 
 We assume you start your clover local node using below command, you might need to adjust some settings if you start clover use a different command arguments.
 
