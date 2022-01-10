@@ -39,7 +39,6 @@
   * [Switch Networks](wallet-and-dapp/clover-extension-wallet/switch-networks.md)
   * [Add Tokens](wallet-and-dapp/clover-extension-wallet/add-tokens.md)
   * [View Seed Phrase](wallet-and-dapp/clover-extension-wallet/view-seed-phrase.md)
-  * [Restore/Import Account](wallet-and-dapp/clover-extension-wallet/restore-import-account.md)
   * [Send Tokens](wallet-and-dapp/clover-extension-wallet/send-tokens.md)
   * [Cross-Chain Transfer](wallet-and-dapp/clover-extension-wallet/cross-chain-transfer.md)
   * [Avoid Metamask Conflict](wallet-and-dapp/clover-extension-wallet/avoid-metamask-conflict.md)
