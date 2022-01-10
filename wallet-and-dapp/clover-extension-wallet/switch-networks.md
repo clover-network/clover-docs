@@ -1,14 +1,16 @@
 # Switch Networks
 
-Clover wallet is capable of connecting to multiple blockchain networks simultaneously. By default , Clover wallet connects to Ethereum mainnet and Polkadot mainnet. That means, you're able to interact with Dapp's on both Ethereum and Polkadot mainnet, or to add Assets on these networks.
+Clover wallet is capable of connecting to multiple blockchain networks simultaneously. Details are:
 
-If you need to switch to another network, just click "Change" and select another network.
+* Clover wallet connect to all non-EVM networks simultaneously, such as Polkadot, Solana, Tron, etc.
+* For EVM networks, if developers use Clover Wallet dApp interaction protocol, then there is no need for their users to switch between EVM networks. Otherwise, users need to switch between them (please refer to the following step).
 
-![](<../../.gitbook/assets/image (42).png>)
+## Click 'dApp Networks'
 
-\
+![](<../../.gitbook/assets/image (97).png>)
 
+## Switch EVM Networks
 
-![](<../../.gitbook/assets/image (44).png>)
+Click the EVM network you want to switch
 
-##
+![](<../../.gitbook/assets/image (96).png>)

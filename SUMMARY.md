@@ -36,9 +36,9 @@
 
 * [Clover Extension Wallet](wallet-and-dapp/clover-extension-wallet/README.md)
   * [Getting Started](wallet-and-dapp/clover-extension-wallet/installation.md)
+  * [Switch Networks](wallet-and-dapp/clover-extension-wallet/switch-networks.md)
   * [View Seed Phrase](wallet-and-dapp/clover-extension-wallet/view-seed-phrase.md)
   * [Restore/Import Account](wallet-and-dapp/clover-extension-wallet/restore-import-account.md)
-  * [Switch Networks](wallet-and-dapp/clover-extension-wallet/switch-networks.md)
   * [Add Tokens](wallet-and-dapp/clover-extension-wallet/add-tokens.md)
   * [Send Tokens](wallet-and-dapp/clover-extension-wallet/send-tokens.md)
   * [Cross-Chain Transfer](wallet-and-dapp/clover-extension-wallet/cross-chain-transfer.md)

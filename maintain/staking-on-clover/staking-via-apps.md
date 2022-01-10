@@ -16,7 +16,7 @@ To grant the staking permissions to the `Controller` account, You need go to the
 
 Then the `Setup up nominator` dialogs show up:
 
-![Setup nominator dialog 1](<../../.gitbook/assets/image (94) (1).png>)
+![Setup nominator dialog 1](<../../.gitbook/assets/image (94) (1) (1).png>)
 
 Select your `Stash` and `Controller` accounts and set the value bonded. The payment destination options controls where the staking reward goes. Click `next` button.
 
@@ -40,7 +40,7 @@ Misbehaved validators will be `slashed` as well as nominators who nominated them
 
 Confirm and send the transaction and wait for the transaction is included in the block chain. The account details will show in the `Account Details` page.
 
-![Nomination details](<../../.gitbook/assets/image (95) (1).png>)
+![Nomination details](<../../.gitbook/assets/image (95) (1) (1).png>)
 
 More actions could be found by clicking on the dots at the right side of the account details:
 
