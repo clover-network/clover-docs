@@ -26,7 +26,7 @@ Do keep some balances in your stash account(aka, don't bond all of your funds). 
 
 ## Select Nominators
 
-![Setup nominator dialog 2](<../../.gitbook/assets/image (93) (1).png>)
+![Setup nominator dialog 2](<../../.gitbook/assets/image (93) (1) (1).png>)
 
 You can select some validator candidates to nominate in the second page.&#x20;
 
