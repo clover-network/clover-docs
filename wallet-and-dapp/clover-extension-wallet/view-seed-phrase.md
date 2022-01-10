@@ -1,18 +1,15 @@
 # View Seed Phrase
 
-To save your account seed phrase, first click the wallet management button on the top left. Then Click the MORE icon on "My Account" list and click the "Reveal seed phrase" on the popup menu.
+## Click 'Settings' Button
 
-![](<../../.gitbook/assets/image (54).png>)
+To check the seed phrase of your account, first click the setting button on the bottom navigation bar. Then click the 'Accounts' item.
 
-![](<../../.gitbook/assets/image (53).png>)
+![](<../../.gitbook/assets/image (94).png>)
 
-Confirm your password and click on "Next"
+## Click Account's Actions Button
 
-![](<../../.gitbook/assets/image (55).png>)
+![](<../../.gitbook/assets/image (97).png>)
 
-Now you can see and save your seed phrase to a safe place.\
-
-
-![](<../../.gitbook/assets/image (56).png>)
+Please note that you may input your password in order to view your seed phrase
 
 ##

@@ -16,7 +16,7 @@ To grant the staking permissions to the `Controller` account, You need go to the
 
 Then the `Setup up nominator` dialogs show up:
 
-![Setup nominator dialog 1](<../../.gitbook/assets/image (94) (1) (1) (1).png>)
+![Setup nominator dialog 1](<../../.gitbook/assets/image (94) (1) (1) (1) (1).png>)
 
 Select your `Stash` and `Controller` accounts and set the value bonded. The payment destination options controls where the staking reward goes. Click `next` button.
 
