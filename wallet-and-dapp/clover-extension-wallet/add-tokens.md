@@ -1,16 +1,29 @@
 # Add Tokens
 
-Clover wallet supports a great number of assets on various blockchain networks. The number is continuously increasing. You can see the most used assets in your default asset list. The top two represent your Clover native token account and bridged Clover account on Binance Smart Chain (BSC), Which is a BEP20 token.\
+## Add Token
 
+Clover Wallet support 20+ major blockchains, and support a lot of on-chain assets, such as ERC20, BEP20, TRC20, etc.  Users can use the 'Add Token' button on the main page to add their favourite tokens:\
+![](<../../.gitbook/assets/image (89).png>)
 
-![](<../../.gitbook/assets/image (39).png>)
+## Search Tokens and Add
 
-To add a custom token asset, you need first make sure you're connecting to the correct network you want. Then, just scroll down to the bottom and click the "add token" button. Then put the token contract address and click the "continue" to add that token into your asset list.
+You can search token symbols and add them. For example, if you search **USDT**, you may find the following assets:
 
-![](<../../.gitbook/assets/image (40).png>)
+* Tether USD on Ethereum
+* Compound Tether cUSDT on Ethereum
+* Wrapped USDT on Solana
 
-![](<../../.gitbook/assets/image (45).png>)
+![](<../../.gitbook/assets/image (95).png>)
 
-![](<../../.gitbook/assets/image (46).png>)
+## Add Custom Token
 
-## ****
+To add a custom token asset, you need to select the related blockchain network where your assets belong to. Then put the token contract address and click the 'Continue' to add that token into your asset list.
+
+![](<../../.gitbook/assets/image (90).png>)
+
+Please note that you only need to copy/paste the contract address, the token symbol and decimal will be automatically loaded.
+
+## Confirm and Add
+
+![](<../../.gitbook/assets/image (93).png>)
+
