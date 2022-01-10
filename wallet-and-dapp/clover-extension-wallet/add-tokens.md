@@ -13,13 +13,13 @@ You can search token symbols and add them. For example, if you search **USDT**, 
 * Compound Tether cUSDT on Ethereum
 * Wrapped USDT on Solana
 
-![](<../../.gitbook/assets/image (95).png>)
+![](<../../.gitbook/assets/image (95) (1).png>)
 
 ## Add Custom Token
 
 To add a custom token asset, you need to select the related blockchain network where your assets belong to. Then put the token contract address and click the 'Continue' to add that token into your asset list.
 
-![](<../../.gitbook/assets/image (90).png>)
+![](<../../.gitbook/assets/image (90) (1).png>)
 
 Please note that you only need to copy/paste the contract address, the token symbol and decimal will be automatically loaded.
 

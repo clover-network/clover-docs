@@ -12,7 +12,7 @@ You can go to [https://apps-ivy.clover.finance/](https://apps-ivy.clover.finance
 
 To grant the staking permissions to the `Controller` account, You need go to the `Staking/Account Actions` page. Click on the `Nominator` button.
 
-![](<../../.gitbook/assets/image (90) (1).png>)
+![](<../../.gitbook/assets/image (90) (1) (1).png>)
 
 Then the `Setup up nominator` dialogs show up:
 
@@ -40,7 +40,7 @@ Misbehaved validators will be `slashed` as well as nominators who nominated them
 
 Confirm and send the transaction and wait for the transaction is included in the block chain. The account details will show in the `Account Details` page.
 
-![Nomination details](<../../.gitbook/assets/image (95) (1) (1) (1).png>)
+![Nomination details](<../../.gitbook/assets/image (95) (1) (1) (1) (1).png>)
 
 More actions could be found by clicking on the dots at the right side of the account details:
 

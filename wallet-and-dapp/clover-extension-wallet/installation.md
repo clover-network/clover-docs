@@ -7,7 +7,7 @@ You can install Clover Wallet from the [Chrome Web Store](https://chrome.google.
 ## Create New Wallet
 
 To start, you need to create a new multi-chain wallet or restore a wallet if you have one. Note that Clover wallet only supports seed word restore.\
-![](<../../.gitbook/assets/image (100).png>)
+![](<../../.gitbook/assets/image (100) (1).png>)
 
 While creating, please do write down your seed phrase to a safe place that no one knows.
 

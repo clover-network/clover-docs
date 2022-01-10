@@ -1,17 +1,27 @@
 # Send Tokens
 
-To send tokens to another address, click the send button on the asset detail page.&#x20;
+## Click 'Send' Button
 
-![](<../../.gitbook/assets/image (48).png>)
+To send tokens to another address, click the action button on the bottom of the asset detail page.&#x20;
 
-Then paste the target address and input the proper value you want to transfer, and click confirm.&#x20;
+![](<../../.gitbook/assets/image (100).png>)
 
-![](<../../.gitbook/assets/image (49).png>)
+## Input Recipient
 
-![](<../../.gitbook/assets/image (50).png>)
+![](<../../.gitbook/assets/image (102).png>)
 
-After a short period, transfer will be done. You can click on the transaction hash to copy it and check on [Clover Blockchain Explorer](https://clover.subscan.io) .
+You can also select your recipient from your address book.
 
-![](<../../.gitbook/assets/image (51).png>)
+## Input Amount and Continue
 
-## ****
+![](<../../.gitbook/assets/image (101).png>)
+
+## Confirm the Transaction and Send
+
+![](<../../.gitbook/assets/image (98).png>)
+
+## More Options
+
+If you send EVM assets, you can customize the transaction fee:
+
+![](<../../.gitbook/assets/image (97).png>)

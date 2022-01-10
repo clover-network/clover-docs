@@ -8,7 +8,7 @@ Any time you want to restore or import your account , just click on the account 
 
 ## Select 'Import Account'
 
-![](<../../.gitbook/assets/image (99).png>)
+![](<../../.gitbook/assets/image (99) (1).png>)
 
 ## Input Your Seed Phrase and Confirm
 

@@ -8,7 +8,7 @@ To check the seed phrase of your account, first click the setting button on the 
 
 ## Click Account's Actions Button
 
-![](<../../.gitbook/assets/image (97).png>)
+![](<../../.gitbook/assets/image (97) (1).png>)
 
 Please note that you may input your password in order to view your seed phrase
 
