@@ -60,6 +60,7 @@
 * [Running a RPC node](maintain/running-a-rpc-node.md)
 * [Staking on Clover](maintain/staking-on-clover/README.md)
   * [Staking via Apps](maintain/staking-on-clover/staking-via-apps.md)
+  * [Staking via Clover Wallet](maintain/staking-on-clover/staking-via-clover-wallet.md)
 
 ## Technical Documentation
 
