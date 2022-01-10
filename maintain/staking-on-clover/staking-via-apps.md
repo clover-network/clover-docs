@@ -44,7 +44,7 @@ Confirm and send the transaction and wait for the transaction is included in the
 
 More actions could be found by clicking on the dots at the right side of the account details:
 
-![Account actions](<../../.gitbook/assets/image (91) (1) (1).png>)
+![Account actions](<../../.gitbook/assets/image (91) (1) (1) (1).png>)
 
 You can:
 

@@ -20,52 +20,50 @@ This is the erc20 token deployed on Ethereum. The address format is like: **0xcd
 
 This is the bep20 token deployed on BSC. The address format is like: **0xcdbf90174493dcc418f177a4d7b2604a95997e1f**. The smart contract address is: [0x09E889BB4D5b474f561db0491C38702F367A4e4d](https://bscscan.com/address/0x09E889BB4D5b474f561db0491C38702F367A4e4d)
 
-## CLV Tokens on Extension Wallet
+## CLV Native Token
 
-If you install Clover extension wallet, you should see these three assets:
+If you install Clover extension wallet, you should see Clover token:
 
-![Three CLV assets, on Clover chain, BSC and Ethereum](<../../.gitbook/assets/image (77).png>)
+![](<../../.gitbook/assets/image (91).png>)
 
-## CLV Tokens on Mobile Wallet
+Please note that this is Clover native token (the address format has a prefix of 5)
 
-If you install Clover mobile wallet, you should see these three assets:
+## Add Clover Wrapped Tokens
 
-![](<../../.gitbook/assets/image (78).png>)
+When you wan to make a cross-chain transfer, you may need to add Clover wrapped tokens on target networks, such as Ethereum, BSC. You can click the 'Add Token' button on the bottom of the main page:
+
+![](<../../.gitbook/assets/image (96).png>)
 
 ## Make a Cross-Chain Transfer
 
 If you have the knowledge of the three different CLV assets. It is time to make a cross-chain transfer. Let us give an example of **how to transfer native CLV token to Ethereum**. Here we will use extension wallet to explain (You can use mobile wallet to do cross-chain transfer as well !).
 
-### 1. Click the CLV native token
+### 1. Click action button and select 'Cross Chain'
 
-![You need to Click your native CLV token](<../../.gitbook/assets/image (79).png>)
+![](<../../.gitbook/assets/image (101).png>)
 
-### 2. Go to the asset page, and click Cross-Chain button
-
-![Click the cross-chain button](<../../.gitbook/assets/image (80).png>)
-
-### 3. Select target chain
+### 2. Select target chain
 
 You need to select Ethereum if you want to send CLV to your Ethereum account address. (**By default, CLV will be sent to BSC chain !**)
 
-![](<../../.gitbook/assets/image (81).png>)
+![](<../../.gitbook/assets/image (103).png>)
 
-### 4. Fill in the form
+### 3. Input recipient address and send amount
 
 Before you click Continue button, please make sure:
 
-* The target chain is correct,  here we use Ethereum
+* The target chain is correct,  here we use BSC
 * The recipient address is correct.
-* The transfer amount (There is a minimum amount for cross-chain )
+* The transfer amount (There is a minimum amount for cross-chain)
 
-![](<../../.gitbook/assets/image (82).png>)
+![](<../../.gitbook/assets/image (104).png>)
 
 Please noted that:&#x20;
 
 * If you cross-chain transfer CLV to Ethereum or BSC, there will be a cross-chain fee + transaction fee charged.  However, users don't need to pay ETH or BNB as cross-chain fee.
 * You can check current cross-chain fee at [https://tx.clover.finance/](https://tx.clover.finance)
 
-### 5. Confirm your cross-chain transaction
+### 4. Confirm your cross-chain transaction
 
 Once you confirm and send the cross-chain transaction, you can just wait for your transaction to be successful. You can check your cross-chain transaction in your wallet or Clover's cross-chain transaction explorer at [https://tx.clover.finance/](https://tx.clover.finance)
 

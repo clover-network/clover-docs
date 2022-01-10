@@ -4,7 +4,7 @@
 
 Any time you want to restore or import your account , just click on the account on the top of the asset list page.
 
-![](<../../.gitbook/assets/image (91).png>)
+![](<../../.gitbook/assets/image (91) (1).png>)
 
 ## Select 'Import Account'
 

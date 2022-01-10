@@ -14,7 +14,7 @@ You can also select your recipient from your address book.
 
 ## Input Amount and Continue
 
-![](<../../.gitbook/assets/image (101).png>)
+![](<../../.gitbook/assets/image (101) (1).png>)
 
 ## Confirm the Transaction and Send
 

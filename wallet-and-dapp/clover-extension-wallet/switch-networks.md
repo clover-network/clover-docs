@@ -13,4 +13,4 @@ Clover wallet is capable of connecting to multiple blockchain networks simultane
 
 Click the EVM network you want to switch
 
-![](<../../.gitbook/assets/image (96) (1).png>)
+![](<../../.gitbook/assets/image (96) (1) (1).png>)
