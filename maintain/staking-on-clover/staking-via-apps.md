@@ -4,7 +4,7 @@
 
 You can go to [https://apps-ivy.clover.finance/](https://apps-ivy.clover.finance) to setup the accounts for staking. There are two accounts in Clover: `Stash` and `Controller` . It's recommended to create two separate accounts for `Stash` and `Controller`. And you can import your existing accounts as well.
 
-![Stash And Controller accounts.](<../../.gitbook/assets/image (89) (1) (1).png>)
+![Stash And Controller accounts.](<../../.gitbook/assets/image (89) (1) (1) (1).png>)
 
 `Stash` account is the main account of holding your funds. It delegates some staking permission to the `Controller` account.
 
@@ -44,7 +44,7 @@ Confirm and send the transaction and wait for the transaction is included in the
 
 More actions could be found by clicking on the dots at the right side of the account details:
 
-![Account actions](<../../.gitbook/assets/image (91) (1).png>)
+![Account actions](<../../.gitbook/assets/image (91) (1) (1).png>)
 
 You can:
 

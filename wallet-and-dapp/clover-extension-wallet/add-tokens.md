@@ -3,7 +3,7 @@
 ## Add Token
 
 Clover Wallet support 20+ major blockchains, and support a lot of on-chain assets, such as ERC20, BEP20, TRC20, etc.  Users can use the 'Add Token' button on the main page to add their favourite tokens:\
-![](<../../.gitbook/assets/image (89).png>)
+![](<../../.gitbook/assets/image (89) (1).png>)
 
 ## Search Tokens and Add
 

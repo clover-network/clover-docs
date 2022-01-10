@@ -21,11 +21,11 @@ The following guide shows how to stake CLV on Clover mobile wallet.
 
 ### Input CLV Amount for Staking
 
-![](<../../.gitbook/assets/image (91).png>)
+![](<../../.gitbook/assets/image (91) (1).png>)
 
 ### Sign the Transaction
 
-![](<../../.gitbook/assets/image (89) (1).png>)
+![](<../../.gitbook/assets/image (89) (1) (1).png>)
 
 ## More Actions
 
